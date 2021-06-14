@@ -145,6 +145,51 @@
         "name": "Element 6-8.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "TicTacToe/Element 6-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "TicTacToe\\Element 6-8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "TicTacToe/Element 5-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "TicTacToe\\Element 5-8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "TicTacToe/Element 4-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "TicTacToe\\Element 4-8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "TicTacToe/Element 1-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "TicTacToe\\Element 1-8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "TicTacToe/NewFile-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "TicTacToe\\NewFile-1.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
