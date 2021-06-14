@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.5799999999999996
+    "zoomFactor": 0.5599999999999996
   },
   "objectsGroups": [],
   "variables": [],
@@ -1678,7 +1678,7 @@
           },
           "parameters": [
             "",
-            "intro.mp3",
+            "Chris_Grafiken\\intro.mp3",
             "",
             "10",
             ""
@@ -2071,7 +2071,7 @@
                   },
                   "parameters": [
                     "",
-                    "button.wav",
+                    "Chris_Grafiken\\button.wav",
                     "",
                     "50",
                     ""
@@ -2153,7 +2153,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"New scene\"",
+                    "\"overworld\"",
                     ""
                   ],
                   "subInstructions": []

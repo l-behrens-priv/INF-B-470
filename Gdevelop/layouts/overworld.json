@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.2999999999999996
+    "zoomFactor": 0.6999999999999998
   },
   "objectsGroups": [],
   "variables": [],
@@ -37,8 +37,8 @@
       "name": "background",
       "persistentUuid": "c4814e1d-0ea4-47b7-b489-5730d97721e5",
       "width": 3414,
-      "x": 128,
-      "y": 192,
+      "x": -896,
+      "y": -416,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -1771,6 +1771,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "npc",
+      "persistentUuid": "1fd3adf6-d1c0-40fc-ba25-584ff7a3e089",
+      "width": 0,
+      "x": 928,
+      "y": 960,
+      "zOrder": 2001,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -2017,6 +2033,45 @@
       "width": 32,
       "variables": [],
       "behaviors": []
+    },
+    {
+      "name": "npc",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "npc",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "npc-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -2256,7 +2311,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "background",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": []
     },
