@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.6951999999999994
+    "zoomFactor": 1.1106645817995067
   },
   "objectsGroups": [
     {
@@ -64,6 +64,48 @@
       "name": "Player",
       "type": "boolean",
       "value": false
+    },
+    {
+      "name": "board_state",
+      "type": "array",
+      "children": [
+        {
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        }
+      ]
     }
   ],
   "instances": [
@@ -209,7 +251,7 @@
       "name": "P2",
       "persistentUuid": "e273b3e2-2e98-4c54-b57a-1f91b570673f",
       "width": 0,
-      "x": 481,
+      "x": 476,
       "y": 1050,
       "zOrder": 12,
       "numberProperties": [],
@@ -226,7 +268,7 @@
       "persistentUuid": "998ab98b-a017-45b2-9d81-03fee0d89d80",
       "width": 0,
       "x": 681,
-      "y": 1050,
+      "y": 1053,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -246,7 +288,13 @@
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "pos",
+          "type": "string",
+          "value": "3"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -262,7 +310,13 @@
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "pos",
+          "type": "string",
+          "value": "4"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -278,7 +332,13 @@
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "pos",
+          "type": "string",
+          "value": "5"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -294,7 +354,13 @@
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "pos",
+          "type": "string",
+          "value": "6"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -310,7 +376,13 @@
       "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "pos",
+          "type": "string",
+          "value": "7"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -326,7 +398,13 @@
       "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "pos",
+          "type": "string",
+          "value": "8"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -505,7 +583,13 @@
       "texture": "TicTacToe\\NewFile-1.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 200,
-      "variables": [],
+      "variables": [
+        {
+          "name": "pos",
+          "type": "string",
+          "value": "1"
+        }
+      ],
       "behaviors": []
     },
     {
@@ -515,7 +599,13 @@
       "texture": "TicTacToe\\NewFile-1.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 200,
-      "variables": [],
+      "variables": [
+        {
+          "name": "pos",
+          "type": "string",
+          "value": "2"
+        }
+      ],
       "behaviors": []
     },
     {
@@ -581,11 +671,17 @@
     {
       "height": 200,
       "name": "P1",
-      "tags": "",
+      "tags": "h=0, v=1",
       "texture": "TicTacToe\\NewFile-1.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 200,
-      "variables": [],
+      "variables": [
+        {
+          "name": "pos",
+          "type": "string",
+          "value": "0"
+        }
+      ],
       "behaviors": []
     },
     {
@@ -767,6 +863,23 @@
           "events": []
         }
       ]
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "",
+      "conditions": [],
+      "actions": [],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
     }
   ],
   "layers": [
