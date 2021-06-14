@@ -2316,7 +2316,6 @@
         "userAdded": false
       },
       {
-<<<<<<< HEAD
         "file": "button.wav",
         "kind": "audio",
         "metadata": "",
@@ -2324,7 +2323,8 @@
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "userAdded": true
-=======
+      },
+      {
         "alwaysLoaded": false,
         "file": "spacefield_a-0002.png",
         "kind": "image",
@@ -2395,7 +2395,6 @@
         "name": "NewFile-1-0.png",
         "smoothed": true,
         "userAdded": false
->>>>>>> 2741b34ec2efbef639949795ea296ec509c47942
       }
     ],
     "resourceFolders": []
@@ -2410,19 +2409,19 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-<<<<<<< HEAD
       "referenceTo": "/layouts/start_screen"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/intro"
-=======
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/new-scene"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/overworld"
->>>>>>> 2741b34ec2efbef639949795ea296ec509c47942
     }
   ],
   "externalEvents": [],
