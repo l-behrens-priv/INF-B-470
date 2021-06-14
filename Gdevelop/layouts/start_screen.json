@@ -1,0 +1,2256 @@
+{
+  "b": 209,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "Start_95Screen",
+  "name": "Start_Screen",
+  "oglFOV": 90,
+  "oglZFar": 500,
+  "oglZNear": 1,
+  "r": 209,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 209,
+  "uiSettings": {
+    "grid": false,
+    "gridB": 255,
+    "gridG": 180,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridR": 158,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "snap": true,
+    "windowMask": false,
+    "zoomFactor": 0.5799999999999996
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BG_Start",
+      "persistentUuid": "a8d4c7d8-e579-4a9e-8c61-b7966baeb546",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Planet",
+      "persistentUuid": "3de9b528-b863-4855-9c06-98dc26b56652",
+      "width": 0,
+      "x": 15,
+      "y": 21,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "logo",
+      "persistentUuid": "29498d26-d113-47cb-bdbb-3783db86be00",
+      "width": 0,
+      "x": 885,
+      "y": 81,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Start_Button",
+      "persistentUuid": "8c782f0e-ff2b-46c5-b4ea-6421db4b493b",
+      "width": 0,
+      "x": 1009,
+      "y": 479,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Sterne_2",
+      "persistentUuid": "4405ace7-b5f2-4faf-9c12-b1238cbb5e0c",
+      "width": 0,
+      "x": 1151,
+      "y": 789,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Sterne_2",
+      "persistentUuid": "f97e5002-593e-4a94-b717-95b6118ea737",
+      "width": 0,
+      "x": 670,
+      "y": 775,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Sterne_2",
+      "persistentUuid": "1eb573f9-bd14-41d7-b676-32fed41e072b",
+      "width": 0,
+      "x": 1028,
+      "y": 51,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Sterne_2",
+      "persistentUuid": "efbfcff4-e780-4bef-a083-fedaa1128963",
+      "width": 0,
+      "x": 842,
+      "y": 498,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Sterne_2",
+      "persistentUuid": "8a743b4f-2db3-4b00-b2e2-ecf6f640f665",
+      "width": 0,
+      "x": 44,
+      "y": 655,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Sterne_2",
+      "persistentUuid": "06b7c812-808b-4ddd-a842-e03febb8234b",
+      "width": 0,
+      "x": 926,
+      "y": 223,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Sterne_1",
+      "persistentUuid": "51e4ec26-ce97-4506-84bf-c4d881c8130c",
+      "width": 0,
+      "x": 779,
+      "y": 56,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Sterne_1",
+      "persistentUuid": "41beb809-a430-4543-b066-132a1fa7fabd",
+      "width": 0,
+      "x": 1441,
+      "y": 182,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Sterne_1",
+      "persistentUuid": "7ab21b2b-36de-4cfe-8002-ce6f5c8a1026",
+      "width": 0,
+      "x": 1452,
+      "y": 723,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Sterne_1",
+      "persistentUuid": "1ebf90d3-f41b-4eba-b9a6-062b2170c35c",
+      "width": 0,
+      "x": 78,
+      "y": 46,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Sterne_1",
+      "persistentUuid": "f986574c-7b1b-47e5-a8f0-d5358e8869f0",
+      "width": 0,
+      "x": 404,
+      "y": 792,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Sterne_1",
+      "persistentUuid": "55bdc27f-f0d7-4403-bd35-e53921e96c35",
+      "width": 0,
+      "x": 990,
+      "y": 716,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Sterne_2",
+      "persistentUuid": "d8eeabd3-746e-4122-b825-c7e6b38784ac",
+      "width": 0,
+      "x": 1456,
+      "y": 53,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Black_outro",
+      "persistentUuid": "6f376f01-06fb-40ce-b867-5f9bea6e0f9b",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "black_intro",
+      "persistentUuid": "cd53e1b1-b367-4bbc-b0c8-87ba9eedc481",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "name": "BG_Start",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Chris_Grafiken\\CJ_NewObject-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Planet",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Chris_Grafiken\\CJ_Planet.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "logo",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Chris_Grafiken\\CJ_logo_fertig.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Start_Button",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "normal",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"start_normal\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":133,\\\"width\\\":400,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":0.3,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAACFCAYAAAB1065QAAAEzElEQVR4Xu3VsQ3AIBAEQUipyF25/8iW6OA3HmI+GZ20+znvtzwCBAgQIDAU2AIyFPOdAAECBK6AgBgCAQIECCQBAUlsjggQIEBAQGyAAAECBJKAgCQ2RwQIECAgIDZAgAABAklAQBKbIwIECBAQEBsgQIAAgSQgIInNEQECBAgIiA0QIECAQBIQkMTmiAABAgQExAYIECBAIAkISGJzRIAAAQICYgMECBAgkAQEJLE5IkCAAAEBsQECBAgQSAICktgcESBAgICA2AABAgQIJAEBSWyOCBAgQEBAbIAAAQIEkoCAJDZHBAgQICAgNkCAAAECSUBAEpsjAgQIEBAQGyBAgACBJCAgic0RAQIECAiIDRAgQIBAEhCQxOaIAAECBATEBggQIEAgCQhIYnNEgAABAgJiAwQIECCQBAQksTkiQIAAAQGxAQIECBBIAgKS2BwRIECAgIDYAAECBAgkAQFJbI4IECBAQEBsgAABAgSSgIAkNkcECBAgICA2QIAAAQJJQEASmyMCBAgQEBAbIECAAIEkICCJzREBAgQICIgNECBAgEASEJDE5ogAAQIEBMQGCBAgQCAJCEhic0SAAAECAmIDBAgQIJAEBCSxOSJAgAABAbEBAgQIEEgCApLYHBEgQICAgNgAAQIECCQBAUlsjggQIEBAQGyAAAECBJKAgCQ2RwQIECAgIDZAgAABAklAQBKbIwIECBAQEBsgQIAAgSQgIInNEQECBAgIiA0QIECAQBIQkMTmiAABAgQExAYIECBAIAkISGJzRIAAAQICYgMECBAgkAQEJLE5IkCAAAEBsQECBAgQSAICktgcESBAgICA2AABAgQIJAEBSWyOCBAgQEBAbIAAAQIEkoCAJDZHBAgQICAgNkCAAAECSUBAEpsjAgQIEBAQGyBAgACBJCAgic0RAQIECAiIDRAgQIBAEhCQxOaIAAECBATEBggQIEAgCQhIYnNEgAABAgJiAwQIECCQBAQksTkiQIAAAQGxAQIECBBIAgKS2BwRIECAgIDYAAECBAgkAQFJbI4IECBAQEBsgAABAgSSgIAkNkcECBAgICA2QIAAAQJJQEASmyMCBAgQEBAbIECAAIEkICCJzREBAgQICIgNECBAgEASEJDE5ogAAQIEBMQGCBAgQCAJCEhic0SAAAECAmIDBAgQIJAEBCSxOSJAgAABAbEBAgQIEEgCApLYHBEgQICAgNgAAQIECCQBAUlsjggQIEBAQGyAAAECBJKAgCQ2RwQIECAgIDZAgAABAklAQBKbIwIECBAQEBsgQIAAgSQgIInNEQECBAgIiA0QIECAQBIQkMTmiAABAgQExAYIECBAIAkISGJzRIAAAQICYgMECBAgkAQEJLE5IkCAAAEBsQECBAgQSAICktgcESBAgICA2AABAgQIJAEBSWyOCBAgQEBAbIAAAQIEkoCAJDZHBAgQICAgNkCAAAECSUBAEpsjAgQIEBAQGyBAgACBJCAgic0RAQIECAiIDRAgQIBAEhCQxOaIAAECBATEBggQIEAgCQhIYnNEgAABAgJiAwQIECCQBAQksTkiQIAAAQGxAQIECBBIAgKS2BwRIECAgIDYAAECBAgkAQFJbI4IECBAQEBsgAABAgSSwA+PguD28AkYNAAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,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\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"paths\":[\"C:\\\\Users\\\\Jolle\\\\INF-B-470\\\\Gdevelop\\\\normal-1.png\"],\"name\":\"normal\",\"singleFrame\":false}}",
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Chris_Grafiken\\normal-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "hover",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"start_hover\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":133,\\\"width\\\":400,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":0.3,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAACFCAYAAAB1065QAAAEzElEQVR4Xu3VsQ3AIBAEQeiGntyYu7UlOviNh5hPRiftfs77LY8AAQIECAwFtoAMxXwnQIAAgSsgIIZAgAABAklAQBKbIwIECBAQEBsgQIAAgSQgIInNEQECBAgIiA0QIECAQBIQkMTmiAABAgQExAYIECBAIAkISGJzRIAAAQICYgMECBAgkAQEJLE5IkCAAAEBsQECBAgQSAICktgcESBAgICA2AABAgQIJAEBSWyOCBAgQEBAbIAAAQIEkoCAJDZHBAgQICAgNkCAAAECSUBAEpsjAgQIEBAQGyBAgACBJCAgic0RAQIECAiIDRAgQIBAEhCQxOaIAAECBATEBggQIEAgCQhIYnNEgAABAgJiAwQIECCQBAQksTkiQIAAAQGxAQIECBBIAgKS2BwRIECAgIDYAAECBAgkAQFJbI4IECBAQEBsgAABAgSSgIAkNkcECBAgICA2QIAAAQJJQEASmyMCBAgQEBAbIECAAIEkICCJzREBAgQICIgNECBAgEASEJDE5ogAAQIEBMQGCBAgQCAJCEhic0SAAAECAmIDBAgQIJAEBCSxOSJAgAABAbEBAgQIEEgCApLYHBEgQICAgNgAAQIECCQBAUlsjggQIEBAQGyAAAECBJKAgCQ2RwQIECAgIDZAgAABAklAQBKbIwIECBAQEBsgQIAAgSQgIInNEQECBAgIiA0QIECAQBIQkMTmiAABAgQExAYIECBAIAkISGJzRIAAAQICYgMECBAgkAQEJLE5IkCAAAEBsQECBAgQSAICktgcESBAgICA2AABAgQIJAEBSWyOCBAgQEBAbIAAAQIEkoCAJDZHBAgQICAgNkCAAAECSUBAEpsjAgQIEBAQGyBAgACBJCAgic0RAQIECAiIDRAgQIBAEhCQxOaIAAECBATEBggQIEAgCQhIYnNEgAABAgJiAwQIECCQBAQksTkiQIAAAQGxAQIECBBIAgKS2BwRIECAgIDYAAECBAgkAQFJbI4IECBAQEBsgAABAgSSgIAkNkcECBAgICA2QIAAAQJJQEASmyMCBAgQEBAbIECAAIEkICCJzREBAgQICIgNECBAgEASEJDE5ogAAQIEBMQGCBAgQCAJCEhic0SAAAECAmIDBAgQIJAEBCSxOSJAgAABAbEBAgQIEEgCApLYHBEgQICAgNgAAQIECCQBAUlsjggQIEBAQGyAAAECBJKAgCQ2RwQIECAgIDZAgAABAklAQBKbIwIECBAQEBsgQIAAgSQgIInNEQECBAgIiA0QIECAQBIQkMTmiAABAgQExAYIECBAIAkISGJzRIAAAQICYgMECBAgkAQEJLE5IkCAAAEBsQECBAgQSAICktgcESBAgICA2AABAgQIJAEBSWyOCBAgQEBAbIAAAQIEkoCAJDZHBAgQICAgNkCAAAECSUBAEpsjAgQIEBAQGyBAgACBJCAgic0RAQIECAiIDRAgQIBAEhCQxOaIAAECBATEBggQIEAgCQhIYnNEgAABAgJiAwQIECCQBAQksTkiQIAAAQGxAQIECBBIAgKS2BwRIECAgIDYAAECBAgkAQFJbI4IECBAQEBsgAABAgSSgIAkNkcECBAgICA2QIAAAQJJQEASmyMCBAgQEBAbIECAAIEk8AOBzhgXX0gpMwAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,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\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[]}}\",\"paths\":[\"C:\\\\Users\\\\Jolle\\\\INF-B-470\\\\Gdevelop\\\\hover-1.png\"],\"name\":\"hover\",\"singleFrame\":false}}",
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Chris_Grafiken\\CJ_hover-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "clicked",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"start_clicked\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":133,\\\"width\\\":400,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":0.3,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAACFCAYAAAB1065QAAAEzElEQVR4Xu3VsQ3AIBAEQWiRxtyeu7ElOviNh5hPRiftfs77LY8AAQIECAwFtoAMxXwnQIAAgSsgIIZAgAABAklAQBKbIwIECBAQEBsgQIAAgSQgIInNEQECBAgIiA0QIECAQBIQkMTmiAABAgQExAYIECBAIAkISGJzRIAAAQICYgMECBAgkAQEJLE5IkCAAAEBsQECBAgQSAICktgcESBAgICA2AABAgQIJAEBSWyOCBAgQEBAbIAAAQIEkoCAJDZHBAgQICAgNkCAAAECSUBAEpsjAgQIEBAQGyBAgACBJCAgic0RAQIECAiIDRAgQIBAEhCQxOaIAAECBATEBggQIEAgCQhIYnNEgAABAgJiAwQIECCQBAQksTkiQIAAAQGxAQIECBBIAgKS2BwRIECAgIDYAAECBAgkAQFJbI4IECBAQEBsgAABAgSSgIAkNkcECBAgICA2QIAAAQJJQEASmyMCBAgQEBAbIECAAIEkICCJzREBAgQICIgNECBAgEASEJDE5ogAAQIEBMQGCBAgQCAJCEhic0SAAAECAmIDBAgQIJAEBCSxOSJAgAABAbEBAgQIEEgCApLYHBEgQICAgNgAAQIECCQBAUlsjggQIEBAQGyAAAECBJKAgCQ2RwQIECAgIDZAgAABAklAQBKbIwIECBAQEBsgQIAAgSQgIInNEQECBAgIiA0QIECAQBIQkMTmiAABAgQExAYIECBAIAkISGJzRIAAAQICYgMECBAgkAQEJLE5IkCAAAEBsQECBAgQSAICktgcESBAgICA2AABAgQIJAEBSWyOCBAgQEBAbIAAAQIEkoCAJDZHBAgQICAgNkCAAAECSUBAEpsjAgQIEBAQGyBAgACBJCAgic0RAQIECAiIDRAgQIBAEhCQxOaIAAECBATEBggQIEAgCQhIYnNEgAABAgJiAwQIECCQBAQksTkiQIAAAQGxAQIECBBIAgKS2BwRIECAgIDYAAECBAgkAQFJbI4IECBAQEBsgAABAgSSgIAkNkcECBAgICA2QIAAAQJJQEASmyMCBAgQEBAbIECAAIEkICCJzREBAgQICIgNECBAgEASEJDE5ogAAQIEBMQGCBAgQCAJCEhic0SAAAECAmIDBAgQIJAEBCSxOSJAgAABAbEBAgQIEEgCApLYHBEgQICAgNgAAQIECCQBAUlsjggQIEBAQGyAAAECBJKAgCQ2RwQIECAgIDZAgAABAklAQBKbIwIECBAQEBsgQIAAgSQgIInNEQECBAgIiA0QIECAQBIQkMTmiAABAgQExAYIECBAIAkISGJzRIAAAQICYgMECBAgkAQEJLE5IkCAAAEBsQECBAgQSAICktgcESBAgICA2AABAgQIJAEBSWyOCBAgQEBAbIAAAQIEkoCAJDZHBAgQICAgNkCAAAECSUBAEpsjAgQIEBAQGyBAgACBJCAgic0RAQIECAiIDRAgQIBAEhCQxOaIAAECBATEBggQIEAgCQhIYnNEgAABAgJiAwQIECCQBAQksTkiQIAAAQGxAQIECBBIAgKS2BwRIECAgIDYAAECBAgkAQFJbI4IECBAQEBsgAABAgSSgIAkNkcECBAgICA2QIAAAQJJQEASmyMCBAgQEBAbIECAAIEk8AOvZmot+20YuQAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,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\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[]}}\",\"paths\":[\"C:\\\\Users\\\\Jolle\\\\INF-B-470\\\\Gdevelop\\\\clicked-1.png\"],\"name\":\"clicked\",\"singleFrame\":false}}",
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Chris_Grafiken\\CJ_clicked-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "normal-1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"start_blink\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":133,\\\"width\\\":400,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":0.3,\\\\\\\"frameCount\\\\\\\":2,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,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\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":2,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,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\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[null]}}\",\"paths\":[\"C:\\\\Users\\\\Jolle\\\\INF-B-470\\\\Gdevelop\\\\normal-1-1-0.png\",\"C:\\\\Users\\\\Jolle\\\\INF-B-470\\\\Gdevelop\\\\normal-1-2.png\"],\"name\":\"normal-1\",\"singleFrame\":false}}",
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Chris_Grafiken\\normal-1-1-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Chris_Grafiken\\normal-1-2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sterne_2",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Chris_Grafiken\\star_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "star_22",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Chris_Grafiken\\star_22-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Chris_Grafiken\\star_22-2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Chris_Grafiken\\star_22-3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Chris_Grafiken\\star_22-4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Chris_Grafiken\\star_22-5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Chris_Grafiken\\star_22-6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Chris_Grafiken\\star_22-7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Chris_Grafiken\\star_22-8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Chris_Grafiken\\star_22-9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Chris_Grafiken\\star_22-10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Chris_Grafiken\\star_22-11.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sterne_1",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "star",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Chris_Grafiken\\star-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "star2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1599999964237213,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Chris_Grafiken\\star2-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Chris_Grafiken\\star2-2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Chris_Grafiken\\star2-3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Chris_Grafiken\\star2-4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Chris_Grafiken\\star2-5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Chris_Grafiken\\star2-6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Chris_Grafiken\\star2-7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Chris_Grafiken\\star2-8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Chris_Grafiken\\star2-9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Chris_Grafiken\\star2-10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Chris_Grafiken\\star2-11.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NewObject",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewObject",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.30000001192092896,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject-1-6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject-2-3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject-3-3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject-4-2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject-5-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject-6-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject-7-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject-8-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject-9-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject-10-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject-11-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject-12-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject-13-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject-14-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject-15-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Black_outro",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewObject2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Chris_Grafiken\\CJ_NewObject2-1-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "black_intro",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "black_intro",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Chris_Grafiken\\CJ_black_intro-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Intro",
+      "comment2": ""
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": [],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "Start",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "game",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Opacity"
+          },
+          "parameters": [
+            "Black_outro",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "black_intro",
+            "fadeout"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Opacity"
+          },
+          "parameters": [
+            "logo",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Opacity"
+          },
+          "parameters": [
+            "Start_Button",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Opacity"
+          },
+          "parameters": [
+            "black_intro",
+            "=",
+            "255"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "music_fadeout",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "button_ready",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "game",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ObjectTimer"
+          },
+          "parameters": [
+            "black_intro",
+            "fadeout",
+            "1.5"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Opacity"
+          },
+          "parameters": [
+            "black_intro",
+            "-",
+            "TimeDelta()+5"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "music_fadeout",
+            "=",
+            "1"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "VarScene"
+          },
+          "parameters": [
+            "music_fadeout",
+            "=",
+            "1"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": [],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "intro.mp3",
+            "",
+            "10",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ObjectTimer"
+          },
+          "parameters": [
+            "black_intro",
+            "fadeout",
+            "4"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Opacity"
+          },
+          "parameters": [
+            "logo",
+            "+",
+            "TimeDelta()+3"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ObjectTimer"
+          },
+          "parameters": [
+            "black_intro",
+            "fadeout",
+            "6"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Opacity"
+          },
+          "parameters": [
+            "Start_Button",
+            "+",
+            "TimeDelta()+3"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Opacity"
+          },
+          "parameters": [
+            "Start_Button",
+            "=",
+            "255"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "button_ready",
+            "=",
+            "1"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Start_Button",
+      "comment2": ""
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "VarScene"
+          },
+          "parameters": [
+            "button_ready",
+            "=",
+            "1"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Start",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Start_Button",
+                    "Left",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "Start_Button",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MouseButtonPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangeAnimation"
+                      },
+                      "parameters": [
+                        "Start_Button",
+                        "=",
+                        "2"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MouseButtonReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Start_Button",
+                        "\"clicked\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "Start",
+                        "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Start_Button",
+                "Left",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Start",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Start_Button",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Start",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Start_Button",
+                "=",
+                "3"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlayMusic"
+                  },
+                  "parameters": [
+                    "",
+                    "button.wav",
+                    "",
+                    "50",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ObjectTimer"
+                  },
+                  "parameters": [
+                    "Start_Button",
+                    "\"clicked\"",
+                    "2"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "Black_outro",
+                    "+",
+                    "TimeDelta()+5"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModGlobalVolume"
+                  },
+                  "parameters": [
+                    "",
+                    "-",
+                    "TimeDelta()+2"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ObjectTimer"
+                  },
+                  "parameters": [
+                    "Start_Button",
+                    "\"clicked\"",
+                    "5"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"New scene\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Effects",
+      "comment2": ""
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ChangeAnimation"
+          },
+          "parameters": [
+            "Sterne_2",
+            "=",
+            "1"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ChangeAnimation"
+          },
+          "parameters": [
+            "Sterne_1",
+            "=",
+            "1"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 7392928,
+      "ambientLightColorG": 7265184,
+      "ambientLightColorR": 0,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
+    }
+  ]
+}

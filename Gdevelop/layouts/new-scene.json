@@ -49,7 +49,7 @@
       "height": 909,
       "layer": "",
       "locked": false,
-      "name": "NewObject2",
+      "name": "Background_Minigame",
       "persistentUuid": "7554bcc6-8844-4e96-b2fd-09647d7a1cc2",
       "width": 1615,
       "x": -16,
@@ -65,7 +65,7 @@
       "height": 909,
       "layer": "",
       "locked": true,
-      "name": "NewObject2",
+      "name": "Background_Minigame",
       "persistentUuid": "5c264a5b-297b-4b26-adad-4c431a5640e3",
       "width": 1615,
       "x": -16,
@@ -233,7 +233,7 @@
       "clearBetweenFrames": true
     },
     {
-      "name": "NewObject2",
+      "name": "Background_Minigame",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -567,10 +567,5 @@
       "effects": []
     }
   ],
-  "behaviorsSharedData": [
-    {
-      "name": "Tween",
-      "type": "Tween::TweenBehavior"
-    }
-  ]
+  "behaviorsSharedData": []
 }
