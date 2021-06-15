@@ -23,9 +23,32 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.6999999999999998
+    "zoomFactor": 0.31000001220703177
   },
-  "objectsGroups": [],
+  "objectsGroups": [
+    {
+      "name": "zuTicTacToe",
+      "objects": [
+        {
+          "name": "Sprechblase"
+        },
+        {
+          "name": "TicTacToeQuest"
+        }
+      ]
+    },
+    {
+      "name": "zuTicTacToeButton",
+      "objects": [
+        {
+          "name": "GoButton"
+        },
+        {
+          "name": "GoButtonText"
+        }
+      ]
+    }
+  ],
   "variables": [],
   "instances": [
     {
@@ -37,8 +60,8 @@
       "name": "background",
       "persistentUuid": "c4814e1d-0ea4-47b7-b489-5730d97721e5",
       "width": 3414,
-      "x": -896,
-      "y": -416,
+      "x": -779,
+      "y": -426,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -71,7 +94,7 @@
       "width": 0,
       "x": 544,
       "y": 960,
-      "zOrder": 2000,
+      "zOrder": 2001,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1783,7 +1806,151 @@
       "width": 0,
       "x": 928,
       "y": 960,
-      "zOrder": 2001,
+      "zOrder": 2000,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "locked": false,
+      "name": "DPadTop",
+      "persistentUuid": "30186097-3735-4bb5-b35a-3bf88e85641a",
+      "width": 0,
+      "x": 1428,
+      "y": 700,
+      "zOrder": 2002,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "locked": false,
+      "name": "DPadRight",
+      "persistentUuid": "89b28bd7-5574-4fb6-9373-4c15a55d0228",
+      "width": 0,
+      "x": 1460,
+      "y": 748,
+      "zOrder": 2003,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "locked": false,
+      "name": "DPadBottom",
+      "persistentUuid": "b0d52482-c6ac-42f6-80da-93ec65a06c1c",
+      "width": 0,
+      "x": 1428,
+      "y": 781,
+      "zOrder": 2004,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "locked": false,
+      "name": "DPadLeft",
+      "persistentUuid": "b8cb7120-fa6b-40ce-aaef-bf3dfc3e9970",
+      "width": 0,
+      "x": 1380,
+      "y": 748,
+      "zOrder": 2005,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 162,
+      "layer": "",
+      "locked": false,
+      "name": "Sprechblase",
+      "persistentUuid": "1eaa00b3-c14f-45be-bea4-71fd0f9a3726",
+      "width": 184,
+      "x": 815,
+      "y": 825,
+      "zOrder": 2006,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 76,
+      "layer": "",
+      "locked": false,
+      "name": "TicTacToeQuest",
+      "persistentUuid": "f1939c21-91ca-4f85-8bc7-8436e0ca730f",
+      "width": 152,
+      "x": 834,
+      "y": 859,
+      "zOrder": 2007,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "locked": false,
+      "name": "GoButton",
+      "persistentUuid": "c58b841d-4942-4051-a134-be62ffe157e9",
+      "width": 95,
+      "x": 861,
+      "y": 890,
+      "zOrder": 2008,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "GoButtonText",
+      "persistentUuid": "afd00c40-d41b-4f3e-bfe6-0a9a396fdb94",
+      "width": 0,
+      "x": 876,
+      "y": 917,
+      "zOrder": 2009,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "locked": false,
+      "name": "Black_outro",
+      "persistentUuid": "f11a6a7c-abf0-4474-b1dd-8ab285d5ae81",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 2010,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1874,7 +2041,23 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "acceleration": 1000,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "customIsometryAngle": 30,
+          "deceleration": 800,
+          "ignoreDefaultControls": false,
+          "maxSpeed": 150,
+          "movementAngleOffset": 0,
+          "rotateObject": false,
+          "viewpoint": "TopDown"
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -1902,19 +2085,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 0
+                        "x": 4.5,
+                        "y": 9
                       },
                       {
-                        "x": 33,
-                        "y": 0
+                        "x": 28.5,
+                        "y": 9
                       },
                       {
-                        "x": 33,
+                        "x": 28.5,
                         "y": 50
                       },
                       {
-                        "x": 1,
+                        "x": 4.5,
                         "y": 50
                       }
                     ]
@@ -2035,6 +2218,50 @@
       "behaviors": []
     },
     {
+      "name": "Black_outro",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewObject2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Chris_Grafiken\\CJ_NewObject2-1-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "npc",
       "tags": "",
       "type": "Sprite",
@@ -2072,6 +2299,324 @@
           ]
         }
       ]
+    },
+    {
+      "name": "DPadTop",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 2,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 2
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.02500000037252903,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "D-pad top.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DPadRight",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 2,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 2
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.02500000037252903,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "D-pad right.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DPadBottom",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 2,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 2
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.02500000037252903,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "D-pad bottom.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DPadLeft",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 2,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 2
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.02500000037252903,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "D-pad left.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sprechblase",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Sprechblase-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "TicTacToeQuest",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Text_AutoTyping",
+          "type": "AutoTyping::Text_AutoTyping",
+          "Interval": 0.05
+        }
+      ],
+      "string": "Hallo Freund, gut das du da bist. Lasse uns mit der ersten Aufgabe starten.",
+      "font": "",
+      "characterSize": 13,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "name": "GoButton",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Button-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "GoButtonText",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Let's Go!!!",
+      "font": "",
+      "characterSize": 14,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
     }
   ],
   "events": [
@@ -2101,6 +2646,153 @@
             "",
             "800",
             "600"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "zuTicTacToe"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "AutoTyping::Text_AutoTyping::Pause"
+          },
+          "parameters": [
+            "TicTacToeQuest",
+            "Text_AutoTyping",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "zuTicTacToeButton"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "Scene",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "PauseObjectTimer"
+          },
+          "parameters": [
+            "GoButton",
+            "\"change Scene\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "SetObjectVariableAsBoolean"
+          },
+          "parameters": [
+            "Black_outro",
+            "intro",
+            "True"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Opacity"
+          },
+          "parameters": [
+            "Black_outro",
+            ">",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ObjectVariableAsBoolean"
+          },
+          "parameters": [
+            "Black_outro",
+            "intro",
+            "True"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Opacity"
+          },
+          "parameters": [
+            "Black_outro",
+            "-",
+            "5"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Opacity"
+          },
+          "parameters": [
+            "Black_outro",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "SetObjectVariableAsBoolean"
+          },
+          "parameters": [
+            "Black_outro",
+            "intro",
+            "False"
           ],
           "subInstructions": []
         }
@@ -2138,11 +2830,13 @@
         {
           "type": {
             "inverted": false,
-            "value": "KeyPressed"
+            "value": "SourisSurObjet"
           },
           "parameters": [
+            "DPadTop",
+            "w",
             "",
-            "w"
+            ""
           ],
           "subInstructions": []
         }
@@ -2151,13 +2845,11 @@
         {
           "type": {
             "inverted": false,
-            "value": "AddForceAL"
+            "value": "TopDownMovementBehavior::SimulateUpKey"
           },
           "parameters": [
             "player",
-            "270",
-            "200",
-            ""
+            "TopDownMovement"
           ],
           "subInstructions": []
         }
@@ -2172,11 +2864,13 @@
         {
           "type": {
             "inverted": false,
-            "value": "KeyPressed"
+            "value": "SourisSurObjet"
           },
           "parameters": [
+            "DPadRight",
+            "s",
             "",
-            "s"
+            ""
           ],
           "subInstructions": []
         }
@@ -2185,13 +2879,11 @@
         {
           "type": {
             "inverted": false,
-            "value": "AddForceAL"
+            "value": "TopDownMovementBehavior::SimulateRightKey"
           },
           "parameters": [
             "player",
-            "90",
-            "200",
-            ""
+            "TopDownMovement"
           ],
           "subInstructions": []
         }
@@ -2206,11 +2898,13 @@
         {
           "type": {
             "inverted": false,
-            "value": "KeyPressed"
+            "value": "SourisSurObjet"
           },
           "parameters": [
+            "DPadBottom",
+            "d",
             "",
-            "d"
+            ""
           ],
           "subInstructions": []
         }
@@ -2219,13 +2913,11 @@
         {
           "type": {
             "inverted": false,
-            "value": "AddForceAL"
+            "value": "TopDownMovementBehavior::SimulateDownKey"
           },
           "parameters": [
             "player",
-            "0",
-            "200",
-            ""
+            "TopDownMovement"
           ],
           "subInstructions": []
         }
@@ -2240,11 +2932,13 @@
         {
           "type": {
             "inverted": false,
-            "value": "KeyPressed"
+            "value": "SourisSurObjet"
           },
           "parameters": [
+            "DPadLeft",
+            "a",
             "",
-            "a"
+            ""
           ],
           "subInstructions": []
         }
@@ -2253,13 +2947,11 @@
         {
           "type": {
             "inverted": false,
-            "value": "AddForceAL"
+            "value": "TopDownMovementBehavior::SimulateLeftKey"
           },
           "parameters": [
             "player",
-            "180",
-            "200",
-            ""
+            "TopDownMovement"
           ],
           "subInstructions": []
         }
@@ -2295,12 +2987,238 @@
           "parameters": [
             "player",
             "wall",
+            "yes"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "npc",
+            "player",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Montre"
+          },
+          "parameters": [
+            "zuTicTacToe",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "AutoTyping::Text_AutoTyping::Resume"
+          },
+          "parameters": [
+            "TicTacToeQuest",
+            "Text_AutoTyping",
             ""
           ],
           "subInstructions": []
         }
       ],
       "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "AutoTyping::Text_AutoTyping::TypingFinished"
+          },
+          "parameters": [
+            "TicTacToeQuest",
+            "Text_AutoTyping",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Montre"
+          },
+          "parameters": [
+            "zuTicTacToeButton",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "zuTicTacToeButton",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Visible"
+          },
+          "parameters": [
+            "zuTicTacToeButton"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Scene",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "VarScene"
+          },
+          "parameters": [
+            "Scene",
+            ">",
+            "0"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "UnPauseObjectTimer"
+          },
+          "parameters": [
+            "GoButton",
+            "\"change Scene\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Opacity"
+          },
+          "parameters": [
+            "Black_outro",
+            "+",
+            "5"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectTimer"
+              },
+              "parameters": [
+                "GoButton",
+                "\"change Scene\"",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Start_Screen\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
     }
   ],
   "layers": [
@@ -2336,7 +3254,35 @@
         }
       ],
       "effects": []
+    },
+    {
+      "ambientLightColorB": 1702453580,
+      "ambientLightColorG": 0,
+      "ambientLightColorR": -1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "UI",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
     }
   ],
-  "behaviorsSharedData": []
+  "behaviorsSharedData": [
+    {
+      "name": "Anchor",
+      "type": "AnchorBehavior::AnchorBehavior"
+    },
+    {
+      "name": "Text_AutoTyping",
+      "type": "AutoTyping::Text_AutoTyping"
+    },
+    {
+      "name": "TopDownMovement",
+      "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
+    }
+  ]
 }
