@@ -2440,6 +2440,114 @@
         "name": "npc-1.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Chris_Grafiken/1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chris_Grafiken\\1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Chris_Grafiken/2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chris_Grafiken\\2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Chris_Grafiken/3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chris_Grafiken\\3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Chris_Grafiken/normal-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chris_Grafiken\\normal-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Chris_Grafiken/hover-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chris_Grafiken\\hover-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Chris_Grafiken/clicked-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chris_Grafiken\\clicked-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Chris_Grafiken/Menu_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chris_Grafiken\\Menu_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Chris_Grafiken/Menu_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chris_Grafiken\\Menu_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Chris_Grafiken/Menu_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chris_Grafiken\\Menu_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "Chris_Grafiken/GUI sel cursor.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Chris_Grafiken\\GUI sel cursor.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "Chris_Grafiken/GUI menu close.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Chris_Grafiken\\GUI menu close.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "Chris_Grafiken/GUI menu open.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Chris_Grafiken\\GUI menu open.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2469,7 +2577,12 @@
       "referenceTo": "/layouts/overworld"
     }
   ],
-  "externalEvents": [],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/pause_menu"
+    }
+  ],
   "eventsFunctionsExtensions": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
