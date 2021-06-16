@@ -37,7 +37,7 @@
       "name": "background",
       "persistentUuid": "c4814e1d-0ea4-47b7-b489-5730d97721e5",
       "width": 3414,
-      "x": -896,
+      "x": -914,
       "y": -416,
       "zOrder": 1,
       "numberProperties": [],
@@ -1787,6 +1787,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "locked": false,
+      "name": "MenuButton",
+      "persistentUuid": "b555a9f9-a35a-4255-9786-16572d52e274",
+      "width": 0,
+      "x": 89,
+      "y": 58,
+      "zOrder": 2002,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -2088,7 +2104,17 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 1,
+          "name": "Anchor",
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 1,
+          "type": "AnchorBehavior::AnchorBehavior"
+        }
+      ],
       "animations": [
         {
           "name": "normal",
@@ -2201,14 +2227,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 300,
+                    "y": 200
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 300,
+                    "y": 200
                   },
                   "customCollisionMask": []
                 }
@@ -2230,14 +2256,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 300,
+                    "y": 200
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 300,
+                    "y": 200
                   },
                   "customCollisionMask": []
                 }
@@ -2259,14 +2285,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 300,
+                    "y": 200
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 300,
+                    "y": 200
                   },
                   "customCollisionMask": []
                 }
@@ -2556,7 +2582,23 @@
         }
       ],
       "effects": []
+    },
+    {
+      "ambientLightColorB": 1702453580,
+      "ambientLightColorG": 0,
+      "ambientLightColorR": 11594560,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "UI",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
     }
   ],
-  "behaviorsSharedData": []
+  "behaviorsSharedData": [
+    {
+      "name": "Anchor",
+      "type": "AnchorBehavior::AnchorBehavior"
+    }
+  ]
 }
