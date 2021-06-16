@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 1.1106645817995067
+    "zoomFactor": 0.475583243739605
   },
   "objectsGroups": [
     {
@@ -70,12 +70,12 @@
       "type": "array",
       "children": [
         {
-          "type": "string",
-          "value": "0"
+          "type": "number",
+          "value": 0
         },
         {
-          "type": "string",
-          "value": "0"
+          "type": "number",
+          "value": 0
         },
         {
           "type": "number",
@@ -106,25 +106,14 @@
           "value": 0
         }
       ]
+    },
+    {
+      "name": "winner",
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 909,
-      "layer": "",
-      "locked": false,
-      "name": "Background",
-      "persistentUuid": "7554bcc6-8844-4e96-b2fd-09647d7a1cc2",
-      "width": 1615,
-      "x": -16,
-      "y": -15,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
     {
       "angle": 0,
       "customSize": true,
@@ -134,8 +123,8 @@
       "name": "Background",
       "persistentUuid": "5c264a5b-297b-4b26-adad-4c431a5640e3",
       "width": 1615,
-      "x": -16,
-      "y": 894,
+      "x": 0,
+      "y": 0,
       "zOrder": 1,
       "numberProperties": [
         {
@@ -155,9 +144,9 @@
       "name": "Headline",
       "persistentUuid": "78562fb5-8896-4093-8786-91922f3166bd",
       "width": 0,
-      "x": 530,
-      "y": 940,
-      "zOrder": 3,
+      "x": 81,
+      "y": 48,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -171,8 +160,8 @@
       "name": "PlayerAstaticText",
       "persistentUuid": "f2197fa2-14bb-4faf-b1d8-801dd51da1c7",
       "width": 0,
-      "x": 1200,
-      "y": 950,
+      "x": 886,
+      "y": 35,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -187,8 +176,8 @@
       "name": "PlayerBstaticText",
       "persistentUuid": "0e29ef12-00c5-40ae-b429-a2550113ceea",
       "width": 0,
-      "x": 1200,
-      "y": 1150,
+      "x": 1288,
+      "y": 29,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -204,7 +193,7 @@
       "persistentUuid": "2724cf67-0aeb-400b-bb99-7ada843f8b9f",
       "width": 0,
       "x": 0,
-      "y": 900,
+      "y": 0,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -219,8 +208,8 @@
       "name": "Grid",
       "persistentUuid": "f35aee7e-f02c-47fa-800c-1c32790872e0",
       "width": 0,
-      "x": 281,
-      "y": 1050,
+      "x": 75,
+      "y": 195,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -235,12 +224,18 @@
       "name": "P1",
       "persistentUuid": "eb4d2a58-e7c9-4abf-bdcd-2882d44b3701",
       "width": 0,
-      "x": 281,
-      "y": 1050,
+      "x": 74,
+      "y": 196,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "pos",
+          "type": "number",
+          "value": 0
+        }
+      ]
     },
     {
       "angle": 0,
@@ -251,12 +246,18 @@
       "name": "P2",
       "persistentUuid": "e273b3e2-2e98-4c54-b57a-1f91b570673f",
       "width": 0,
-      "x": 476,
-      "y": 1050,
+      "x": 276,
+      "y": 194,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "pos",
+          "type": "number",
+          "value": 1
+        }
+      ]
     },
     {
       "angle": 0,
@@ -267,12 +268,18 @@
       "name": "P3",
       "persistentUuid": "998ab98b-a017-45b2-9d81-03fee0d89d80",
       "width": 0,
-      "x": 681,
-      "y": 1053,
+      "x": 476,
+      "y": 196,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "pos",
+          "type": "number",
+          "value": 2
+        }
+      ]
     },
     {
       "angle": 0,
@@ -283,16 +290,16 @@
       "name": "P4",
       "persistentUuid": "2afa3fdf-38f3-4dbd-8da8-ac899360d515",
       "width": 0,
-      "x": 281,
-      "y": 1250,
+      "x": 74,
+      "y": 398,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
         {
           "name": "pos",
-          "type": "string",
-          "value": "3"
+          "type": "number",
+          "value": 3
         }
       ]
     },
@@ -305,16 +312,16 @@
       "name": "P5",
       "persistentUuid": "878e8300-671d-4ce3-99bb-c28666ef1626",
       "width": 0,
-      "x": 481,
-      "y": 1250,
+      "x": 272,
+      "y": 395,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
         {
           "name": "pos",
-          "type": "string",
-          "value": "4"
+          "type": "number",
+          "value": 4
         }
       ]
     },
@@ -327,16 +334,16 @@
       "name": "P6",
       "persistentUuid": "93cab4d3-1d1f-4ad5-8500-54af0a9adc93",
       "width": 0,
-      "x": 681,
-      "y": 1250,
+      "x": 478,
+      "y": 398,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
         {
           "name": "pos",
-          "type": "string",
-          "value": "5"
+          "type": "number",
+          "value": 5
         }
       ]
     },
@@ -349,16 +356,16 @@
       "name": "P7",
       "persistentUuid": "fb859b1b-a9d0-445e-9218-1d803dc5d795",
       "width": 0,
-      "x": 281,
-      "y": 1450,
+      "x": 74,
+      "y": 592,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
         {
           "name": "pos",
-          "type": "string",
-          "value": "6"
+          "type": "number",
+          "value": 6
         }
       ]
     },
@@ -371,16 +378,16 @@
       "name": "P8",
       "persistentUuid": "0e44de25-53f2-446a-9fb5-18abcd71ae46",
       "width": 0,
-      "x": 481,
-      "y": 1450,
+      "x": 274,
+      "y": 596,
       "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
         {
           "name": "pos",
-          "type": "string",
-          "value": "7"
+          "type": "number",
+          "value": 7
         }
       ]
     },
@@ -393,31 +400,47 @@
       "name": "P9",
       "persistentUuid": "a986fc8d-93d9-48fd-acdc-4dc624c02d9f",
       "width": 0,
-      "x": 681,
-      "y": 1450,
+      "x": 478,
+      "y": 600,
       "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
         {
           "name": "pos",
-          "type": "string",
-          "value": "8"
+          "type": "number",
+          "value": 8
         }
       ]
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 20,
+      "customSize": true,
+      "height": 7,
       "layer": "",
       "locked": false,
       "name": "B",
       "persistentUuid": "8ab55bde-fd4a-47e0-a0f6-34cd0c592f18",
-      "width": 0,
-      "x": 1430,
-      "y": 1164,
+      "width": 1,
+      "x": 0,
+      "y": 0,
       "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 7,
+      "layer": "",
+      "locked": false,
+      "name": "A",
+      "persistentUuid": "941ba02a-6482-47b9-980a-7f10dbe09f92",
+      "width": 1,
+      "x": 0,
+      "y": 0,
+      "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -428,12 +451,12 @@
       "height": 0,
       "layer": "",
       "locked": false,
-      "name": "A",
-      "persistentUuid": "941ba02a-6482-47b9-980a-7f10dbe09f92",
+      "name": "GameOver",
+      "persistentUuid": "1a01fbad-2fc4-4013-8589-56e90a72e9ce",
       "width": 0,
-      "x": 1440,
-      "y": 964,
-      "zOrder": 21,
+      "x": 914,
+      "y": 401,
+      "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -537,6 +560,35 @@
       }
     },
     {
+      "bold": true,
+      "italic": false,
+      "name": "GameOver",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 0,
+          "name": "Anchor",
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 0,
+          "type": "AnchorBehavior::AnchorBehavior"
+        }
+      ],
+      "string": "     Game Over\nWinner is Player ",
+      "font": "",
+      "characterSize": 60,
+      "color": {
+        "b": 176,
+        "g": 194,
+        "r": 37
+      }
+    },
+    {
       "height": 10,
       "name": "Border",
       "tags": "",
@@ -583,13 +635,7 @@
       "texture": "TicTacToe\\NewFile-1.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 200,
-      "variables": [
-        {
-          "name": "pos",
-          "type": "string",
-          "value": "1"
-        }
-      ],
+      "variables": [],
       "behaviors": []
     },
     {
@@ -599,13 +645,7 @@
       "texture": "TicTacToe\\NewFile-1.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 200,
-      "variables": [
-        {
-          "name": "pos",
-          "type": "string",
-          "value": "2"
-        }
-      ],
+      "variables": [],
       "behaviors": []
     },
     {
@@ -675,13 +715,17 @@
       "texture": "TicTacToe\\NewFile-1.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 200,
-      "variables": [
-        {
-          "name": "pos",
-          "type": "string",
-          "value": "0"
-        }
-      ],
+      "variables": [],
+      "behaviors": []
+    },
+    {
+      "height": 10,
+      "name": "B",
+      "tags": "",
+      "texture": "TicTacToe\\Element 6-8.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 10,
+      "variables": [],
       "behaviors": []
     },
     {
@@ -695,17 +739,58 @@
       "behaviors": []
     },
     {
-      "height": 10,
-      "name": "B",
+      "bold": false,
+      "italic": false,
+      "name": "Winner",
+      "smoothed": true,
       "tags": "",
-      "texture": "TicTacToe\\Element 6-8.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 10,
+      "type": "TextObject::Text",
+      "underlined": false,
       "variables": [],
-      "behaviors": []
+      "behaviors": [],
+      "string": "Player x Wins",
+      "font": "",
+      "characterSize": 60,
+      "color": {
+        "b": 194,
+        "g": 227,
+        "r": 80
+      }
     }
   ],
   "events": [
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "VarScene"
+          },
+          "parameters": [
+            "winner",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "GameOver"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
     {
       "disabled": false,
       "folded": false,
@@ -733,6 +818,30 @@
             "",
             "",
             ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "VarScene"
+          },
+          "parameters": [
+            "board_state[Tiles.Variable(pos)]",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "VarScene"
+          },
+          "parameters": [
+            "winner",
+            "=",
+            "0"
           ],
           "subInstructions": []
         }
@@ -802,6 +911,18 @@
                 "A"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "board_state[Tiles.Variable(pos)]",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -858,28 +979,77 @@
                 ""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "board_state[Tiles.Variable(pos)]",
+                "=",
+                "2"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": "runtimeScene.setBackgroundColor(100,100,240);\n//var variables = runtimeScene.getVariables().get(\"board_state\");\nconsole.log(\"hello world\")\nvar board_state = runtimeScene.getVariables().get(\"board_state\")._childrenArray;\n\nvar winner = 0;\nfor(let i=0; i<3; i++){\n    //columns equal\n    console.log(\"columns\")\n    console.log(board_state[i]._value);\n    console.log(board_state[i+3]._value);\n    console.log(board_state[i+6]._value);\n    console.log(\"#########\")\n\n    if((board_state[i]._value == board_state[i+3]._value) && (board_state[i]._value == board_state[i+6]._value)){\n        if(board_state[i]._value != 0){\n            console.log(\"3 in a column\");\n            winner = board_state[i]._value;\n        }\n    }\n    //rows equal\n    if((board_state[3*i]._value == board_state[3*i+1]._value) && (board_state[3*i]._value == board_state[3*i+2]._value)){\n        if(board_state[i*3]._value != 0){\n           console.log(\"3 in a row\");\n           winner = board_state[i*3]._value\n        }\n    }\n}\n//diagonals\nif(((board_state[4]._value == board_state[0]._value) && (board_state[4]._value == board_state[8]._value) || \n   ((board_state[4]._value == board_state[2]._value) && (board_state[4]._value == board_state[6]._value)))){\n       if(board_state[4] != 0){\n           console.log(\"3 diagonal\");\n           winner = board_state[4]._value;\n       }\n   }\nruntimeScene.getVariables().get(\"winner\").setValue(winner);\nreturn;",
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "winner",
+                "!=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "GameOver",
+                "+",
+                "VariableString(winner)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "GameOver",
+                ""
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
         }
       ]
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::ForEach",
-      "object": "",
-      "conditions": [],
-      "actions": [],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [],
-      "events": []
     }
   ],
   "layers": [
@@ -917,5 +1087,10 @@
       "effects": []
     }
   ],
-  "behaviorsSharedData": []
+  "behaviorsSharedData": [
+    {
+      "name": "Anchor",
+      "type": "AnchorBehavior::AnchorBehavior"
+    }
+  ]
 }
