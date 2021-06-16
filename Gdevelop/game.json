@@ -2523,6 +2523,42 @@
         "name": "Button-1.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1-11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1-11.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1-12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1-12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject2-1-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-1-6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "invisableplayer-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "invisableplayer-1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2533,10 +2569,6 @@
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/new-scene"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/start_screen"
     },
     {
@@ -2545,11 +2577,15 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/new-scene2"
+      "referenceTo": "/layouts/new-scene"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/overworld"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/ai-programming-test"
     }
   ],
   "externalEvents": [],
