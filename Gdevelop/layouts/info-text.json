@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.47999999999999954
+    "zoomFactor": 0.5399999999999997
   },
   "objectsGroups": [],
   "variables": [],
@@ -35,43 +35,11 @@
       "layer": "",
       "locked": false,
       "name": "frame",
-      "persistentUuid": "11710054-4ff4-4861-b577-4a3bfbd815e7",
+      "persistentUuid": "b2fdd21e-f599-4ad5-bb26-9187ad430eff",
       "width": 1504,
       "x": 32,
-      "y": 32,
+      "y": 832,
       "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 800,
-      "layer": "",
-      "locked": false,
-      "name": "frame",
-      "persistentUuid": "8e25dbdc-8a7e-4fce-940c-d9c1bf70e27c",
-      "width": 32,
-      "x": 1504,
-      "y": 64,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 800,
-      "layer": "",
-      "locked": false,
-      "name": "frame",
-      "persistentUuid": "984fe2cf-3d90-473e-9c89-6a5701026ef9",
-      "width": 32,
-      "x": 32,
-      "y": 64,
-      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -83,11 +51,43 @@
       "layer": "",
       "locked": false,
       "name": "frame",
-      "persistentUuid": "f9914109-1a19-4f72-93a3-bf91d5a2eb12",
-      "width": 1472,
-      "x": 64,
-      "y": 832,
-      "zOrder": 4,
+      "persistentUuid": "5cee5cde-d4dc-4788-9f92-ce8e0170ed90",
+      "width": 1504,
+      "x": 32,
+      "y": 32,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 768,
+      "layer": "",
+      "locked": false,
+      "name": "frame",
+      "persistentUuid": "c72bbda7-d3ec-4412-9b5a-3a85b345115a",
+      "width": 32,
+      "x": 1504,
+      "y": 64,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 768,
+      "layer": "",
+      "locked": false,
+      "name": "frame",
+      "persistentUuid": "6c0ddff5-e451-4fdb-b0c3-0dbc13855d15",
+      "width": 32,
+      "x": 32,
+      "y": 64,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -99,11 +99,11 @@
       "layer": "",
       "locked": false,
       "name": "background",
-      "persistentUuid": "771c1368-5174-4cd9-bae1-c2443cc3b6c1",
+      "persistentUuid": "c4fcd610-b53e-446c-8e7b-db084c31de27",
       "width": 1440,
       "x": 64,
       "y": 64,
-      "zOrder": 5,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -114,12 +114,12 @@
       "height": 704,
       "layer": "",
       "locked": false,
-      "name": "infoTextzuTicTacToe",
-      "persistentUuid": "d6f268a2-6b25-4dad-ba31-dfb30eb3b3e7",
+      "name": "infotext",
+      "persistentUuid": "f333058a-965a-4974-8bdb-d185c27a02d4",
       "width": 1376,
       "x": 96,
       "y": 96,
-      "zOrder": 6,
+      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -131,11 +131,11 @@
       "layer": "",
       "locked": false,
       "name": "arrow",
-      "persistentUuid": "15f84870-ca60-4ccc-ac4d-29b3f7fc0a1f",
+      "persistentUuid": "3e9fddae-9c2e-4791-91d0-25e1a122a85f",
       "width": 0,
       "x": 1440,
       "y": 800,
-      "zOrder": 7,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -147,36 +147,17 @@
       "layer": "",
       "locked": false,
       "name": "arrow",
-      "persistentUuid": "8e271dfd-1d11-4850-b889-8bc709cf548f",
+      "persistentUuid": "7ba73d1e-eb44-4fb6-aab5-c479d2ff9fa3",
       "width": 0,
       "x": 1376,
       "y": 800,
-      "zOrder": 8,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     }
   ],
   "objects": [
-    {
-      "bold": false,
-      "italic": false,
-      "name": "infoTextzuTicTacToe",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "Hallo $SuS,\n\nDie Idiotianer wollen uns zu einem tic-tac-toe Wettbewerb herausfordern. Argh Laaangweiligg!!! Um unsere Zeit nicht zu vergeuden, benötigen wir eine effiziente Lösungsroutine für dieses Problem. Unser Ziel ist es 1000 Runden ohne Verluste zu überstehen, dann haben die Idiotianer keine Lust mehr und ziehen ab.\n\nKeine Panik. Wir schaffen das gemeinsam. Ich werde euch nun mit dem Problem vertraut machen.",
-      "font": "",
-      "characterSize": 20,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      }
-    },
     {
       "height": 32,
       "name": "frame",
@@ -198,6 +179,25 @@
       "behaviors": []
     },
     {
+      "bold": false,
+      "italic": false,
+      "name": "infotext",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Hallo $SuS,\n\nDie Idiotianer wollen uns zu einem tic-tac-toe Wettbewerb herausfordern. Argh Laaangweiligg!!! Um unsere Zeit nicht zu vergeuden, benötigen wir eine effiziente Lösungsroutine für dieses Problem. Unser Ziel ist es 1000 Runden ohne Verluste zu überstehen, dann haben die Idiotianer keine Lust mehr und ziehen ab.\n\nKeine Panik. Wir schaffen das gemeinsam. Ich werde euch nun mit dem Problem vertraut machen.",
+      "font": "",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
       "name": "arrow",
       "tags": "",
       "type": "Sprite",
@@ -215,7 +215,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "arrow-1-0.png",
+                  "image": "arrow-1-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -237,21 +237,12 @@
       ]
     }
   ],
-  "events": [
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [],
-      "events": []
-    }
-  ],
+  "events": [],
   "layers": [
     {
-      "ambientLightColorB": 11624552,
-      "ambientLightColorG": 6312744,
-      "ambientLightColorR": 11556096,
+      "ambientLightColorB": 0,
+      "ambientLightColorG": 0,
+      "ambientLightColorR": 0,
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "",

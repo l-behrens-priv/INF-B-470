@@ -1129,15 +1129,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "NewObject-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "Idle-1.png",
         "kind": "image",
         "metadata": "",
@@ -2559,6 +2550,33 @@
         "name": "invisableplayer-1.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "arrow-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arrow-1-1.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2586,6 +2604,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/ai-programming-test"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/info-text"
     }
   ],
   "externalEvents": [],
