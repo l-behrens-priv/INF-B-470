@@ -2440,6 +2440,152 @@
         "name": "npc-1.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/D-pad top.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "D-pad top.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/On-Screen Controls/Sprites/Line Light/D-pad top.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/D-pad right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "D-pad right.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/On-Screen Controls/Sprites/Line Light/D-pad right.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/D-pad bottom.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "D-pad bottom.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/On-Screen Controls/Sprites/Line Light/D-pad bottom.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/D-pad left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "D-pad left.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/On-Screen Controls/Sprites/Line Light/D-pad left.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue blank button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue blank button.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Interface/White/Blue blank button.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprechblase-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprechblase-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Button-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Button-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1-11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1-11.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1-12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1-12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject2-1-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-1-6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "invisableplayer-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "invisableplayer-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "arrow-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arrow-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "arrow-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arrow-1-0.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2450,10 +2596,6 @@
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/new-scene"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/start_screen"
     },
     {
@@ -2462,15 +2604,27 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/new-scene2"
+      "referenceTo": "/layouts/new-scene"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/overworld"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/ai-programming-test"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/info-text"
     }
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/autotyping"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/flash"

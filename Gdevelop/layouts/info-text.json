@@ -1,0 +1,275 @@
+{
+  "b": 209,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "info_32text",
+  "name": "info text",
+  "oglFOV": 90,
+  "oglZFar": 500,
+  "oglZNear": 1,
+  "r": 209,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 209,
+  "uiSettings": {
+    "grid": true,
+    "gridB": 255,
+    "gridG": 180,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridR": 158,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "snap": true,
+    "windowMask": false,
+    "zoomFactor": 0.47999999999999954
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "locked": false,
+      "name": "frame",
+      "persistentUuid": "11710054-4ff4-4861-b577-4a3bfbd815e7",
+      "width": 1504,
+      "x": 32,
+      "y": 32,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 800,
+      "layer": "",
+      "locked": false,
+      "name": "frame",
+      "persistentUuid": "8e25dbdc-8a7e-4fce-940c-d9c1bf70e27c",
+      "width": 32,
+      "x": 1504,
+      "y": 64,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 800,
+      "layer": "",
+      "locked": false,
+      "name": "frame",
+      "persistentUuid": "984fe2cf-3d90-473e-9c89-6a5701026ef9",
+      "width": 32,
+      "x": 32,
+      "y": 64,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "locked": false,
+      "name": "frame",
+      "persistentUuid": "f9914109-1a19-4f72-93a3-bf91d5a2eb12",
+      "width": 1472,
+      "x": 64,
+      "y": 832,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 768,
+      "layer": "",
+      "locked": false,
+      "name": "background",
+      "persistentUuid": "771c1368-5174-4cd9-bae1-c2443cc3b6c1",
+      "width": 1440,
+      "x": 64,
+      "y": 64,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 704,
+      "layer": "",
+      "locked": false,
+      "name": "infoTextzuTicTacToe",
+      "persistentUuid": "d6f268a2-6b25-4dad-ba31-dfb30eb3b3e7",
+      "width": 1376,
+      "x": 96,
+      "y": 96,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "arrow",
+      "persistentUuid": "15f84870-ca60-4ccc-ac4d-29b3f7fc0a1f",
+      "width": 0,
+      "x": 1440,
+      "y": 800,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "arrow",
+      "persistentUuid": "8e271dfd-1d11-4850-b889-8bc709cf548f",
+      "width": 0,
+      "x": 1376,
+      "y": 800,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "bold": false,
+      "italic": false,
+      "name": "infoTextzuTicTacToe",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Hallo $SuS,\n\nDie Idiotianer wollen uns zu einem tic-tac-toe Wettbewerb herausfordern. Argh Laaangweiligg!!! Um unsere Zeit nicht zu vergeuden, benötigen wir eine effiziente Lösungsroutine für dieses Problem. Unser Ziel ist es 1000 Runden ohne Verluste zu überstehen, dann haben die Idiotianer keine Lust mehr und ziehen ab.\n\nKeine Panik. Wir schaffen das gemeinsam. Ich werde euch nun mit dem Problem vertraut machen.",
+      "font": "",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "height": 32,
+      "name": "frame",
+      "tags": "",
+      "texture": "NewFile-1.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "behaviors": []
+    },
+    {
+      "height": 32,
+      "name": "background",
+      "tags": "",
+      "texture": "NewFile-1-11.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "behaviors": []
+    },
+    {
+      "name": "arrow",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "arrow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "arrow-1-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 11624552,
+      "ambientLightColorG": 6312744,
+      "ambientLightColorR": 11556096,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
+    }
+  ],
+  "behaviorsSharedData": []
+}

@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.3551999999999992
+    "zoomFactor": 0.45519999999999927
   },
   "objectsGroups": [
     {
@@ -529,14 +529,6 @@
           "subInstructions": []
         }
       ],
-      "events": []
-    },
-    {
-      "disabled": false,
-      "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [],
       "events": []
     }
   ],
