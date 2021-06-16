@@ -2640,18 +2640,6 @@
         {
           "type": {
             "inverted": false,
-            "value": "SetGameResolutionSize"
-          },
-          "parameters": [
-            "",
-            "800",
-            "600"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
             "value": "Cache"
           },
           "parameters": [
@@ -3210,7 +3198,7 @@
               },
               "parameters": [
                 "",
-                "\"Start_Screen\"",
+                "\"New scene\"",
                 ""
               ],
               "subInstructions": []
