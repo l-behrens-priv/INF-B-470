@@ -1146,10 +1146,10 @@
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::JsCode",
-          "inlineCode": "//runtimeScene.setBackgroundColor(100,100,240);\n//var variables = runtimeScene.getVariables().get(\"board_state\");\nconsole.log(\"hello world\")\nvar board_state = runtimeScene.getVariables().get(\"board_state\")._childrenArray;\n\nvar winner = 0;\nfor(let i=0; i<3; i++){\n    //columns equal\n    console.log(\"columns\")\n    console.log(board_state[i]._value);\n    console.log(board_state[i+3]._value);\n    console.log(board_state[i+6]._value);\n    console.log(\"#########\")\n\n    if((board_state[i]._value == board_state[i+3]._value) && (board_state[i]._value == board_state[i+6]._value)){\n        if(board_state[i]._value != 0){\n            console.log(\"3 in a column\");\n            winner = board_state[i]._value;\n        }\n    }\n    //rows equal\n    if((board_state[3*i]._value == board_state[3*i+1]._value) && (board_state[3*i]._value == board_state[3*i+2]._value)){\n        if(board_state[i*3]._value != 0){\n           console.log(\"3 in a row\");\n           winner = board_state[i*3]._value\n        }\n    }\n}\n//diagonals\nif(((board_state[4]._value == board_state[0]._value) && (board_state[4]._value == board_state[8]._value) || \n   ((board_state[4]._value == board_state[2]._value) && (board_state[4]._value == board_state[6]._value)))){\n       if(board_state[4] != 0){\n           console.log(\"3 diagonal\");\n           winner = board_state[4]._value;\n       }\n   }\nruntimeScene.getVariables().get(\"winner\").setValue(winner);\n\nreturn;",
+          "inlineCode": "//runtimeScene.setBackgroundColor(100,100,240);\n//var variables = runtimeScene.getVariables().get(\"board_state\");\nconsole.log(\"hello world\")\nvar board_state = runtimeScene.getVariables().get(\"board_state\")._childrenArray;\n\nvar winner = 0;\nfor(let i=0; i<3; i++){\n    //columns equal\n    console.log(\"columns\")\n    console.log(board_state[i]._value);\n    console.log(board_state[i+3]._value);\n    console.log(board_state[i+6]._value);\n    console.log(\"#########\")\n\n    if((board_state[i]._value == board_state[i+3]._value) && (board_state[i]._value == board_state[i+6]._value)){\n        if(board_state[i]._value != 0){\n            console.log(\"3 in a column\");\n            winner = board_state[i]._value;\n        }\n    }\n    //rows equal\n    if((board_state[3*i]._value == board_state[3*i+1]._value) && (board_state[3*i]._value == board_state[3*i+2]._value)){\n        if(board_state[i*3]._value != 0){\n           console.log(\"3 in a row\");\n           winner = board_state[i*3]._value\n        }\n    }\n}\n//diagonals\nif(((board_state[4]._value == board_state[0]._value) && (board_state[4]._value == board_state[8]._value) || \n   ((board_state[4]._value == board_state[2]._value) && (board_state[4]._value == board_state[6]._value)))){\n       if(board_state[4] != 0){\n           console.log(\"3 diagonal\");\n           winner = board_state[4]._value;\n       }\n   }\nruntimeScene.getVariables().get(\"winner\").setValue(winner);\n\nlet err = true;\nif(winner==0){\n    for(let i = 0; i<9;i++){\n        if(board_state[i]._value==0){\n            err=false;\n            break;\n        }\n    }\n    if(err){\n        runtimeScene.getVariables().get(\"winner\").setValue(3);\n    }\n}\n\nreturn;",
           "parameterObjects": "",
           "useStrict": true,
-          "eventsSheetExpanded": false
+          "eventsSheetExpanded": true
         },
         {
           "disabled": false,
@@ -1268,6 +1268,40 @@
                     "ScoreB",
                     "+",
                     "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "winner",
+                    "=",
+                    "3"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "GameOver",
+                    "=",
+                    "\"     Game Over\n        draws\""
                   ],
                   "subInstructions": []
                 }
