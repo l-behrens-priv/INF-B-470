@@ -3198,7 +3198,7 @@
               },
               "parameters": [
                 "",
-                "\"New scene\"",
+                "\"info text\"",
                 ""
               ],
               "subInstructions": []

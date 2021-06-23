@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.47999999999999954
+    "zoomFactor": 0.5399999999999997
   },
   "objectsGroups": [],
   "variables": [],
@@ -35,43 +35,11 @@
       "layer": "",
       "locked": false,
       "name": "frame",
-      "persistentUuid": "11710054-4ff4-4861-b577-4a3bfbd815e7",
+      "persistentUuid": "b2fdd21e-f599-4ad5-bb26-9187ad430eff",
       "width": 1504,
       "x": 32,
-      "y": 32,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 800,
-      "layer": "",
-      "locked": false,
-      "name": "frame",
-      "persistentUuid": "8e25dbdc-8a7e-4fce-940c-d9c1bf70e27c",
-      "width": 32,
-      "x": 1504,
-      "y": 64,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 800,
-      "layer": "",
-      "locked": false,
-      "name": "frame",
-      "persistentUuid": "984fe2cf-3d90-473e-9c89-6a5701026ef9",
-      "width": 32,
-      "x": 32,
-      "y": 64,
-      "zOrder": 3,
+      "y": 832,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -83,11 +51,43 @@
       "layer": "",
       "locked": false,
       "name": "frame",
-      "persistentUuid": "f9914109-1a19-4f72-93a3-bf91d5a2eb12",
-      "width": 1472,
-      "x": 64,
-      "y": 832,
-      "zOrder": 4,
+      "persistentUuid": "5cee5cde-d4dc-4788-9f92-ce8e0170ed90",
+      "width": 1504,
+      "x": 32,
+      "y": 32,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 768,
+      "layer": "",
+      "locked": false,
+      "name": "frame",
+      "persistentUuid": "c72bbda7-d3ec-4412-9b5a-3a85b345115a",
+      "width": 32,
+      "x": 1504,
+      "y": 64,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 768,
+      "layer": "",
+      "locked": false,
+      "name": "frame",
+      "persistentUuid": "6c0ddff5-e451-4fdb-b0c3-0dbc13855d15",
+      "width": 32,
+      "x": 32,
+      "y": 64,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -99,11 +99,11 @@
       "layer": "",
       "locked": false,
       "name": "background",
-      "persistentUuid": "771c1368-5174-4cd9-bae1-c2443cc3b6c1",
+      "persistentUuid": "c4fcd610-b53e-446c-8e7b-db084c31de27",
       "width": 1440,
       "x": 64,
       "y": 64,
-      "zOrder": 5,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -112,14 +112,78 @@
       "angle": 0,
       "customSize": true,
       "height": 704,
-      "layer": "",
+      "layer": "text",
       "locked": false,
-      "name": "infoTextzuTicTacToe",
-      "persistentUuid": "d6f268a2-6b25-4dad-ba31-dfb30eb3b3e7",
+      "name": "infotext",
+      "persistentUuid": "f333058a-965a-4974-8bdb-d185c27a02d4",
       "width": 1376,
       "x": 96,
       "y": 96,
-      "zOrder": 6,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "background",
+      "locked": false,
+      "name": "backbackground",
+      "persistentUuid": "f9104406-6f63-4b10-9616-838a56cbec1b",
+      "width": 1632,
+      "x": -32,
+      "y": -32,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 896,
+      "layer": "background",
+      "locked": false,
+      "name": "backbackground",
+      "persistentUuid": "5cac239e-6aaa-47be-bc73-2aefe1021ac3",
+      "width": 64,
+      "x": 1536,
+      "y": 32,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 896,
+      "layer": "background",
+      "locked": false,
+      "name": "backbackground",
+      "persistentUuid": "7ec48537-e24e-4e4d-a605-c782d7b1f173",
+      "width": 64,
+      "x": -32,
+      "y": 32,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "background",
+      "locked": false,
+      "name": "backbackground",
+      "persistentUuid": "6fac50d0-d307-4fe5-9432-fd727a70fb7b",
+      "width": 1504,
+      "x": 32,
+      "y": 864,
+      "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -128,55 +192,20 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
+      "layer": "text",
       "locked": false,
       "name": "arrow",
-      "persistentUuid": "15f84870-ca60-4ccc-ac4d-29b3f7fc0a1f",
-      "width": 0,
-      "x": 1440,
-      "y": 800,
-      "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 180,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "arrow",
-      "persistentUuid": "8e271dfd-1d11-4850-b889-8bc709cf548f",
+      "persistentUuid": "b67ac5c7-ddc1-42a7-a412-fbb0f31262b4",
       "width": 0,
       "x": 1376,
-      "y": 800,
-      "zOrder": 8,
+      "y": 2112,
+      "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     }
   ],
   "objects": [
-    {
-      "bold": false,
-      "italic": false,
-      "name": "infoTextzuTicTacToe",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "behaviors": [],
-      "string": "Hallo $SuS,\n\nDie Idiotianer wollen uns zu einem tic-tac-toe Wettbewerb herausfordern. Argh Laaangweiligg!!! Um unsere Zeit nicht zu vergeuden, benötigen wir eine effiziente Lösungsroutine für dieses Problem. Unser Ziel ist es 1000 Runden ohne Verluste zu überstehen, dann haben die Idiotianer keine Lust mehr und ziehen ab.\n\nKeine Panik. Wir schaffen das gemeinsam. Ich werde euch nun mit dem Problem vertraut machen.",
-      "font": "",
-      "characterSize": 20,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      }
-    },
     {
       "height": 32,
       "name": "frame",
@@ -198,6 +227,35 @@
       "behaviors": []
     },
     {
+      "bold": false,
+      "italic": false,
+      "name": "infotext",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Hallo $SuS,\n\nDie Idiotianer wollen uns zu einem tic-tac-toe Wettbewerb herausfordern. Argh Laaangweiligg!!! Um unsere Zeit nicht zu vergeuden, benötigen wir eine effiziente Lösungsroutine für dieses Problem. Unser Ziel ist es 1000 Runden ohne Verluste zu überstehen, dann haben die Idiotianer keine Lust mehr und ziehen ab.\n\nKeine Panik. Wir schaffen das gemeinsam. Ich werde euch nun mit dem Problem vertraut machen.\n\n\n## Das Problem\n\nIhr findet vor euch ein 3x3 Gitternetz. Zwei Spieler setzen abwechselnd ihr festes Zeichen (ein Spieler Gehirne, der andere Hämmer) in ein freies Feld. Der Spieler, der als Erster drei Zeichen in eine Zeile, Spalte oder Diagonale setzen kann, gewinnt. Wenn allerdings beide Spieler optimal spielen, kann keiner gewinnen, und es kommt zu einem Unentschieden. Das heißt, alle neun Felder sind gefüllt, ohne dass ein Spieler die erforderlichen Zeichen in einer Reihe, Spalte oder Diagonalen setzen konnte.\n\n## Das MinMax Verfahren - eine generelle Lösung\n\nDie simpelste Lösung zur Ermittlung einer optimalen Strategie ist das Minmax-Verfahren. Dieses Verfahren eignet sich für alle Zwei-Personen-Nullsummenspiele mit perfekter Information. Bitte Was??? Das sind Spiele, die folgende Eigenschaften erfüllen\n\n1. zwei Spieler spielen um Punkte\n2. die Summe der Punkte ist Null. zB. Gewinn +1, Verlust -1, Unentschieden 0\n3. alle Spielinformationen bis auf zukünftige Zugentscheidungen sind bekannt\n\nDas Minimax-Verfahren ist im Kern vom speziellen Spiel unabhängig, das heißt zum Beispiel Tic-Tac-Toe und Vier gewinnt benutzen dasselbe Verfahren. Schnittstellen zum speziellen Spiel sind lediglich die beiden folgenden Programmteile:\n\n* Ermittlung welche Züge in einer konkreten Spielsituation möglich sind\n* Bewertung der Spielsituation bzgl Gewinn und Verlust in Zahlen\n\nNeben dem Minimax-Verfahren kann ein Spiel weitere spielspezifische Verfahren anwenden, beispielsweise vorberechnete Bibliotheken für Eröffnungszüge. Weil Tic-Tac-Toe ein sehr einfaches Spiel, mit nur maximal 9!=362880 möglichen Spielsituationen ist, benötigen wir hier keine Bibliotheken für gute Anfangszüge.\n\n*Hinweis*: Du fragst Dich bestimmt, was es mit dem skurilen Namen auf sich hat. Das ist schnell erklärt. Das Verfahren geht davon aus, dass es zwei Spieler gibt. Max, das ist der für den wir den besten Zug finden wollen und Min, das ist der Gegenspieler von Max. Das Verfahren bewertet Züge. Züge die gut für Max sind werden mit einem Wert > 0 bewertet Züge die schlecht für Max sind, sind gut für Min und werden mit < 0 bewertet.\n\n### Aufgabe 1: <<#TODO: Verschieden Spielsituationen verbildlichen>>\n\n1. welche Kriterien eines Zwei-Personen-Nullsummenspiels mit perfekter Information erfüllt das Tic-Tac-Toe Spiel\n2. Markiere in den angegebenen Spielsituationen alle aktuell möglichen Züge\n3. Überlege dir, wie sich verschiedene Spielsituationen in Zahlen bewerten lassen\n   1. welche Bewertungskriterien fallen Dir ein\n   2. welche Bewertungen würdest du für die Möglichen Züge vergeben\n\n## Das MinMax Verfahren - von der generellen zur allgemeinen Lösung\n\nNun, nachdem wir die individuellen Merkmalen von zwei-personen-nullsummenspielen mit perfekter Information kennen, werfen wir einen kurzen Blick auf die Funktionsweise des MinMax Verfahrens. Das Verfahren liefert eine Antwort auf die Frage: Welcher Zug ist der Beste?\n\nDamit das Verfahren die Antwort ermitteln kann, benötigt es zunächst den Zustand des Spielfeldes. Ihr könnt euch diesen Zustand als eine sortierte Menge von Zeilen einer Tabelle vorstellen, in denen Felder entweder den Zustand \"Gehirn\", \"Hammer\" oder \"frei\" beinhalten. Nun wird für jeden möglichen Zug der MinMax-Wert berechnet. Dieser Wert drückt in einer Zahl aus, wie gut oder wie schlecht der Zug ist. Der Zug mit dem Besten MinMax Wert wird das Verfahren vorschlagen.\n\nNun wirst Du Dich fragen: Wie kommt das Verfahren denn auf den MinMax Wert? Um die Antwort zu verstehen, musst du wissen, was rekursion ist. (Verweis auf kapitel über Rekursion)\n\nNun wird es interessant. Zunächst schaut sich das Verfahren an, ob überhaupt noch ein Zug möglich ist. Wenn kein Zug möglich ist, ist das Spiel unentschieden. Der MinMax-Wert ist Null. Als nächstes wird ermittelt, ob das Spiel womöglich gewonnen oder verloren ist, also 3 gleiche Symbole in einer Reihe/Spalte/Diagonale gesetzt sind. Für Gewinn merken wir uns +10 für Verlust -10 und wenn es noch offen ist, 0. Steht Gewinn oder Verlust schon fest, ist der MinMax Wert klar.\n\nSteht er nicht fest, wenden wir rekursion an. Dieses mächtige Konzept ist für ungeübte oft schwer zu verstehen. Ähnlich wie beim spielen mit Matroschka von Schwesterchen Russland, wenden wir das MinMax Verfahren auf alle Zugmöglichkeiten für den darauf folgenden Zug des Gegners an. Daraufhin öffnen wir die nächste Matroschka und wiederholen solange, bis wir alle Spielsituationen betrachtet haben. Der MaxMin-Wert unter Betrachtung aller Spielsituation bezieht sich auf die Jeweils besten Züge von uns und dem Gegner.\n\n### Aufgabe 2:\n\nÜberlege dir, wie sich folgende Sachverhalte logisch ausdrücken lassen, sodass sie von einer Maschine zu *wahr* oder *falsch* ausgewertet werden können.\n\n* Terminalbedingung (sind noch Züge möglich?)\n* Bewertung der Spielsituation (Gewonnen/Verloren)\n\nPrima! Das **Wichtigste nochmal im Überblick**:\n\n* das Verfahren wird auf den Zustand eines konkreten Spielfeldes angewandt.\n* das Verfahren wendet das minMax Prinzip auf jeden noch möglichen Zug an\n  1. MinMax funktioniert rekursiv\n  2. MinMax liefert eine Bewertung einer Spielsituation in Zahlen unter Berücksichtigung aller möglichen Folgesituationen\n  3. MinMax benötigt einen Bewertungsmechanismus, um eine konkrete Gewinn-/Verlustsituation in Zahlen zu bewerten.\n  4. MinMax benötigt eine Terminalbedingung, die aussagt, ob noch Züge möglich sind",
+      "font": "",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "height": 32,
+      "name": "backbackground",
+      "tags": "",
+      "texture": "NewFile-1-12.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "behaviors": []
+    },
+    {
       "name": "arrow",
       "tags": "",
       "type": "Sprite",
@@ -206,16 +264,16 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "arrow",
+          "name": "",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.07999999821186066,
+              "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "arrow-1-0.png",
+                  "image": "arrow-1-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -242,16 +300,277 @@
       "disabled": false,
       "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": [],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "scrollStartY",
+            "=",
+            "MouseY(\"text\",0)"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ],
+          "subInstructions": []
+        }
+      ],
       "actions": [],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "scrollTargetY",
+                "=",
+                "MouseY(\"text\",0)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Y",
+                "=",
+                "Variable(scrollTargetY)-Variable(scrollStartY)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "scrollDistanceY",
+                "=",
+                "sqrt(Variable(Y)*Variable(Y))"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "VarScene"
+          },
+          "parameters": [
+            "scrollTargetY",
+            "<",
+            "Variable(scrollStartY)"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "scrollDistanceY",
+                ">",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetCameraY"
+              },
+              "parameters": [
+                "",
+                "+",
+                "Variable(scrollDistanceY)",
+                "\"text\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "VarScene"
+          },
+          "parameters": [
+            "scrollTargetY",
+            ">",
+            "Variable(scrollStartY)"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "scrollDistanceY",
+                ">",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetCameraY"
+              },
+              "parameters": [
+                "",
+                "-",
+                "Variable(scrollDistanceY)",
+                "\"text\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "arrow",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"ai programming test\"",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
       "events": []
     }
   ],
   "layers": [
     {
-      "ambientLightColorB": 11624552,
-      "ambientLightColorG": 6312744,
-      "ambientLightColorR": 11556096,
+      "ambientLightColorB": 0,
+      "ambientLightColorG": 0,
+      "ambientLightColorR": 0,
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "",
@@ -268,6 +587,28 @@
           "width": 0
         }
       ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 1702453580,
+      "ambientLightColorG": 0,
+      "ambientLightColorR": 11784504,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "text",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 1702453580,
+      "ambientLightColorG": 0,
+      "ambientLightColorR": 11914480,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "background",
+      "visibility": true,
+      "cameras": [],
       "effects": []
     }
   ],
