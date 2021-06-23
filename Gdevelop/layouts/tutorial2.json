@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "info_32text",
-  "name": "info text",
+  "mangledName": "tutorial2",
+  "name": "tutorial2",
   "oglFOV": 90,
   "oglZFar": 500,
   "oglZNear": 1,
@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.3897591054558753
+    "zoomFactor": 0.6618796369314193
   },
   "objectsGroups": [],
   "variables": [],
@@ -203,22 +203,6 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "arrow",
-      "persistentUuid": "8d19df9b-eed9-4fe2-98d1-e0091aa56cc1",
-      "width": 0,
-      "x": 1376,
-      "y": 576,
-      "zOrder": 19,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
     }
   ],
   "objects": [
@@ -252,7 +236,7 @@
       "underlined": false,
       "variables": [],
       "behaviors": [],
-      "string": "Gefahr!\n\nDie Idiotianer wollen uns zu einem tic-tac-toe Wettbewerb herausfordern. Argh Laaangweiligg!!! Um unsere Zeit nicht zu vergeuden, benötigen wir eine effiziente Lösungsroutine für dieses Problem. Unser Ziel ist es 1000 Runden ohne Verluste zu überstehen, dann haben die Idiotianer keine Lust mehr und ziehen ab.\n\nKeine Panik. Wir schaffen das gemeinsam. Ich werde euch nun mit dem Problem vertraut machen.\n\n\n## Das Problem\n\nIhr findet vor euch ein 3x3 Gitternetz. Zwei Spieler setzen abwechselnd ihr festes Zeichen (ein Spieler Gehirne, der andere Hämmer) in ein freies Feld. Der Spieler, der als Erster drei Zeichen in eine Zeile, Spalte oder Diagonale setzen kann, gewinnt. Wenn allerdings beide Spieler optimal spielen, kann keiner gewinnen, und es kommt zu einem Unentschieden. Das heißt, alle neun Felder sind gefüllt, ohne dass ein Spieler die erforderlichen Zeichen in einer Reihe, Spalte oder Diagonalen setzen konnte.\n\nEs war nett mit euch. Aber ich muss gehen. Mein Neuronales Netz kostet das Schiff zu viel Energie. Mechtech wird euch bei der Problemlösung begleiten. Er ist eine spezialisiertere weniger komplexe KI, die kaum Energie kostet. Viel Glück! Euer Space Commander\n\n...${KEIN SIGNAL}",
+      "string": "Gefahr!\n\nDie Idiotianer wollen uns zu einem tic-tac-toe Wettbewerb herausfordern. Argh Laaangweiligg!!! Um unsere Zeit nicht zu vergeuden, benötigen wir eine effiziente Lösungsroutine für dieses Problem. Unser Ziel ist es 1000 Runden ohne Verluste zu überstehen, dann haben die Idiotianer keine Lust mehr und ziehen ab.\n\nKeine Panik. Wir schaffen das gemeinsam. Ich werde euch nun mit dem Problem vertraut machen.\n\n\n## Das Problem\n\nIhr findet vor euch ein 3x3 Gitternetz. Zwei Spieler setzen abwechselnd ihr festes Zeichen (ein Spieler Gehirne, der andere Hämmer) in ein freies Feld. Der Spieler, der als Erster drei Zeichen in eine Zeile, Spalte oder Diagonale setzen kann, gewinnt. Wenn allerdings beide Spieler optimal spielen, kann keiner gewinnen, und es kommt zu einem Unentschieden. Das heißt, alle neun Felder sind gefüllt, ohne dass ein Spieler die erforderlichen Zeichen in einer Reihe, Spalte oder Diagonalen setzen konnte.\n\n## Das MinMax Verfahren - eine generelle Lösung\n\nDie simpelste Lösung zur Ermittlung einer optimalen Strategie ist das Minmax-Verfahren. Dieses Verfahren eignet sich für alle Zwei-Personen-Nullsummenspiele mit perfekter Information. Bitte Was??? Das sind Spiele, die folgende Eigenschaften erfüllen\n\n1. zwei Spieler spielen um Punkte\n2. die Summe der Punkte ist Null. zB. Gewinn +1, Verlust -1, Unentschieden 0\n3. alle Spielinformationen bis auf zukünftige Zugentscheidungen sind bekannt\n\nDas Minimax-Verfahren ist im Kern vom speziellen Spiel unabhängig, das heißt zum Beispiel Tic-Tac-Toe und Vier gewinnt benutzen dasselbe Verfahren. Schnittstellen zum speziellen Spiel sind lediglich die beiden folgenden Programmteile:\n\n* Ermittlung welche Züge in einer konkreten Spielsituation möglich sind\n* Bewertung der Spielsituation bzgl Gewinn und Verlust in Zahlen\n\nNeben dem Minimax-Verfahren kann ein Spiel weitere spielspezifische Verfahren anwenden, beispielsweise vorberechnete Bibliotheken für Eröffnungszüge. Weil Tic-Tac-Toe ein sehr einfaches Spiel, mit nur maximal 9!=362880 möglichen Spielsituationen ist, benötigen wir hier keine Bibliotheken für gute Anfangszüge.\n\n*Hinweis*: Du fragst Dich bestimmt, was es mit dem skurilen Namen auf sich hat. Das ist schnell erklärt. Das Verfahren geht davon aus, dass es zwei Spieler gibt. Max, das ist der für den wir den besten Zug finden wollen und Min, das ist der Gegenspieler von Max. Das Verfahren bewertet Züge. Züge die gut für Max sind werden mit einem Wert > 0 bewertet Züge die schlecht für Max sind, sind gut für Min und werden mit < 0 bewertet.\n\n### Aufgabe 1: <<#TODO: Verschieden Spielsituationen verbildlichen>>\n\n1. welche Kriterien eines Zwei-Personen-Nullsummenspiels mit perfekter Information erfüllt das Tic-Tac-Toe Spiel\n2. Markiere in den angegebenen Spielsituationen alle aktuell möglichen Züge\n3. Überlege dir, wie sich verschiedene Spielsituationen in Zahlen bewerten lassen\n   1. welche Bewertungskriterien fallen Dir ein\n   2. welche Bewertungen würdest du für die Möglichen Züge vergeben\n\n## Das MinMax Verfahren - von der generellen zur allgemeinen Lösung\n\nNun, nachdem wir die individuellen Merkmalen von zwei-personen-nullsummenspielen mit perfekter Information kennen, werfen wir einen kurzen Blick auf die Funktionsweise des MinMax Verfahrens. Das Verfahren liefert eine Antwort auf die Frage: Welcher Zug ist der Beste?\n\nDamit das Verfahren die Antwort ermitteln kann, benötigt es zunächst den Zustand des Spielfeldes. Ihr könnt euch diesen Zustand als eine sortierte Menge von Zeilen einer Tabelle vorstellen, in denen Felder entweder den Zustand \"Gehirn\", \"Hammer\" oder \"frei\" beinhalten. Nun wird für jeden möglichen Zug der MinMax-Wert berechnet. Dieser Wert drückt in einer Zahl aus, wie gut oder wie schlecht der Zug ist. Der Zug mit dem Besten MinMax Wert wird das Verfahren vorschlagen.\n\nNun wirst Du Dich fragen: Wie kommt das Verfahren denn auf den MinMax Wert? Um die Antwort zu verstehen, musst du wissen, was rekursion ist. (Verweis auf kapitel über Rekursion)\n\nNun wird es interessant. Zunächst schaut sich das Verfahren an, ob überhaupt noch ein Zug möglich ist. Wenn kein Zug möglich ist, ist das Spiel unentschieden. Der MinMax-Wert ist Null. Als nächstes wird ermittelt, ob das Spiel womöglich gewonnen oder verloren ist, also 3 gleiche Symbole in einer Reihe/Spalte/Diagonale gesetzt sind. Für Gewinn merken wir uns +10 für Verlust -10 und wenn es noch offen ist, 0. Steht Gewinn oder Verlust schon fest, ist der MinMax Wert klar.\n\nSteht er nicht fest, wenden wir rekursion an. Dieses mächtige Konzept ist für ungeübte oft schwer zu verstehen. Ähnlich wie beim spielen mit Matroschka von Schwesterchen Russland, wenden wir das MinMax Verfahren auf alle Zugmöglichkeiten für den darauf folgenden Zug des Gegners an. Daraufhin öffnen wir die nächste Matroschka und wiederholen solange, bis wir alle Spielsituationen betrachtet haben. Der MaxMin-Wert unter Betrachtung aller Spielsituation bezieht sich auf die Jeweils besten Züge von uns und dem Gegner.\n\n### Aufgabe 2:\n\nÜberlege dir, wie sich folgende Sachverhalte logisch ausdrücken lassen, sodass sie von einer Maschine zu *wahr* oder *falsch* ausgewertet werden können.\n\n* Terminalbedingung (sind noch Züge möglich?)\n* Bewertung der Spielsituation (Gewonnen/Verloren)\n\nPrima! Das **Wichtigste nochmal im Überblick**:\n\n* das Verfahren wird auf den Zustand eines konkreten Spielfeldes angewandt.\n* das Verfahren wendet das minMax Prinzip auf jeden noch möglichen Zug an\n  1. MinMax funktioniert rekursiv\n  2. MinMax liefert eine Bewertung einer Spielsituation in Zahlen unter Berücksichtigung aller möglichen Folgesituationen\n  3. MinMax benötigt einen Bewertungsmechanismus, um eine konkrete Gewinn-/Verlustsituation in Zahlen zu bewerten.\n  4. MinMax benötigt eine Terminalbedingung, die aussagt, ob noch Züge möglich sind",
       "font": "",
       "characterSize": 20,
       "color": {
@@ -573,7 +557,7 @@
           },
           "parameters": [
             "",
-            "\"tutorial\"",
+            "\"ai programming test\"",
             ""
           ],
           "subInstructions": []

@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "info_32text",
-  "name": "info text",
+  "mangledName": "tutorial",
+  "name": "tutorial",
   "oglFOV": 90,
   "oglZFar": 500,
   "oglZNear": 1,
@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.3897591054558753
+    "zoomFactor": 0.6650381026029583
   },
   "objectsGroups": [],
   "variables": [],
@@ -211,11 +211,27 @@
       "layer": "",
       "locked": false,
       "name": "arrow",
-      "persistentUuid": "8d19df9b-eed9-4fe2-98d1-e0091aa56cc1",
+      "persistentUuid": "165fcf57-ab16-4df6-995b-0047a9316217",
       "width": 0,
-      "x": 1376,
-      "y": 576,
+      "x": 1440,
+      "y": 768,
       "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 178.60281372070312,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "arrow_back",
+      "persistentUuid": "d53a1c1f-c9db-428f-a10b-d284840f1fd5",
+      "width": 0,
+      "x": 96,
+      "y": 768,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -252,7 +268,7 @@
       "underlined": false,
       "variables": [],
       "behaviors": [],
-      "string": "Gefahr!\n\nDie Idiotianer wollen uns zu einem tic-tac-toe Wettbewerb herausfordern. Argh Laaangweiligg!!! Um unsere Zeit nicht zu vergeuden, benötigen wir eine effiziente Lösungsroutine für dieses Problem. Unser Ziel ist es 1000 Runden ohne Verluste zu überstehen, dann haben die Idiotianer keine Lust mehr und ziehen ab.\n\nKeine Panik. Wir schaffen das gemeinsam. Ich werde euch nun mit dem Problem vertraut machen.\n\n\n## Das Problem\n\nIhr findet vor euch ein 3x3 Gitternetz. Zwei Spieler setzen abwechselnd ihr festes Zeichen (ein Spieler Gehirne, der andere Hämmer) in ein freies Feld. Der Spieler, der als Erster drei Zeichen in eine Zeile, Spalte oder Diagonale setzen kann, gewinnt. Wenn allerdings beide Spieler optimal spielen, kann keiner gewinnen, und es kommt zu einem Unentschieden. Das heißt, alle neun Felder sind gefüllt, ohne dass ein Spieler die erforderlichen Zeichen in einer Reihe, Spalte oder Diagonalen setzen konnte.\n\nEs war nett mit euch. Aber ich muss gehen. Mein Neuronales Netz kostet das Schiff zu viel Energie. Mechtech wird euch bei der Problemlösung begleiten. Er ist eine spezialisiertere weniger komplexe KI, die kaum Energie kostet. Viel Glück! Euer Space Commander\n\n...${KEIN SIGNAL}",
+      "string": "Hallo Spacekidz, ich bin Mechtech euer mechanisch technischer Android. Mich steuert eine höhere künstliche Intelligenz. So strengt euch an, sonst entlasse ich die Atmosphäre aus dem Forschungsdeck. Auf dass eure Köpfe wachsen wie Riesenkürbisse. HAHAHA. Ich liebe menschlichen Humor.\n\nWir beginnen mit der einfachsten Form künstlicher Intelligenz. Der Automatisierung intelligenten Verhaltens. Hier ist es erforderlich, dass ihr Experten in dem Automatisierungsthema seid. Komplexere Formen der künstlichen Intelligenz sind allgemeiner und können Probleme anhand der bekannten Regeln lösen. Noch komplexere Formen der KI, ich zum beispiel sind fähig zu Lernen und können Kompetenzen, ähnlich wie ihr kleinen Menschen, für die Lösung neuer Probleme selbstständig erarbeiten.\n\nWir wollen also nun die Idiotianer durch Automatisierung besiegen. Um das Spiel: \"tictactoe\" zu lösen, benötigen wir lediglich eine Kontrollstruktur. Die bedingte Ausführung, die wir uns zunächst anschauen. \nEine bedingte Ausführung küpft die Ausführung einer oder Mehrere Aktionen an bestimmte Bedingungen und verhält sich ähnlich der Konditionalen Satzverbindung in der detuschen Sprache: Wenn ich dieses Level abgeschlossen habe, werde ich nicht mehr gegen einen Idiotianer tictactoe spielen. Die Bedingung: \"Wenn ich dieses level abgeschlossen habe\" kann entweder eintreten oder nicht eintreten. Nur wenn die Bedingung eintritt, ist der Hauptsatz: \"werde ich nicht mehr gegen einen Idiotianer tictactoe spielen\" relevant. Sonst nicht. \nIn der Programmierung arbeiten wir mit formalen Sprachen, die eine sehr präzise Anwendung Grammatikalischer Regeln voraussetzen. Eine bedingte Ausführung sieht so aus:\n\nWENN level abgeschlossen\nDANN nicht gegen Idiotianer tictactoe spielen\nSONST gegen Idiotianer tictactoe spielen\n\nÜbertragen wir nun eine Menge von bedingten Ausführungen auf das tictactoe Spiel. Zunächst solltet ihr euch folgende Fragen stellen.\nWelche Bedingungen gibt es?\n(1) Ist Feld (x,y) frei?\n(2) Hat der Gegner zwei Felder in einer Linie Markiert?\n\nWelche Aktionen gibt es?\n(1) Setze markierung (x,y)",
       "font": "",
       "characterSize": 20,
       "color": {
@@ -270,6 +286,45 @@
       "width": 32,
       "variables": [],
       "behaviors": []
+    },
+    {
+      "name": "arrow_back",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "arrow-1-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "arrow",
@@ -573,8 +628,54 @@
           },
           "parameters": [
             "",
-            "\"tutorial\"",
+            "\"ai programming test\"",
             ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "arrow_back",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"info text\"",
+            "yes"
           ],
           "subInstructions": []
         }

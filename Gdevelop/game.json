@@ -2607,6 +2607,14 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/tutorial"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/tutorial2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/info-text"
     }
   ],
