@@ -113,7 +113,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "NewObject-1-6.png",
+                  "image": "Chris_Grafiken\\NewObject-1-6.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -279,7 +279,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "NewObject-1-4.png",
+                  "image": "Chris_Grafiken\\NewObject-1-4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",

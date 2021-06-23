@@ -1906,7 +1906,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "NewObject-1-14.png",
+                  "image": "Chris_Grafiken\\NewObject-1-14.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1946,7 +1946,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "NewObject-1-18.png",
+                  "image": "Chris_Grafiken\\NewObject-1-18.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1976,7 +1976,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "NewObject-1-18-Kopie-1-0.png",
+                  "image": "Chris_Grafiken\\NewObject-1-18-Kopie-1-0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2006,7 +2006,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "leicht-1.png",
+                  "image": "Chris_Grafiken\\leicht-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2023,7 +2023,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "leicht-2.png",
+                  "image": "Chris_Grafiken\\leicht-2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2063,7 +2063,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "NewObject-1-16.png",
+                  "image": "Chris_Grafiken\\NewObject-1-16.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2093,7 +2093,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "mittel-1-1.png",
+                  "image": "Chris_Grafiken\\mittel-1-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2133,7 +2133,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "NewObject-1-17.png",
+                  "image": "Chris_Grafiken\\NewObject-1-17.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2163,7 +2163,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "schwer-1-0.png",
+                  "image": "Chris_Grafiken\\schwer-1-0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",

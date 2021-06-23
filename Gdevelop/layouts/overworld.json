@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": false,
     "windowMask": false,
-    "zoomFactor": 0.5599999999999996
+    "zoomFactor": 0.4399999999999995
   },
   "objectsGroups": [
     {
@@ -2021,7 +2021,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Player-1-1-1-0.png",
+                  "image": "Chris_Grafiken\\Player-1-1-1-0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2069,7 +2069,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Player-1-1-1-1.png",
+                  "image": "Chris_Grafiken\\Player-1-1-1-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",

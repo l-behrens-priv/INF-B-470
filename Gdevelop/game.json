@@ -3880,6 +3880,123 @@
         "name": "leicht-2.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Chris_Grafiken/NewObject-1-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chris_Grafiken\\NewObject-1-6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Chris_Grafiken/NewObject-1-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chris_Grafiken\\NewObject-1-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Chris_Grafiken/Player-1-1-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chris_Grafiken\\Player-1-1-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Chris_Grafiken/Player-1-1-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chris_Grafiken\\Player-1-1-1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Chris_Grafiken/NewObject-1-14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chris_Grafiken\\NewObject-1-14.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Chris_Grafiken/NewObject-1-18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chris_Grafiken\\NewObject-1-18.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Chris_Grafiken/NewObject-1-18-Kopie-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chris_Grafiken\\NewObject-1-18-Kopie-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Chris_Grafiken/leicht-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chris_Grafiken\\leicht-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Chris_Grafiken/leicht-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chris_Grafiken\\leicht-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Chris_Grafiken/NewObject-1-16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chris_Grafiken\\NewObject-1-16.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Chris_Grafiken/mittel-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chris_Grafiken\\mittel-1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Chris_Grafiken/NewObject-1-17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chris_Grafiken\\NewObject-1-17.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Chris_Grafiken/schwer-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chris_Grafiken\\schwer-1-0.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
