@@ -1,0 +1,733 @@
+{
+  "b": 209,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "tutorial",
+  "name": "tutorial",
+  "oglFOV": 90,
+  "oglZFar": 500,
+  "oglZNear": 1,
+  "r": 209,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 209,
+  "uiSettings": {
+    "grid": true,
+    "gridB": 255,
+    "gridG": 180,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridR": 158,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "snap": true,
+    "windowMask": false,
+    "zoomFactor": 0.6650381026029583
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "locked": false,
+      "name": "frame",
+      "persistentUuid": "b2fdd21e-f599-4ad5-bb26-9187ad430eff",
+      "width": 1504,
+      "x": 32,
+      "y": 832,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "locked": false,
+      "name": "frame",
+      "persistentUuid": "5cee5cde-d4dc-4788-9f92-ce8e0170ed90",
+      "width": 1504,
+      "x": 32,
+      "y": 32,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 768,
+      "layer": "",
+      "locked": false,
+      "name": "frame",
+      "persistentUuid": "c72bbda7-d3ec-4412-9b5a-3a85b345115a",
+      "width": 32,
+      "x": 1504,
+      "y": 64,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 768,
+      "layer": "",
+      "locked": false,
+      "name": "frame",
+      "persistentUuid": "6c0ddff5-e451-4fdb-b0c3-0dbc13855d15",
+      "width": 32,
+      "x": 32,
+      "y": 64,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 768,
+      "layer": "",
+      "locked": false,
+      "name": "background",
+      "persistentUuid": "c4fcd610-b53e-446c-8e7b-db084c31de27",
+      "width": 1440,
+      "x": 64,
+      "y": 64,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 704,
+      "layer": "text",
+      "locked": false,
+      "name": "infotext",
+      "persistentUuid": "f333058a-965a-4974-8bdb-d185c27a02d4",
+      "width": 1376,
+      "x": 96,
+      "y": 96,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "background",
+      "locked": false,
+      "name": "backbackground",
+      "persistentUuid": "f9104406-6f63-4b10-9616-838a56cbec1b",
+      "width": 1632,
+      "x": -32,
+      "y": -32,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 896,
+      "layer": "background",
+      "locked": false,
+      "name": "backbackground",
+      "persistentUuid": "5cac239e-6aaa-47be-bc73-2aefe1021ac3",
+      "width": 64,
+      "x": 1536,
+      "y": 32,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 896,
+      "layer": "background",
+      "locked": false,
+      "name": "backbackground",
+      "persistentUuid": "7ec48537-e24e-4e4d-a605-c782d7b1f173",
+      "width": 64,
+      "x": -32,
+      "y": 32,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "background",
+      "locked": false,
+      "name": "backbackground",
+      "persistentUuid": "6fac50d0-d307-4fe5-9432-fd727a70fb7b",
+      "width": 1504,
+      "x": 32,
+      "y": 864,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "text",
+      "locked": false,
+      "name": "arrow",
+      "persistentUuid": "b67ac5c7-ddc1-42a7-a412-fbb0f31262b4",
+      "width": 0,
+      "x": 1376,
+      "y": 2112,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "arrow",
+      "persistentUuid": "165fcf57-ab16-4df6-995b-0047a9316217",
+      "width": 0,
+      "x": 1440,
+      "y": 768,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 178.60281372070312,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "arrow_back",
+      "persistentUuid": "d53a1c1f-c9db-428f-a10b-d284840f1fd5",
+      "width": 0,
+      "x": 96,
+      "y": 768,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "height": 32,
+      "name": "frame",
+      "tags": "",
+      "texture": "NewFile-1.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "behaviors": []
+    },
+    {
+      "height": 32,
+      "name": "background",
+      "tags": "",
+      "texture": "NewFile-1-11.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "behaviors": []
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "infotext",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Hallo Spacekidz, ich bin Mechtech euer mechanisch technischer Android. Mich steuert eine höhere künstliche Intelligenz. So strengt euch an, sonst entlasse ich die Atmosphäre aus dem Forschungsdeck. Auf dass eure Köpfe wachsen wie Riesenkürbisse. HAHAHA. Ich liebe menschlichen Humor.\n\nWir beginnen mit der einfachsten Form künstlicher Intelligenz. Der Automatisierung intelligenten Verhaltens. Hier ist es erforderlich, dass ihr Experten in dem Automatisierungsthema seid. Komplexere Formen der künstlichen Intelligenz sind allgemeiner und können Probleme anhand der bekannten Regeln lösen. Noch komplexere Formen der KI, ich zum beispiel sind fähig zu Lernen und können Kompetenzen, ähnlich wie ihr kleinen Menschen, für die Lösung neuer Probleme selbstständig erarbeiten.\n\nWir wollen also nun die Idiotianer durch Automatisierung besiegen. Um das Spiel: \"tictactoe\" zu lösen, benötigen wir lediglich eine Kontrollstruktur. Die bedingte Ausführung, die wir uns zunächst anschauen. \nEine bedingte Ausführung küpft die Ausführung einer oder Mehrere Aktionen an bestimmte Bedingungen und verhält sich ähnlich der Konditionalen Satzverbindung in der detuschen Sprache: Wenn ich dieses Level abgeschlossen habe, werde ich nicht mehr gegen einen Idiotianer tictactoe spielen. Die Bedingung: \"Wenn ich dieses level abgeschlossen habe\" kann entweder eintreten oder nicht eintreten. Nur wenn die Bedingung eintritt, ist der Hauptsatz: \"werde ich nicht mehr gegen einen Idiotianer tictactoe spielen\" relevant. Sonst nicht. \nIn der Programmierung arbeiten wir mit formalen Sprachen, die eine sehr präzise Anwendung Grammatikalischer Regeln voraussetzen. Eine bedingte Ausführung sieht so aus:\n\nWENN level abgeschlossen\nDANN nicht gegen Idiotianer tictactoe spielen\nSONST gegen Idiotianer tictactoe spielen\n\nÜbertragen wir nun eine Menge von bedingten Ausführungen auf das tictactoe Spiel. Zunächst solltet ihr euch folgende Fragen stellen.\nWelche Bedingungen gibt es?\n(1) Ist Feld (x,y) frei?\n(2) Hat der Gegner zwei Felder in einer Linie Markiert?\n\nWelche Aktionen gibt es?\n(1) Setze markierung (x,y)",
+      "font": "",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "height": 32,
+      "name": "backbackground",
+      "tags": "",
+      "texture": "NewFile-1-12.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "behaviors": []
+    },
+    {
+      "name": "arrow_back",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "arrow-1-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "arrow",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "arrow-1-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": [],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "scrollStartY",
+            "=",
+            "MouseY(\"text\",0)"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "scrollTargetY",
+                "=",
+                "MouseY(\"text\",0)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Y",
+                "=",
+                "Variable(scrollTargetY)-Variable(scrollStartY)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "scrollDistanceY",
+                "=",
+                "sqrt(Variable(Y)*Variable(Y))"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "VarScene"
+          },
+          "parameters": [
+            "scrollTargetY",
+            "<",
+            "Variable(scrollStartY)"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "scrollDistanceY",
+                ">",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetCameraY"
+              },
+              "parameters": [
+                "",
+                "+",
+                "Variable(scrollDistanceY)",
+                "\"text\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "VarScene"
+          },
+          "parameters": [
+            "scrollTargetY",
+            ">",
+            "Variable(scrollStartY)"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "scrollDistanceY",
+                ">",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetCameraY"
+              },
+              "parameters": [
+                "",
+                "-",
+                "Variable(scrollDistanceY)",
+                "\"text\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "arrow",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"ai programming test\"",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "arrow_back",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"info text\"",
+            "yes"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 0,
+      "ambientLightColorG": 0,
+      "ambientLightColorR": 0,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 1702453580,
+      "ambientLightColorG": 0,
+      "ambientLightColorR": 11784504,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "text",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 1702453580,
+      "ambientLightColorG": 0,
+      "ambientLightColorR": 11914480,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "background",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    }
+  ],
+  "behaviorsSharedData": []
+}

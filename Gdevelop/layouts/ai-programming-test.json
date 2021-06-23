@@ -1,0 +1,529 @@
+{
+  "b": 209,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "ai_32programming_32test",
+  "name": "ai programming test",
+  "oglFOV": 90,
+  "oglZFar": 500,
+  "oglZNear": 1,
+  "r": 209,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 209,
+  "uiSettings": {
+    "grid": false,
+    "gridB": 255,
+    "gridG": 180,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridR": 158,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "snap": false,
+    "windowMask": false,
+    "zoomFactor": 0.5799999999999996
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 928,
+      "layer": "",
+      "locked": false,
+      "name": "background",
+      "persistentUuid": "6854045e-a79a-4065-819a-87935537e6e3",
+      "width": 1600,
+      "x": 0,
+      "y": 0,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 928,
+      "layer": "",
+      "locked": false,
+      "name": "BausteinMenue",
+      "persistentUuid": "0ba19d7d-80a3-439b-b904-a3ff5ef71d68",
+      "width": 288,
+      "x": 0,
+      "y": 0,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "locked": false,
+      "name": "Baustein",
+      "persistentUuid": "94d3f1c3-491c-44f7-8559-710c2ea80b2a",
+      "width": 224,
+      "x": 32,
+      "y": 32,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 29,
+      "layer": "",
+      "locked": false,
+      "name": "bausteinText",
+      "persistentUuid": "e6fc8691-76bb-4260-bc1f-f8ae04ee6d39",
+      "width": 183,
+      "x": 47,
+      "y": 48,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "locked": false,
+      "name": "baustein2",
+      "persistentUuid": "311d451d-16b5-424b-b812-5be9e0e88323",
+      "width": 224,
+      "x": 32,
+      "y": 128,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "setzteKreutMitte",
+      "persistentUuid": "762f3286-bdfb-42c6-89e8-c2c6bd01f305",
+      "width": 0,
+      "x": 87,
+      "y": 152,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "height": 32,
+      "name": "background",
+      "tags": "",
+      "texture": "NewFile-1-11.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "behaviors": []
+    },
+    {
+      "height": 32,
+      "name": "BausteinMenue",
+      "tags": "",
+      "texture": "NewFile-1-12.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "behaviors": []
+    },
+    {
+      "name": "Baustein",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject2-1-6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "bausteinText",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Hast du den 1. Zug?",
+      "font": "",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "name": "baustein2",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable"
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewObject",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "setzteKreutMitte",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "kreuz mitte",
+      "font": "",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    }
+  ],
+  "events": [
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "width",
+            "=",
+            "32"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "height",
+            "=",
+            "32"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "bausteinText",
+            "=",
+            "Baustein.X()+Baustein.Width()/2",
+            "=",
+            "Baustein.Y()+Baustein.Height()/2"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "setzteKreutMitte",
+            "=",
+            "baustein2.X()+baustein2.Width()/2",
+            "=",
+            "baustein2.Y()+baustein2.Height()/2"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "DraggableBehavior::Dragged"
+          },
+          "parameters": [
+            "baustein2",
+            "Draggable"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "baustein2",
+            "=",
+            "Variable(width)*round(baustein2.X()/Variable(width))",
+            "=",
+            "Variable(height)*round(baustein2.Y()/Variable(height))"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "bausteinText",
+            "=",
+            "Baustein.X()+Baustein.Width()/2",
+            "=",
+            "Baustein.Y()+Baustein.Height()/2"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "Baustein",
+            "=",
+            "baustein2.X()",
+            "=",
+            "baustein2.Y()-96"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "setzteKreutMitte",
+            "=",
+            "baustein2.X()+baustein2.Width()/2",
+            "=",
+            "baustein2.Y()+baustein2.Height()/2"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "DraggableBehavior::Dragged"
+          },
+          "parameters": [
+            "Baustein",
+            "Draggable"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "Baustein",
+            "=",
+            "Variable(width)*round(Baustein.X()/Variable(width))",
+            "=",
+            "Variable(height)*round(Baustein.Y()/Variable(height))"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "bausteinText",
+            "=",
+            "Baustein.X()+Baustein.Width()/2",
+            "=",
+            "Baustein.Y()+Baustein.Height()/2"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "baustein2",
+            "=",
+            "Baustein.X()",
+            "=",
+            "Baustein.Y()+96"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "setzteKreutMitte",
+            "=",
+            "baustein2.X()+baustein2.Width()/2",
+            "=",
+            "baustein2.Y()+baustein2.Height()/2"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 11623056,
+      "ambientLightColorG": 196608,
+      "ambientLightColorR": 0,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
+    }
+  ],
+  "behaviorsSharedData": []
+}
