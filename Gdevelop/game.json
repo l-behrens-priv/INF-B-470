@@ -3406,33 +3406,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "NewObject-1-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject-1-0.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewObject-1-4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject-1-4.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewObject-1-5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject-1-5.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "NewObject-1-6.png",
         "kind": "image",
         "metadata": "",
@@ -3997,6 +3970,87 @@
         "name": "Chris_Grafiken\\schwer-1-0.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "doorOpen-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "doorOpen-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "doorOpen-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "doorOpen-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "doorOpen-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "doorOpen-1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "door2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "door2-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1-5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "doorOpen-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "doorOpen-1-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "door2Open-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "door2Open-1.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
