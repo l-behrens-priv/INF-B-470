@@ -425,6 +425,20 @@
             "Variable(scrollStartY)"
           ],
           "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "CameraY"
+          },
+          "parameters": [
+            "",
+            "<",
+            "Text.Height()",
+            "\"text\"",
+            ""
+          ],
+          "subInstructions": []
         }
       ],
       "actions": [],
@@ -469,8 +483,8 @@
               },
               "parameters": [
                 "scrollDistanceY",
-                "-",
-                "0.5"
+                "/",
+                "1.06"
               ],
               "subInstructions": []
             }
@@ -553,8 +567,8 @@
               },
               "parameters": [
                 "scrollDistanceY",
-                "-",
-                "0.5"
+                "/",
+                "1.06"
               ],
               "subInstructions": []
             }
