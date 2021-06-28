@@ -461,6 +461,18 @@
                 ""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "scrollDistanceY",
+                "-",
+                "0.5"
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -481,6 +493,20 @@
             "scrollTargetY",
             ">",
             "Variable(scrollStartY)"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "CameraY"
+          },
+          "parameters": [
+            "",
+            ">",
+            "CameraHeight(\"text\", 0)/2",
+            "\"text\"",
+            ""
           ],
           "subInstructions": []
         }
@@ -517,6 +543,18 @@
                 "Variable(scrollDistanceY)",
                 "\"text\"",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "scrollDistanceY",
+                "-",
+                "0.5"
               ],
               "subInstructions": []
             }
