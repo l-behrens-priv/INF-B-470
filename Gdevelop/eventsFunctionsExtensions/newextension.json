@@ -14,21 +14,12 @@
   "eventsFunctions": [
     {
       "description": "",
-      "fullName": "",
-      "functionType": "Expression",
+      "fullName": "Board Changed",
+      "functionType": "Condition",
       "name": "Function",
       "private": false,
       "sentence": "",
-      "events": [
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
-          "events": []
-        }
-      ],
+      "events": [],
       "parameters": [],
       "objectGroups": []
     }

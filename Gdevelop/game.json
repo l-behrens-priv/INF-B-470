@@ -284,7 +284,12 @@
     }
   ],
   "externalEvents": [],
-  "eventsFunctionsExtensions": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/newextension"
+    }
+  ],
   "externalLayouts": [],
   "externalSourceFiles": []
 }

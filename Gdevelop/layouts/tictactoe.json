@@ -121,6 +121,84 @@
       "name": "ScoreB",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "Preset",
+      "type": "array",
+      "children": [
+        {
+          "type": "string",
+          "value": "1"
+        },
+        {
+          "type": "string",
+          "value": "3"
+        },
+        {
+          "type": "number",
+          "value": 5
+        },
+        {
+          "type": "number",
+          "value": 9
+        },
+        {
+          "type": "number",
+          "value": 6
+        },
+        {
+          "type": "number",
+          "value": 4
+        },
+        {
+          "type": "number",
+          "value": 2
+        },
+        {
+          "type": "number",
+          "value": 7
+        },
+        {
+          "type": "number",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "name": "posX",
+      "type": "array",
+      "children": [
+        {
+          "type": "number",
+          "value": 74
+        },
+        {
+          "type": "number",
+          "value": 276
+        },
+        {
+          "type": "number",
+          "value": 476
+        }
+      ]
+    },
+    {
+      "name": "posY",
+      "type": "array",
+      "children": [
+        {
+          "type": "number",
+          "value": 196
+        },
+        {
+          "type": "number",
+          "value": 398
+        },
+        {
+          "type": "number",
+          "value": 592
+        }
+      ]
     }
   ],
   "instances": [
@@ -909,22 +987,47 @@
     {
       "disabled": false,
       "folded": false,
+<<<<<<< HEAD
+      "type": "BuiltinCommonInstructions::JsCode",
+      "inlineCode": "function delete_marks(){\n    var x_obj = runtimeScene.getObjects(\"X\").deleteFromScene;\n    var y_obj = runtimeScene.getObjects(\"y\").deleteFromScene;\n}\n\nfunction draw_board(board_state){\n    var mark = null;\n    for(let i=0; i<9; i++){\n        if(board_state[i]._value == 1){\n            mark = runtimeScene.createObject(\"X\");\n        }else if(board_state[i]._value == 2){\n            mark = runtimeScene.createObject(\"O\");\n        }\n        if(mark!=null){\n            var tile = objects[i]\n            mark.setPosition(tile['x']+22,tile['y']+22);\n            mark.setLayer(\"Card Layer\");\n            console.log(tile);\n        }\n    }\n}\n\n(function() {\n    var board_state = runtimeScene.getVariables().get(\"board_state\")._childrenArray;\n    delete_marks();\n    draw_board(board_state);\n})()",
+      "parameterObjects": "Tiles",
+      "useStrict": true,
+      "eventsSheetExpanded": true
+=======
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
             "inverted": false,
-            "value": "VarScene"
+            "value": "DepartScene"
           },
           "parameters": [
-            "winner",
-            "=",
-            "0"
+            ""
           ],
           "subInstructions": []
         }
       ],
       "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "B"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "RestartBtn"
+          ],
+          "subInstructions": []
+        },
         {
           "type": {
             "inverted": false,
@@ -937,6 +1040,22 @@
         }
       ],
       "events": []
+>>>>>>> ad455a6a72aa1ba1a20be4eed372307abfe0ce92
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "User Input",
+      "comment2": ""
     },
     {
       "disabled": false,
@@ -1027,20 +1146,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "O",
-                "Tiles.X()+22",
-                "Tiles.Y()+22",
-                "\"Card Layer\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "Montre"
               },
               "parameters": [
@@ -1095,20 +1200,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "X",
-                "Tiles.X()+20",
-                "Tiles.Y()+20",
-                "\"Card Layer\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "Cache"
               },
               "parameters": [
@@ -1141,15 +1232,139 @@
             }
           ],
           "events": []
+        }
+      ]
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Determine Winner",
+      "comment2": ""
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::JsCode",
+      "inlineCode": "//runtimeScene.setBackgroundColor(100,100,240);\n//var variables = runtimeScene.getVariables().get(\"board_state\");\nconsole.log(\"hello world\")\nvar board_state = runtimeScene.getVariables().get(\"board_state\")._childrenArray;\n\nvar winner = 0;\nfor(let i=0; i<3; i++){\n    //columns equal\n    console.log(\"columns\")\n    console.log(board_state[i]._value);\n    console.log(board_state[i+3]._value);\n    console.log(board_state[i+6]._value);\n    console.log(\"#########\")\n\n    if((board_state[i]._value == board_state[i+3]._value) && (board_state[i]._value == board_state[i+6]._value)){\n        if(board_state[i]._value != 0){\n            console.log(\"3 in a column\");\n            winner = board_state[i]._value;\n        }\n    }\n    //rows equal\n    if((board_state[3*i]._value == board_state[3*i+1]._value) && (board_state[3*i]._value == board_state[3*i+2]._value)){\n        if(board_state[i*3]._value != 0){\n           console.log(\"3 in a row\");\n           winner = board_state[i*3]._value\n        }\n    }\n}\n//diagonals\nif(((board_state[4]._value == board_state[0]._value) && (board_state[4]._value == board_state[8]._value) || \n   ((board_state[4]._value == board_state[2]._value) && (board_state[4]._value == board_state[6]._value)))){\n       if(board_state[4] != 0){\n           console.log(\"3 diagonal\");\n           winner = board_state[4]._value;\n       }\n   }\nruntimeScene.getVariables().get(\"winner\").setValue(winner);\n\nlet err = true;\nif(winner==0){\n    for(let i = 0; i<9;i++){\n        if(board_state[i]._value==0){\n            err=false;\n            break;\n        }\n    }\n    if(err){\n        runtimeScene.getVariables().get(\"winner\").setValue(3);\n    }\n}\n\nreturn;",
+      "parameterObjects": "",
+      "useStrict": true,
+      "eventsSheetExpanded": false
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "VarScene"
+          },
+          "parameters": [
+            "winner",
+            "!=",
+            "0"
+          ],
+          "subInstructions": []
         },
         {
+<<<<<<< HEAD
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::JsCode",
-          "inlineCode": "//runtimeScene.setBackgroundColor(100,100,240);\n//var variables = runtimeScene.getVariables().get(\"board_state\");\nconsole.log(\"hello world\")\nvar board_state = runtimeScene.getVariables().get(\"board_state\")._childrenArray;\n\nvar winner = 0;\nfor(let i=0; i<3; i++){\n    //columns equal\n    console.log(\"columns\")\n    console.log(board_state[i]._value);\n    console.log(board_state[i+3]._value);\n    console.log(board_state[i+6]._value);\n    console.log(\"#########\")\n\n    if((board_state[i]._value == board_state[i+3]._value) && (board_state[i]._value == board_state[i+6]._value)){\n        if(board_state[i]._value != 0){\n            console.log(\"3 in a column\");\n            winner = board_state[i]._value;\n        }\n    }\n    //rows equal\n    if((board_state[3*i]._value == board_state[3*i+1]._value) && (board_state[3*i]._value == board_state[3*i+2]._value)){\n        if(board_state[i*3]._value != 0){\n           console.log(\"3 in a row\");\n           winner = board_state[i*3]._value\n        }\n    }\n}\n//diagonals\nif(((board_state[4]._value == board_state[0]._value) && (board_state[4]._value == board_state[8]._value) || \n   ((board_state[4]._value == board_state[2]._value) && (board_state[4]._value == board_state[6]._value)))){\n       if(board_state[4] != 0){\n           console.log(\"3 diagonal\");\n           winner = board_state[4]._value;\n       }\n   }\nruntimeScene.getVariables().get(\"winner\").setValue(winner);\n\nlet err = true;\nif(winner==0){\n    for(let i = 0; i<9;i++){\n        if(board_state[i]._value==0){\n            err=false;\n            break;\n        }\n    }\n    if(err){\n        runtimeScene.getVariables().get(\"winner\").setValue(3);\n    }\n}\n\nreturn;",
+          "inlineCode": "//runtimeScene.setBackgroundColor(100,100,240);\n//var variables = runtimeScene.getVariables().get(\"board_state\");\nconsole.log(\"hello world\")\nvar board_state = runtimeScene.getVariables().get(\"board_state\")._childrenArray;\n\nvar winner = 0;\nfor(let i=0; i<3; i++){\n    //columns equal\n    console.log(\"columns\")\n    console.log(board_state[i]._value);\n    console.log(board_state[i+3]._value);\n    console.log(board_state[i+6]._value);\n    console.log(\"#########\")\n\n\n    if((board_state[i]._value == board_state[i+3]._value) && (board_state[i]._value == board_state[i+6]._value)){\n        if(board_state[i]._value != 0){\n            console.log(\"3 in a column\");\n            winner = board_state[i]._value;\n        }\n    }\n    //rows equal\n    if((board_state[3*i]._value == board_state[3*i+1]._value) && (board_state[3*i]._value == board_state[3*i+2]._value)){\n        if(board_state[i*3]._value != 0){\n           console.log(\"3 in a row\");\n           winner = board_state[i*3]._value\n        }\n    }\n}\n//diagonals\nif(((board_state[4]._value == board_state[0]._value) && (board_state[4]._value == board_state[8]._value) || \n   ((board_state[4]._value == board_state[2]._value) && (board_state[4]._value == board_state[6]._value)))){\n       if(board_state[4] != 0){\n           console.log(\"3 diagonal\");\n           winner = board_state[4]._value;\n       }\n   }\nruntimeScene.getVariables().get(\"winner\").setValue(winner);\n\nlet err = true;\nif(winner==0){\n    for(let i = 0; i<9;i++){\n        if(board_state[i]._value==0){\n            err=false;\n            break;\n        }\n    }\n    if(err){\n        runtimeScene.getVariables().get(\"winner\").setValue(3);\n    }\n}\n\nreturn;",
           "parameterObjects": "",
           "useStrict": true,
           "eventsSheetExpanded": true
+=======
+          "type": {
+            "inverted": false,
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": [],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "GameOver",
+            "+",
+            "VariableString(winner)"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Montre"
+          },
+          "parameters": [
+            "GameOver",
+            ""
+          ],
+          "subInstructions": []
+>>>>>>> ad455a6a72aa1ba1a20be4eed372307abfe0ce92
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Montre"
+          },
+          "parameters": [
+            "RestartBtn",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "winner",
+                "=",
+                "3"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "GameOver",
+                "=",
+                "\"     Game Over\n        draws\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         },
         {
           "disabled": false,
@@ -1163,8 +1378,8 @@
               },
               "parameters": [
                 "winner",
-                "!=",
-                "0"
+                "=",
+                "2"
               ],
               "subInstructions": []
             }
@@ -1173,226 +1388,92 @@
             {
               "type": {
                 "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "ScoreB",
+                "+",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "TextObject::String"
               },
               "parameters": [
-                "GameOver",
-                "+",
-                "VariableString(winner)"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
-                "GameOver",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
-                "RestartBtn",
-                ""
+                "PlayerBScore",
+                "=",
+                "VariableString(ScoreB)"
               ],
               "subInstructions": []
             }
           ],
-          "events": [
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "winner",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                }
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "winner",
+                "=",
+                "1"
               ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "ScoreA",
-                    "+",
-                    "1"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "winner",
-                    "=",
-                    "2"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "ScoreB",
-                    "+",
-                    "1"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "winner",
-                    "=",
-                    "3"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "GameOver",
-                    "=",
-                    "\"     Game Over\n        draws\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "PlayerAScore",
-                    "=",
-                    "VariableString(ScoreA)"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "PlayerBScore",
-                    "=",
-                    "VariableString(ScoreB)"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
+              "subInstructions": []
             }
-          ]
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "ScoreA",
+                "+",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "PlayerAScore",
+                "=",
+                "VariableString(ScoreA)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         }
       ]
     },
     {
       "disabled": false,
       "folded": false,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "DepartScene"
-          },
-          "parameters": [
-            ""
-          ],
-          "subInstructions": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "inverted": false,
-            "value": "Cache"
-          },
-          "parameters": [
-            "B"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "Cache"
-          },
-          "parameters": [
-            "RestartBtn"
-          ],
-          "subInstructions": []
-        }
-      ],
-      "events": []
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Reset",
+      "comment2": ""
     },
     {
       "disabled": false,
@@ -1428,25 +1509,37 @@
         {
           "type": {
             "inverted": false,
-            "value": "Cache"
-          },
-          "parameters": [
-            "RestartBtn"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
             "value": "ModVarScene"
           },
           "parameters": [
             "winner",
             "=",
-            "0"
+            "-1"
           ],
           "subInstructions": []
-        },
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "VarScene"
+          },
+          "parameters": [
+            "winner",
+            "=",
+            "-1"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
         {
           "type": {
             "inverted": false,
@@ -1460,56 +1553,10 @@
         {
           "type": {
             "inverted": false,
-            "value": "TextObject::String"
+            "value": "Cache"
           },
           "parameters": [
-            "GameOver",
-            "=",
-            "\"     Game Over\nWinner is Player \""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "AjoutObjConcern"
-          },
-          "parameters": [
-            "",
-            "O"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "Delete"
-          },
-          "parameters": [
-            "O",
-            ""
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "AjoutObjConcern"
-          },
-          "parameters": [
-            "",
-            "X"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "Delete"
-          },
-          "parameters": [
-            "X",
-            ""
+            "RestartBtn"
           ],
           "subInstructions": []
         },
@@ -1519,7 +1566,67 @@
             "value": "ModVarScene"
           },
           "parameters": [
-            "board_state[0]",
+            "board_state[8]",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "board_state[7]",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "board_state[6]",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "board_state[5]",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "board_state[4]",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "board_state[3]",
             "=",
             "0"
           ],
@@ -1555,9 +1662,65 @@
             "value": "ModVarScene"
           },
           "parameters": [
-            "board_state[3]",
+            "board_state[0]",
             "=",
             "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Delete"
+          },
+          "parameters": [
+            "X",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "AjoutObjConcern"
+          },
+          "parameters": [
+            "",
+            "X"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Delete"
+          },
+          "parameters": [
+            "O",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "AjoutObjConcern"
+          },
+          "parameters": [
+            "",
+            "O"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "GameOver",
+            "=",
+            "\"     Game Over\nWinner is Player \""
           ],
           "subInstructions": []
         },
@@ -1567,55 +1730,7 @@
             "value": "ModVarScene"
           },
           "parameters": [
-            "board_state[4]",
-            "=",
-            "0"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "board_state[5]",
-            "=",
-            "0"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "board_state[6]",
-            "=",
-            "0"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "board_state[7]",
-            "=",
-            "0"
-          ],
-          "subInstructions": []
-        },
-        {
-          "type": {
-            "inverted": false,
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "board_state[8]",
+            "winner",
             "=",
             "0"
           ],
@@ -1623,6 +1738,251 @@
         }
       ],
       "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Automate",
+      "comment2": ""
+    },
+    {
+      "disabled": true,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::ForEachChildVariable",
+      "iterableVariableName": "Preset",
+      "valueIteratorVariableName": "prespos",
+      "keyIteratorVariableName": "",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "VarScene"
+          },
+          "parameters": [
+            "board_state[prespos-1]",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Timer"
+          },
+          "parameters": [
+            "",
+            "1",
+            "\"Wait\""
+          ],
+          "subInstructions": []
+        }
+      ],
+<<<<<<< HEAD
+      "events": []
+=======
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ToggleSceneVariableAsBoolean"
+          },
+          "parameters": [
+            "Player"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"Wait\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "Player",
+                "True"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "O",
+                "prespos*100",
+                "prespos*100",
+                "\"Card Layer\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "B",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "A"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "board_state[prespos-1]",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "Player",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "X",
+                "posX[prespos%3]+20",
+                "posY[(prespos/3)-1]+20",
+                "\"Card Layer\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "B"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "A",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "board_state[prespos-1]",
+                "=",
+                "2"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
+>>>>>>> ad455a6a72aa1ba1a20be4eed372307abfe0ce92
+    },
+    {
+      "disabled": false,
+      "folded": false,
+<<<<<<< HEAD
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
+=======
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "create X and O at corrosponding pos",
+      "comment2": ""
+    },
+    {
+      "disabled": true,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::JsCode",
+      "inlineCode": "var posX = [74,276,476];\nvar posY = [196,398,592];\nvar board_state = runtimeScene.getVariables().get(\"board_state\")._childrenArray;\nfor(let i = 0; i<9; i++){\n  //  if(board_state[i]._value==1){\n        console.log(\"x:\"+i%3+\" y:\"+Math.round(i/3));\n    //}\n}\n\n",
+      "parameterObjects": "",
+      "useStrict": true,
+      "eventsSheetExpanded": false
+>>>>>>> ad455a6a72aa1ba1a20be4eed372307abfe0ce92
     }
   ],
   "layers": [
