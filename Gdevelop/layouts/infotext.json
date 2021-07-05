@@ -21,9 +21,9 @@
     "gridR": 158,
     "gridType": "rectangular",
     "gridWidth": 32,
-    "snap": true,
+    "snap": false,
     "windowMask": false,
-    "zoomFactor": 0.32999999999999985
+    "zoomFactor": 0.55
   },
   "objectsGroups": [],
   "variables": [],
@@ -47,30 +47,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 704,
+      "height": 533,
       "layer": "text",
       "locked": false,
-      "name": "Text",
+      "name": "hello",
       "persistentUuid": "5da8d75e-36c2-4932-b54e-db534a6c0c74",
       "width": 1121,
       "x": 246,
       "y": 174,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "text",
-      "locked": false,
-      "name": "arrow",
-      "persistentUuid": "5acf6530-9616-460e-b17d-6aaaed8112c3",
-      "width": 0,
-      "x": 1239,
-      "y": 2290,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -88,6 +72,134 @@
       "x": -1,
       "y": 1,
       "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 520,
+      "layer": "text",
+      "locked": false,
+      "name": "problem",
+      "persistentUuid": "74582277-ab96-4e63-b402-79bb2423993f",
+      "width": 1117,
+      "x": 247,
+      "y": 175,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 538,
+      "layer": "text",
+      "locked": false,
+      "name": "minmax",
+      "persistentUuid": "8d41e4f7-0824-4566-8a65-af251ea20e0d",
+      "width": 1137,
+      "x": 247,
+      "y": 174,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 516,
+      "layer": "text",
+      "locked": false,
+      "name": "aufgabe1",
+      "persistentUuid": "b569f172-9142-42ba-953d-958bc0fb1d7d",
+      "width": 1137,
+      "x": 244,
+      "y": 175,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 548,
+      "layer": "text",
+      "locked": false,
+      "name": "aufg1minmax",
+      "persistentUuid": "fc964038-9516-450a-bd3b-5cadfc425e14",
+      "width": 1143,
+      "x": 244,
+      "y": 175,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 545,
+      "layer": "text",
+      "locked": false,
+      "name": "aufgabe2",
+      "persistentUuid": "e74a00eb-fc6d-4db2-9e4d-730aba1966b0",
+      "width": 1142,
+      "x": 243,
+      "y": 176,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "arrow",
+      "persistentUuid": "8f413d8c-3b61-479b-b4d3-1b20e5d12fa4",
+      "width": 0,
+      "x": 1312,
+      "y": 704,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "arrow_back",
+      "persistentUuid": "ecdd27f6-ddbe-4273-bcc5-de9cd85b0072",
+      "width": 0,
+      "x": 1248,
+      "y": 704,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 226,
+      "layer": "",
+      "locked": false,
+      "name": "verstanden",
+      "persistentUuid": "7fa9bf58-2276-40de-b694-0a596827c256",
+      "width": 868,
+      "x": 340,
+      "y": 278,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -174,23 +286,72 @@
       ]
     },
     {
-      "bold": false,
-      "italic": false,
-      "name": "Text",
-      "smoothed": true,
+      "name": "arrow_back",
       "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
+      "type": "Sprite",
+      "updateIfNotVisible": false,
       "variables": [],
       "behaviors": [],
-      "string": "Hallo $SuS,\n\nDie Idiotianer wollen uns zu einem tic-tac-toe Wettbewerb herausfordern. Argh Laaangweiligg!!! Um unsere Zeit nicht zu vergeuden, benötigen wir eine effiziente Lösungsroutine für dieses Problem. Unser Ziel ist es 1000 Runden ohne Verluste zu überstehen, dann haben die Idiotianer keine Lust mehr und ziehen ab.\n\nKeine Panik. Wir schaffen das gemeinsam. Ich werde euch nun mit dem Problem vertraut machen.\n\n\n## Das Problem\n\nIhr findet vor euch ein 3x3 Gitternetz. Zwei Spieler setzen abwechselnd ihr festes Zeichen (ein Spieler Gehirne, der andere Hämmer) in ein freies Feld. Der Spieler, der als Erster drei Zeichen in eine Zeile, Spalte oder Diagonale setzen kann, gewinnt. Wenn allerdings beide Spieler optimal spielen, kann keiner gewinnen, und es kommt zu einem Unentschieden. Das heißt, alle neun Felder sind gefüllt, ohne dass ein Spieler die erforderlichen Zeichen in einer Reihe, Spalte oder Diagonalen setzen konnte.\n\n## Das MinMax Verfahren - eine generelle Lösung\n\nDie simpelste Lösung zur Ermittlung einer optimalen Strategie ist das Minmax-Verfahren. Dieses Verfahren eignet sich für alle Zwei-Personen-Nullsummenspiele mit perfekter Information. Bitte Was??? Das sind Spiele, die folgende Eigenschaften erfüllen\n\n1. zwei Spieler spielen um Punkte\n2. die Summe der Punkte ist Null. zB. Gewinn +1, Verlust -1, Unentschieden 0\n3. alle Spielinformationen bis auf zukünftige Zugentscheidungen sind bekannt\n\nDas Minimax-Verfahren ist im Kern vom speziellen Spiel unabhängig, das heißt zum Beispiel Tic-Tac-Toe und Vier gewinnt benutzen dasselbe Verfahren. Schnittstellen zum speziellen Spiel sind lediglich die beiden folgenden Programmteile:\n\n* Ermittlung welche Züge in einer konkreten Spielsituation möglich sind\n* Bewertung der Spielsituation bzgl Gewinn und Verlust in Zahlen\n\nNeben dem Minimax-Verfahren kann ein Spiel weitere spielspezifische Verfahren anwenden, beispielsweise vorberechnete Bibliotheken für Eröffnungszüge. Weil Tic-Tac-Toe ein sehr einfaches Spiel, mit nur maximal 9!=362880 möglichen Spielsituationen ist, benötigen wir hier keine Bibliotheken für gute Anfangszüge.\n\n*Hinweis*: Du fragst Dich bestimmt, was es mit dem skurilen Namen auf sich hat. Das ist schnell erklärt. Das Verfahren geht davon aus, dass es zwei Spieler gibt. Max, das ist der für den wir den besten Zug finden wollen und Min, das ist der Gegenspieler von Max. Das Verfahren bewertet Züge. Züge die gut für Max sind werden mit einem Wert > 0 bewertet Züge die schlecht für Max sind, sind gut für Min und werden mit < 0 bewertet.\n\n### Aufgabe 1: <<#TODO: Verschieden Spielsituationen verbildlichen>>\n\n1. welche Kriterien eines Zwei-Personen-Nullsummenspiels mit perfekter Information erfüllt das Tic-Tac-Toe Spiel\n2. Markiere in den angegebenen Spielsituationen alle aktuell möglichen Züge\n3. Überlege dir, wie sich verschiedene Spielsituationen in Zahlen bewerten lassen\n   1. welche Bewertungskriterien fallen Dir ein\n   2. welche Bewertungen würdest du für die Möglichen Züge vergeben\n\n## Das MinMax Verfahren - von der generellen zur allgemeinen Lösung\n\nNun, nachdem wir die individuellen Merkmalen von zwei-personen-nullsummenspielen mit perfekter Information kennen, werfen wir einen kurzen Blick auf die Funktionsweise des MinMax Verfahrens. Das Verfahren liefert eine Antwort auf die Frage: Welcher Zug ist der Beste?\n\nDamit das Verfahren die Antwort ermitteln kann, benötigt es zunächst den Zustand des Spielfeldes. Ihr könnt euch diesen Zustand als eine sortierte Menge von Zeilen einer Tabelle vorstellen, in denen Felder entweder den Zustand \"Gehirn\", \"Hammer\" oder \"frei\" beinhalten. Nun wird für jeden möglichen Zug der MinMax-Wert berechnet. Dieser Wert drückt in einer Zahl aus, wie gut oder wie schlecht der Zug ist. Der Zug mit dem Besten MinMax Wert wird das Verfahren vorschlagen.\n\nNun wirst Du Dich fragen: Wie kommt das Verfahren denn auf den MinMax Wert? Um die Antwort zu verstehen, musst du wissen, was rekursion ist. (Verweis auf kapitel über Rekursion)\n\nNun wird es interessant. Zunächst schaut sich das Verfahren an, ob überhaupt noch ein Zug möglich ist. Wenn kein Zug möglich ist, ist das Spiel unentschieden. Der MinMax-Wert ist Null. Als nächstes wird ermittelt, ob das Spiel womöglich gewonnen oder verloren ist, also 3 gleiche Symbole in einer Reihe/Spalte/Diagonale gesetzt sind. Für Gewinn merken wir uns +10 für Verlust -10 und wenn es noch offen ist, 0. Steht Gewinn oder Verlust schon fest, ist der MinMax Wert klar.\n\nSteht er nicht fest, wenden wir rekursion an. Dieses mächtige Konzept ist für ungeübte oft schwer zu verstehen. Ähnlich wie beim spielen mit Matroschka von Schwesterchen Russland, wenden wir das MinMax Verfahren auf alle Zugmöglichkeiten für den darauf folgenden Zug des Gegners an. Daraufhin öffnen wir die nächste Matroschka und wiederholen solange, bis wir alle Spielsituationen betrachtet haben. Der MaxMin-Wert unter Betrachtung aller Spielsituation bezieht sich auf die Jeweils besten Züge von uns und dem Gegner.\n\n### Aufgabe 2:\n\nÜberlege dir, wie sich folgende Sachverhalte logisch ausdrücken lassen, sodass sie von einer Maschine zu *wahr* oder *falsch* ausgewertet werden können.\n\n* Terminalbedingung (sind noch Züge möglich?)\n* Bewertung der Spielsituation (Gewonnen/Verloren)\n\nPrima! Das **Wichtigste nochmal im Überblick**:\n\n* das Verfahren wird auf den Zustand eines konkreten Spielfeldes angewandt.\n* das Verfahren wendet das minMax Prinzip auf jeden noch möglichen Zug an\n  1. MinMax funktioniert rekursiv\n  2. MinMax liefert eine Bewertung einer Spielsituation in Zahlen unter Berücksichtigung aller möglichen Folgesituationen\n  3. MinMax benötigt einen Bewertungsmechanismus, um eine konkrete Gewinn-/Verlustsituation in Zahlen zu bewerten.\n  4. MinMax benötigt eine Terminalbedingung, die aussagt, ob noch Züge möglich sind",
-      "font": "",
-      "characterSize": 20,
-      "color": {
-        "b": 87,
-        "g": 124,
-        "r": 35
-      }
+      "animations": [
+        {
+          "name": "NewObject",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject-1-7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "clicked",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "arrow-1-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "arrow",
@@ -299,6 +460,139 @@
           ]
         }
       ]
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "hello",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Hallo $SuS,\n\nDie Idiotianer wollen uns zu einem tic-tac-toe Wettbewerb herausfordern. Argh Laaangweiligg!!! Um unsere Zeit nicht zu vergeuden, benötigen wir eine effiziente Lösungsroutine für dieses Problem. Unser Ziel ist es 1000 Runden ohne Verluste zu überstehen, dann haben die Idiotianer keine Lust mehr und ziehen ab.\n\nKeine Panik. Wir schaffen das gemeinsam. Ich werde euch nun mit dem Problem vertraut machen.",
+      "font": "",
+      "characterSize": 20,
+      "color": {
+        "b": 54,
+        "g": 38,
+        "r": 39
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "problem",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "## Das Problem\n\nIhr findet vor euch ein 3x3 Gitternetz. Zwei Spieler setzen abwechselnd ihr festes Zeichen (ein Spieler Gehirne, der andere Hämmer) in ein freies Feld. Der Spieler, der als Erster drei Zeichen in eine Zeile, Spalte oder Diagonale setzen kann, gewinnt. Wenn allerdings beide Spieler optimal spielen, kann keiner gewinnen, und es kommt zu einem Unentschieden. Das heißt, alle neun Felder sind gefüllt, ohne dass ein Spieler die erforderlichen Zeichen in einer Reihe, Spalte oder Diagonalen setzen konnte.",
+      "font": "",
+      "characterSize": 20,
+      "color": {
+        "b": 54,
+        "g": 38,
+        "r": 39
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "minmax",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "## Das MinMax Verfahren - eine generelle Lösung\n\nDie simpelste Lösung zur Ermittlung einer optimalen Strategie ist das Minmax-Verfahren. Dieses Verfahren eignet sich für alle Zwei-Personen-Nullsummenspiele mit perfekter Information. Bitte Was??? Das sind Spiele, die folgende Eigenschaften erfüllen\n\n1. zwei Spieler spielen um Punkte\n2. die Summe der Punkte ist Null. zB. Gewinn +1, Verlust -1, Unentschieden 0\n3. alle Spielinformationen bis auf zukünftige Zugentscheidungen sind bekannt\n\nDas Minimax-Verfahren ist im Kern vom speziellen Spiel unabhängig, das heißt zum Beispiel Tic-Tac-Toe und Vier gewinnt benutzen dasselbe Verfahren. Schnittstellen zum speziellen Spiel sind lediglich die beiden folgenden Programmteile:\n\n* Ermittlung welche Züge in einer konkreten Spielsituation möglich sind\n* Bewertung der Spielsituation bzgl Gewinn und Verlust in Zahlen\n\nNeben dem Minimax-Verfahren kann ein Spiel weitere spielspezifische Verfahren anwenden, beispielsweise vorberechnete Bibliotheken für Eröffnungszüge. Weil Tic-Tac-Toe ein sehr einfaches Spiel, mit nur maximal 9!=362880 möglichen Spielsituationen ist, benötigen wir hier keine Bibliotheken für gute Anfangszüge.\n\n*Hinweis*: Du fragst Dich bestimmt, was es mit dem skurilen Namen auf sich hat. Das ist schnell erklärt. Das Verfahren geht davon aus, dass es zwei Spieler gibt. Max, das ist der für den wir den besten Zug finden wollen und Min, das ist der Gegenspieler von Max. Das Verfahren bewertet Züge. Züge die gut für Max sind werden mit einem Wert > 0 bewertet Züge die schlecht für Max sind, sind gut für Min und werden mit < 0 bewertet.",
+      "font": "",
+      "characterSize": 20,
+      "color": {
+        "b": 54,
+        "g": 38,
+        "r": 39
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "aufgabe1",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "### Aufgabe 1: <<#TODO: Verschieden Spielsituationen verbildlichen>>\n\n1. welche Kriterien eines Zwei-Personen-Nullsummenspiels mit perfekter Information erfüllt das Tic-Tac-Toe Spiel\n2. Markiere in den angegebenen Spielsituationen alle aktuell möglichen Züge\n3. Überlege dir, wie sich verschiedene Spielsituationen in Zahlen bewerten lassen\n   1. welche Bewertungskriterien fallen Dir ein\n   2. welche Bewertungen würdest du für die Möglichen Züge vergeben\n",
+      "font": "",
+      "characterSize": 20,
+      "color": {
+        "b": 54,
+        "g": 38,
+        "r": 39
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "aufg1minmax",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "## Das MinMax Verfahren - von der generellen zur allgemeinen Lösung\n\nNun, nachdem wir die individuellen Merkmalen von zwei-personen-nullsummenspielen mit perfekter Information kennen, werfen wir einen kurzen Blick auf die Funktionsweise des MinMax Verfahrens. Das Verfahren liefert eine Antwort auf die Frage: Welcher Zug ist der Beste?\n\nDamit das Verfahren die Antwort ermitteln kann, benötigt es zunächst den Zustand des Spielfeldes. Ihr könnt euch diesen Zustand als eine sortierte Menge von Zeilen einer Tabelle vorstellen, in denen Felder entweder den Zustand \"Gehirn\", \"Hammer\" oder \"frei\" beinhalten. Nun wird für jeden möglichen Zug der MinMax-Wert berechnet. Dieser Wert drückt in einer Zahl aus, wie gut oder wie schlecht der Zug ist. Der Zug mit dem Besten MinMax Wert wird das Verfahren vorschlagen.\n\nNun wirst Du Dich fragen: Wie kommt das Verfahren denn auf den MinMax Wert? Um die Antwort zu verstehen, musst du wissen, was rekursion ist. (Verweis auf kapitel über Rekursion)\n\nNun wird es interessant. Zunächst schaut sich das Verfahren an, ob überhaupt noch ein Zug möglich ist. Wenn kein Zug möglich ist, ist das Spiel unentschieden. Der MinMax-Wert ist Null. Als nächstes wird ermittelt, ob das Spiel womöglich gewonnen oder verloren ist, also 3 gleiche Symbole in einer Reihe/Spalte/Diagonale gesetzt sind. Für Gewinn merken wir uns +10 für Verlust -10 und wenn es noch offen ist, 0. Steht Gewinn oder Verlust schon fest, ist der MinMax Wert klar.\n\nSteht er nicht fest, wenden wir rekursion an. Dieses mächtige Konzept ist für ungeübte oft schwer zu verstehen. Ähnlich wie beim spielen mit Matroschka von Schwesterchen Russland, wenden wir das MinMax Verfahren auf alle Zugmöglichkeiten für den darauf folgenden Zug des Gegners an. Daraufhin öffnen wir die nächste Matroschka und wiederholen solange, bis wir alle Spielsituationen betrachtet haben. Der MaxMin-Wert unter Betrachtung aller Spielsituation bezieht sich auf die Jeweils besten Züge von uns und dem Gegner.",
+      "font": "",
+      "characterSize": 20,
+      "color": {
+        "b": 54,
+        "g": 38,
+        "r": 39
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "aufgabe2",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "### Aufgabe 2:\n\nÜberlege dir, wie sich folgende Sachverhalte logisch ausdrücken lassen, sodass sie von einer Maschine zu *wahr* oder *falsch* ausgewertet werden können.\n\n* Terminalbedingung (sind noch Züge möglich?)\n* Bewertung der Spielsituation (Gewonnen/Verloren)\n\nPrima! Das **Wichtigste nochmal im Überblick**:\n\n* das Verfahren wird auf den Zustand eines konkreten Spielfeldes angewandt.\n* das Verfahren wendet das minMax Prinzip auf jeden noch möglichen Zug an\n  1. MinMax funktioniert rekursiv\n  2. MinMax liefert eine Bewertung einer Spielsituation in Zahlen unter Berücksichtigung aller möglichen Folgesituationen\n  3. MinMax benötigt einen Bewertungsmechanismus, um eine konkrete Gewinn-/Verlustsituation in Zahlen zu bewerten.\n  4. MinMax benötigt eine Terminalbedingung, die aussagt, ob noch Züge möglich sind",
+      "font": "",
+      "characterSize": 20,
+      "color": {
+        "b": 54,
+        "g": 38,
+        "r": 39
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "verstanden",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Hast du alles verstanden?\n\n\nIch lese nochmal nach!          Kann los gehen!\n",
+      "font": "",
+      "characterSize": 40,
+      "color": {
+        "b": 54,
+        "g": 38,
+        "r": 39
+      }
     }
   ],
   "events": [
@@ -434,7 +728,7 @@
           "parameters": [
             "",
             "<",
-            "Text.Height()",
+            "hello.Height()",
             "\"text\"",
             ""
           ],
@@ -632,12 +926,81 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Scene"
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "text",
+                "+",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "arrow_back",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ChangeAnimation"
+          },
+          "parameters": [
+            "arrow_back",
+            "=",
+            "1"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonReleased"
               },
               "parameters": [
                 "",
-                "\"overworld\"",
-                ""
+                "Left"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "text",
+                "-",
+                "1"
               ],
               "subInstructions": []
             }
@@ -675,6 +1038,947 @@
             "arrow",
             "=",
             "0"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "arrow_back",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ChangeAnimation"
+          },
+          "parameters": [
+            "arrow_back",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "text",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "problem"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "minmax"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "aufgabe1"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "aufg1minmax"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "aufgabe2"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "verstanden"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "arrow",
+            "=",
+            "SceneWindowWidth()*0.85",
+            "=",
+            "SceneWindowHeight()*0.78"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "arrow_back",
+            "=",
+            "SceneWindowWidth()*0.8",
+            "=",
+            "SceneWindowHeight()*0.78"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "VarScene"
+          },
+          "parameters": [
+            "text",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Montre"
+          },
+          "parameters": [
+            "hello",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "problem"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "aufgabe2"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "aufg1minmax"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "aufgabe1"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "minmax"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "verstanden"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "VarScene"
+          },
+          "parameters": [
+            "text",
+            "=",
+            "1"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Montre"
+          },
+          "parameters": [
+            "problem",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "aufgabe2"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "aufg1minmax"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "aufgabe1"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "hello"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "minmax"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "verstanden"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "VarScene"
+          },
+          "parameters": [
+            "text",
+            "=",
+            "2"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "problem"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "aufgabe2"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "aufg1minmax"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "aufgabe1"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "hello"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Montre"
+          },
+          "parameters": [
+            "minmax",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "verstanden"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "VarScene"
+          },
+          "parameters": [
+            "text",
+            "=",
+            "3"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "problem"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "aufgabe2"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "aufg1minmax"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Montre"
+          },
+          "parameters": [
+            "aufgabe1",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "hello"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "minmax"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "verstanden"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "VarScene"
+          },
+          "parameters": [
+            "text",
+            "=",
+            "4"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "problem"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "aufgabe2"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Montre"
+          },
+          "parameters": [
+            "aufg1minmax",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "aufgabe1"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "hello"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "minmax"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "verstanden"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "VarScene"
+          },
+          "parameters": [
+            "text",
+            "=",
+            "5"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "problem"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Montre"
+          },
+          "parameters": [
+            "aufgabe2",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "aufg1minmax"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "aufgabe1"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "hello"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "minmax"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "verstanden"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "arrow_back",
+            "=",
+            "SceneWindowWidth()*0.8",
+            "=",
+            "SceneWindowHeight()*0.78"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "arrow",
+            "=",
+            "SceneWindowWidth()*0.85",
+            "=",
+            "SceneWindowHeight()*0.78"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "VarScene"
+          },
+          "parameters": [
+            "text",
+            "=",
+            "6"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "problem"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "aufgabe2"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "aufg1minmax"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "aufgabe1"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "hello"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Cache"
+          },
+          "parameters": [
+            "minmax"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Montre"
+          },
+          "parameters": [
+            "verstanden",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "arrow",
+            "=",
+            "SceneWindowWidth()/2 +200",
+            "=",
+            "SceneWindowHeight()*0.6"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "arrow_back",
+            "=",
+            "SceneWindowWidth()/2 -200",
+            "=",
+            "SceneWindowHeight()*0.6"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "TextObject::SetTextAlignment"
+          },
+          "parameters": [
+            "verstanden",
+            "\"center\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "VarScene"
+          },
+          "parameters": [
+            "text",
+            "=",
+            "-1"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "text",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "VarScene"
+          },
+          "parameters": [
+            "text",
+            "=",
+            "7"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"overworld\"",
+            ""
           ],
           "subInstructions": []
         }

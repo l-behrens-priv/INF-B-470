@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.74
+    "zoomFactor": 0.6599999999999999
   },
   "objectsGroups": [
     {
@@ -11010,6 +11010,70 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "skinshop",
+      "persistentUuid": "1270e74c-12b9-46c2-9a06-7d6496c5b404",
+      "width": 0,
+      "x": 1088,
+      "y": 480,
+      "zOrder": 4991,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "npc",
+      "persistentUuid": "240f78c2-e18c-41c1-b212-683aaef4f749",
+      "width": 0,
+      "x": 416,
+      "y": 480,
+      "zOrder": 5001,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "npc",
+      "persistentUuid": "b330c98f-0853-4ee1-ae7f-f5b8e814d32c",
+      "width": 0,
+      "x": -256,
+      "y": 544,
+      "zOrder": 5002,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "npc",
+      "persistentUuid": "ef1b277b-51d2-4aeb-80e1-d7529b507fea",
+      "width": 0,
+      "x": 288,
+      "y": 1024,
+      "zOrder": 5003,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -12659,6 +12723,45 @@
       "zoneRadius": 40,
       "variables": [],
       "behaviors": []
+    },
+    {
+      "name": "skinshop",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "skinshop",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "skinshop-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -14728,6 +14831,42 @@
           "parameters": [
             "sprechfeld",
             "\"tuerfeld\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "player",
+            "skinshop",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "player",
+            "skinshop",
+            ""
           ],
           "subInstructions": []
         }

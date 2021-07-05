@@ -4123,6 +4123,15 @@
         "name": "red-1.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "skinshop-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "skinshop-1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
