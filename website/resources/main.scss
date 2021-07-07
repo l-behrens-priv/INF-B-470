@@ -94,7 +94,7 @@ header {
       max-width: 1100px;
       margin: auto;
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
       list-style: none;
       padding: 0;
       li {
@@ -141,21 +141,48 @@ header {
 
 main {
   min-height: calc(100vh - 6rem - .5rem);
-  padding: 4rem 1rem;
-  display: grid;
-  max-width: 1100px;
-  margin: auto;
-  align-items: center;
 
-  &.startpage {
+  section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: calc((100vw - 1100px)/2);
+    padding-right: calc((100vw - 1100px)/2);
+  }
+
+  .space-wrapper {
+    display: grid;
     grid-template: auto / 2fr 1fr;
+    align-items: center;
+  }
+
+  .white-wrapper {
+    background-color: $text-light;
+    h1 {
+      color: $background-color;
+      text-align: center;
+    }
+    .card-wrapper {
+      margin-top: 2rem;
+      display: grid;
+      grid-template: auto / repeat(3, 1fr);
+      grid-gap: 1rem;
+    }
+    .card {
+      padding: 1rem;
+      background-color: $text-color;
+      border-radius: .5rem;
+
+      h2, p {
+        color: $background-color;
+      }
+    }
+  }
+
+  h1 {
+    font-size: 3rem;
   }
 
   article {
-    h1 {
-      font-size: 3rem;
-    }
-
     p {
       font-size: 1.5rem;
       color: $text-light;
