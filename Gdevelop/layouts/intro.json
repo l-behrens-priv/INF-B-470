@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.5399999999999996
+    "zoomFactor": 0.41999999999999965
   },
   "objectsGroups": [],
   "variables": [],
@@ -235,8 +235,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 500,
+                    "y": 200
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -252,8 +252,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 500,
+                    "y": 200
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -269,8 +269,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 500,
+                    "y": 200
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -286,8 +286,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 500,
+                    "y": 200
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -303,8 +303,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 500,
+                    "y": 200
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -320,8 +320,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 500,
+                    "y": 200
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -337,8 +337,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 500,
+                    "y": 200
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -354,8 +354,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 500,
+                    "y": 200
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -371,8 +371,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 500,
+                    "y": 200
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -388,8 +388,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 500,
+                    "y": 200
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -405,8 +405,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 500,
+                    "y": 200
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -422,8 +422,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 500,
+                    "y": 200
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -439,8 +439,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 500,
+                    "y": 200
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -456,8 +456,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 500,
+                    "y": 200
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -473,8 +473,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 500,
+                    "y": 200
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -502,8 +502,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 500,
+                    "y": 200
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -541,8 +541,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 500,
+                    "y": 200
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -558,8 +558,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 500,
+                    "y": 200
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -608,8 +608,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 500,
+                    "y": 200
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -625,8 +625,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 500,
+                    "y": 200
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -654,8 +654,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 500,
+                    "y": 200
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -689,7 +689,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Chris_Grafiken\\CJ_BGOutro-1-0.png",
+                  "image": "Chris_Grafiken\\BGOutro-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -733,8 +733,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 500,
+                    "y": 200
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -750,8 +750,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 500,
+                    "y": 200
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -767,8 +767,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 500,
+                    "y": 200
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -784,8 +784,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 500,
+                    "y": 200
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -801,8 +801,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 500,
+                    "y": 200
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -818,8 +818,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 500,
+                    "y": 200
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -835,8 +835,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 500,
+                    "y": 200
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -852,8 +852,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 500,
+                    "y": 200
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -869,8 +869,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 500,
+                    "y": 200
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -886,8 +886,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 500,
+                    "y": 200
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -903,8 +903,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 500,
+                    "y": 200
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -920,8 +920,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 500,
+                    "y": 200
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -937,8 +937,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 500,
+                    "y": 200
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -954,8 +954,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 500,
+                    "y": 200
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -971,8 +971,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 500,
+                    "y": 200
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -988,8 +988,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 500,
+                    "y": 200
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1005,8 +1005,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 500,
+                    "y": 200
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1034,8 +1034,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 500,
+                    "y": 200
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1073,8 +1073,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 500,
+                    "y": 200
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1090,8 +1090,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 500,
+                    "y": 200
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1140,8 +1140,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 500,
+                    "y": 200
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1157,8 +1157,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 500,
+                    "y": 200
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1203,7 +1203,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Chris_Grafiken\\CJ_BG_Outro_2-1-0.png",
+                  "image": "Chris_Grafiken\\BG_Outro_2-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1239,6 +1239,14 @@
           "parameters": [
             ""
           ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": [],
           "subInstructions": []
         }
       ],
@@ -1347,6 +1355,99 @@
             "Intro_12",
             "=",
             "1"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "Intro_1",
+            "=",
+            "SceneWindowWidth()/2",
+            "=",
+            "SceneWindowHeight()/2"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "punkte",
+            "=",
+            "SceneWindowWidth()/2",
+            "=",
+            "SceneWindowHeight()/2"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "punkte_hinten",
+            "=",
+            "SceneWindowWidth()/2",
+            "=",
+            "SceneWindowHeight()/2"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "Intro_12",
+            "=",
+            "SceneWindowWidth()/2",
+            "=",
+            "SceneWindowHeight()/2"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "punkte_2",
+            "=",
+            "SceneWindowWidth()/2",
+            "=",
+            "SceneWindowHeight()/2"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "punkte_hinten_2",
+            "=",
+            "SceneWindowWidth()/2",
+            "=",
+            "SceneWindowHeight()/2"
           ],
           "subInstructions": []
         }

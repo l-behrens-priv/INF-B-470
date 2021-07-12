@@ -1,0 +1,3971 @@
+{
+  "b": 209,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "Einf_252hrung_952",
+  "name": "Einführung_2",
+  "oglFOV": 90,
+  "oglZFar": 500,
+  "oglZNear": 1,
+  "r": 209,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 209,
+  "uiSettings": {
+    "grid": false,
+    "gridB": 255,
+    "gridG": 180,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridR": 158,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "snap": true,
+    "windowMask": false,
+    "zoomFactor": 0.3999999999999991
+  },
+  "objectsGroups": [
+    {
+      "name": "Group",
+      "objects": [
+        {
+          "name": "DPadBottom"
+        },
+        {
+          "name": "DPadRight"
+        },
+        {
+          "name": "DPadLeft"
+        },
+        {
+          "name": "DPadTop"
+        }
+      ]
+    }
+  ],
+  "variables": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "BG",
+      "persistentUuid": "ffa05909-9d5a-48fa-8d5c-9e9a0f4498d6",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 900,
+      "layer": "all",
+      "locked": false,
+      "name": "All",
+      "persistentUuid": "3de06dc3-4e86-4c98-a714-4be1aa5b88b2",
+      "width": 1600,
+      "x": 0,
+      "y": 0,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 429,
+      "layer": "captain",
+      "locked": false,
+      "name": "captain",
+      "persistentUuid": "6cd828ba-b67c-4401-8544-d4ab92651cca",
+      "width": 292,
+      "x": 210,
+      "y": 387,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "all",
+      "locked": false,
+      "name": "white",
+      "persistentUuid": "e6873899-10f0-4288-a726-8491279b5c20",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 674,
+      "layer": "",
+      "locked": false,
+      "name": "Window",
+      "persistentUuid": "b225e9ff-a641-4a5e-a9b1-b201fc7778db",
+      "width": 347,
+      "x": 1106,
+      "y": 108,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 357,
+      "layer": "",
+      "locked": false,
+      "name": "Sprechblase",
+      "persistentUuid": "41f2382e-1af4-4055-8bf9-f267a7715828",
+      "width": 468,
+      "x": 265,
+      "y": 56,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "d1",
+      "locked": false,
+      "name": "d1",
+      "persistentUuid": "c431aa22-c1ec-4dbf-ad60-5e135ef8c0ec",
+      "width": 313,
+      "x": 338,
+      "y": 169,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 118,
+      "layer": "d2",
+      "locked": false,
+      "name": "d2",
+      "persistentUuid": "dee9d842-3518-4b7b-925f-43a3c4b4be9b",
+      "width": 330,
+      "x": 338,
+      "y": 156,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 173,
+      "layer": "d3",
+      "locked": false,
+      "name": "d3",
+      "persistentUuid": "c3f3140b-2cdd-4d01-a8cd-36ad2514a233",
+      "width": 260,
+      "x": 338,
+      "y": 130,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 149,
+      "layer": "d4",
+      "locked": false,
+      "name": "d4",
+      "persistentUuid": "e01f0f8b-5829-4ad1-9630-f98c5dbbad1c",
+      "width": 334,
+      "x": 338,
+      "y": 134,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 135,
+      "layer": "d5",
+      "locked": false,
+      "name": "d5",
+      "persistentUuid": "d0cbf48d-1b92-4fe7-ab82-a6e88cb63831",
+      "width": 312,
+      "x": 338,
+      "y": 148,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 147,
+      "layer": "d6",
+      "locked": false,
+      "name": "d6",
+      "persistentUuid": "2844b294-5010-427a-9974-3c3047ab572a",
+      "width": 348,
+      "x": 338,
+      "y": 140,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 99,
+      "layer": "d7",
+      "locked": false,
+      "name": "d7",
+      "persistentUuid": "54d5120c-cf37-4bf1-bac1-20bb672fb899",
+      "width": 232,
+      "x": 368,
+      "y": 158,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 200,
+      "layer": "d9",
+      "locked": false,
+      "name": "d9",
+      "persistentUuid": "2527e28f-8b55-4193-9329-a885f03a9267",
+      "width": 343,
+      "x": 338,
+      "y": 118,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "erklaer",
+      "locked": false,
+      "name": "DPadTop",
+      "persistentUuid": "a41ba0fe-6e43-4e10-8efa-a649c1b02a39",
+      "width": 0,
+      "x": 1264,
+      "y": 555,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "erklaer",
+      "locked": false,
+      "name": "DPadRight",
+      "persistentUuid": "884a77ed-fa95-46f9-9e91-7132e642e922",
+      "width": 0,
+      "x": 1295,
+      "y": 602,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "erklaer",
+      "locked": false,
+      "name": "DPadBottom",
+      "persistentUuid": "6cb444e9-8ff8-4045-9ac9-e9af503d6a72",
+      "width": 0,
+      "x": 1264,
+      "y": 634,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "erklaer",
+      "locked": false,
+      "name": "DPadLeft",
+      "persistentUuid": "ffbe389a-8ef9-45b9-847e-7602bd4aba1e",
+      "width": 0,
+      "x": 1219,
+      "y": 602,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 159,
+      "layer": "erklaer",
+      "locked": false,
+      "name": "player",
+      "persistentUuid": "1e805b65-8564-4166-8167-abcbf6fdb922",
+      "width": 108,
+      "x": 1203,
+      "y": 390,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 69,
+      "layer": "d10",
+      "locked": false,
+      "name": "d10",
+      "persistentUuid": "7c77b511-1c32-4912-82e3-451cabc56c57",
+      "width": 283,
+      "x": 338,
+      "y": 187,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 163,
+      "layer": "d11",
+      "locked": false,
+      "name": "d11",
+      "persistentUuid": "b34f634a-7ce2-4da4-86f4-1296d6cb3dec",
+      "width": 382,
+      "x": 318,
+      "y": 133,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 124,
+      "layer": "d12",
+      "locked": false,
+      "name": "d12",
+      "persistentUuid": "aa682f62-18cf-4275-bb7f-0cb56ccf0497",
+      "width": 312,
+      "x": 332,
+      "y": 153,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 127,
+      "layer": "menu",
+      "locked": false,
+      "name": "menu",
+      "persistentUuid": "f5f5dfdd-9977-4182-8858-75610a0f057e",
+      "width": 253,
+      "x": 1158,
+      "y": 381,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 163,
+      "layer": "d13",
+      "locked": false,
+      "name": "d13",
+      "persistentUuid": "e17846b7-f29f-4993-a9d2-15618f488b1d",
+      "width": 357,
+      "x": 329,
+      "y": 141,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "outro",
+      "locked": false,
+      "name": "Outro",
+      "persistentUuid": "af4c377c-ab5c-49b6-a135-61455099e4fb",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 93,
+      "layer": "d14",
+      "locked": false,
+      "name": "d14",
+      "persistentUuid": "fc4c91c6-82ad-41a7-833d-3107d3d6fe62",
+      "width": 231,
+      "x": 390,
+      "y": 163,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "all",
+      "locked": false,
+      "name": "Intro_skip",
+      "persistentUuid": "8157af66-ed6e-4132-83ec-be03dbbd58f4",
+      "width": 0,
+      "x": 167,
+      "y": 42,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "name": "BG",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewObject",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject-1-13.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "All",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "spacefield_a-0002.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "captain",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewObject",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"NewObject\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":800,\\\"width\\\":544,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,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\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1 (imported)\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,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IECgXUABaSc3kAABAgQIEFBA3AABAgQIECDQLqCAtJMbSIAAAQIECCggboAAAQIECBBoF1BA2skNJECAAAECBBQQN0CAAAECBAi0Cygg7eQGEiBAgAABAgqIGyBAgAABAgTaBRSQdnIDCRAgQIAAAQXEDRAgQIAAAQLtAgpIO7mBBAgQIECAgALiBggQIECAAIF2AQWkndxAAgQIECBAQAFxAwQIECBAgEC7gALSTm4gAQIECBAgoIC4AQIECBAgQKBdQAFpJzeQAAECBAgQUEDcAAECBAgQINAuoIC0kxtIgAABAgQIKCBugAABAgQIEGgXUEDayQ0kQIAAAQIEFBA3QIAAAQIECLQLKCDt5AYSIECAAAECCogbIECAAAECBNoFFJB2cgMJECBAgAABBcQNECBAgAABAu0CCkg7uYEECBAgQICAAuIGCBAgQIAAgXYBBaSd3EACBAgQIEBAAXEDBAgQIECAQLuAAtJObiABAgQIECCggLgBAgQIECBAoF1AAWknN5AAAQIECBBQQNwAAQIECBAg0C6ggLSTG0iAAAECBAgoIG6AAAECBAgQaBdQQNrJDSRAgAABAgQUEDdAgAABAgQItAsoIO3kBhIgQIAAAQIKiBsgQIAAAQIE2gUUkHZyAwkQIECAAAEFxA0QIECAAAEC7QIKSDu5gQQIECBAgIAC4gYIECBAgACBdgEFpJ3cQAIECBAgQEABcQMECBAgQIBAu4AC0k5uIAECBAgQIKCAuAECBAgQIECgXUABaSc3kAABAgQIEFBA3AABAgQIECDQLqCAtJMbSIAAAQIECCggboAAAQIECBBoF1BA2skNJECAAAECBBQQN0CAAAECBAi0Cygg7eQGEiBAgAABAgqIGyBAgAABAgTaBRSQdnIDCRAgQIAAAQXEDRAgQIAAAQLtAgpIO7mBBAgQIECAgALiBggQIECAAIF2AQWkndxAAgQIECBAQAFxAwQIECBAgEC7gALSTm4gAQIECBAgoIC4AQIECBAgQKBdQAFpJzeQAAECBAgQUEDcAAECBAgQINAuoIC0kxtIgAABAgQIKCBugAABAgQIEGgXUEDayQ0kQIAAAQIEFBA3QIAAAQIECLQLKCDt5AYSIECAAAECCogbIECAAAECBNoFFJB2cgMJECBAgAABBcQNECBAgAABAu0CCkg7uYEECBAgQICA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gAABAuECCkj4AsUnQIAAAQKJAgpI4tZkJkCAAAEC4QIKSPgCxSdAgAABAokCCkji1mQmQIAAAQLhAgpI+ALFJ0CAAAECiQIKSOLWZCZAgAABAuECCkj4AsUnQIAAAQKJAgpI4tZkJkCAAAEC4QIKSPgCxSdAgAABAokCCkji1mQmQIAAAQLhAgpI+ALFJ0CAAAECiQIKSOLWZCZAgAABAuECCkj4AsUnQIAAAQKJAgpI4tZkJkCAAAEC4QIKSPgCxSdAgAABAokCCkji1mQmQIAAAQLhAgpI+ALFJ0CAAAECiQIKSOLWZCZAgAABAuECCkj4AsUnQIAAAQKJAgpI4tZkJkCAAAEC4QIKSPgCxSdAgAABAokCCkji1mQmQIAAAQLhAgpI+ALFJ0CAAAECiQIKSOLWZCZAgAABAuECCkj4AsUnQIAAAQKJAgpI4tZkJkCAAAEC4QIKSPgCxSdAgAABAokCCkji1mQmQIAAAQLhAgpI+ALFJ0CAAAECiQIKSOLWZCZAgAABAuECCkj4AsUnQIAAAQKJAgpI4tZkJkCAAAEC4QIKSPgCxSdAgAABAokCCkji1mQmQIAAAQLhAgpI+ALFJ0CAAAECiQIKSOLWZCZAgAABAuECCkj4AsUnQIAAAQKJAgpI4tZkJkCAAAEC4QIKSPgCxSdAgAABAokCCkji1mQmQIAAAQLhAgpI+ALFJ0CAAAECiQIKSOLWZCZAgAABAuECCkj4AsUnQIAAAQKJAgpI4tZkJkCAAAEC4QIKSPgCxSdAgAABAokCCkji1mQmQIAAAQLhAgpI+ALFJ0CAAAECiQIKSOLWZCZAgAABAuECCkj4AsUnQIAAAQKJAgpI4tZkJkCAAAEC4QIKSPgCxSdAgAABAokCCkji1mQmQIAAAQLhAgpI+ALFJ0CAAAECiQIKSOLWZCZAgAABAuECCkj4AsUnQIAAAQKJAgpI4tZkJkCAAAEC4QIKSPgCxSdAgAABAokCCkji1mQmQIAAAQLhAgpI+ALFJ0CAAAECiQIKSOLWZCZAgAABAuECCkj4AsUnQIAAAQKJAgpI4tZkJkCAAAEC4QIKSPgCxSdAgAABAokCCkji1mQmQIAAAQLhAgpI+ALFJ0CAAAECiQIKSOLWZCZAgAABAuECCkj4AsUnQIAAAQKJAgpI4tZkJkCAAAEC4QIKSPgCxSdAgAABAokCCkji1mQmQIAAAQLhAgpI+ALFJ0CAAAECiQIKSOLWZCZAgAABAuECCkj4AsUnQIAAAQKJAgpI4tZkJkCAAAEC4QIKSPgCxSdAgAABAokCCkji1mQmQIAAAQLhAgpI+ALFJ0CAAAECiQIKSOLWZCZAgAABAuECCkj4AsUnQIAAAQKJAgpI4tZkJkCAAAEC4QIKSPgCxSdAgAABAokCCkji1mQmQIAAAQLhAgpI+ALFJ0CAAAECiQIKSOLWZCZAgAABAuECCkj4AsUnQIAAAQKJAgpI4tZkJkCAAAEC4QIKSPgCxSdAgAABAokCCkji1mQmQIAAAQLhAgpI+ALFJ0CAAAECiQIKSOLWZCZAgAABAuECCkj4AsUnQIAAAQKJAgpI4tZkJkCAAAEC4QIKSPgCxSdAgAABAokCCkji1mQmQIAAAQLhAgpI+ALFJ0CAAAECiQIKSOLWZCZAgAABAuECCkj4AsUnQIAAAQKJAgpI4tZkJkCAAAEC4QIKSPgCxSdAgAABAokCCkji1mQmQIAAAQLhAgpI+ALFJ0CAAAECiQIKSOLWZCZAgAABAuECCkj4AsUnQIAAAQKJAgpI4tZkJkCAAAEC4QIKSPgCxSdAgAABAokCCkji1mQmQIAAAQLhAgpI+ALFJ0CAAAECiQIKSOLWZCZAgAABAuECCkj4AsUnQIAAAQKJAgpI4tZkJkCAAAEC4QIKSPgCxSdAgAABAokCCkji1mQmQIAAAQLhAgpI+ALFJ0CAAAECiQIKSOLWZCZAgAABAuECCkj4AsUnQIAAAQKJAgpI4tZkJkCAAAEC4QIKSPgCxSdAgAABAokCCkji1mQmQIAAAQLhAgpI+ALFJ0CAAAECiQIKSOLWZCZAgAABAuECCkj4AsUnQIAAAQKJAgpI4tZkJkCAAAEC4QIKSPgCxSdAgAABAokCCkji1mQmQIAAAQLhAgpI+ALFJ0CAAAECiQIKSOLWZCZAgAABAuECCkj4AsUnQIAAAQKJAgpI4tZkJkCAAAEC4QIKSPgCxSdAgAABAokCCkji1mQmQIAAAQLhAgpI+ALFJ0CAAAECiQIKSOLWZCZAgAABAuECCkj4AsUnQIAAAQKJAgpI4tZkJkCAAAEC4QIKSPgCxSdAgAABAokCCkji1mQmQIAAAQLhAgpI+ALFJ0CAAAECiQIKSOLWZCZAgAABAuECCkj4AsUnQIAAAQKJAgpI4tZkJkCAAAEC4QIKSPgCxSdAgAABAokCCkji1mQmQIAAAQLhAgpI+ALFJ0CAAAECiQIKSOLWZCZAgAABAuECCkj4AsUnQIAAAQKJAgpI4tZkJkCAAAEC4QIKSPgCxSdAgAABAokCCkji1mQmQIAAAQLhAgpI+ALFJ0CAAAECiQIKSOLWZCZAgAABAuECCkj4AsUnQIAAAQKJAgpI4tZkJkCAAAEC4QIKSPgCxSdAgAABAokCCkji1mQmQIAAAQLhAgpI+ALFJ0CAAAECiQIKSOLWZCZAgAABAuECCkj4AsUnQIAAAQKJAgpI4tZkJkCAAAEC4QIKSPgCxSdAgAABAokCCkji1mQmQIAAAQLhAgpI+ALFJ0CAAAECiQIKSOLWZCZAgAABAuECCkj4AsUnQIAAAQKJAgpI4tZkJkCAAAEC4QIKSPgCxSdAgAABAokCCkji1mQmQIAAAQLhAgpI+ALFJ0CAAAECiQIKSOLWZCZAgAABAuECCkj4AsUnQIAAAQKJAgpI4tZkJkCAAAEC4QIKSPgCxSdAgAABAokCCkji1mQmQIAAAQLhAgpI+ALFJ0CAAAECiQIKSOLWZCZAgAABAuECCkj4AsUnQIAAAQKJAgpI4tZkJkCAAAEC4QIKSPgCxSdAgAABAokCCkji1mQmQIAAAQLhAgpI+ALFJ0CAAAECiQIKSOLWZCZAgAABAuECCkj4AsUnQIAAAQKJAgpI4tZkJkCAAAEC4QIKSPgCxSdAgAABAokCCkji1mQmQIAAAQLhAgpI+ALFJ0CAAAECiQIKSOLWZCZAgAABAuECCkj4AsUnQIAAAQKJAgpI4tZkJkCAAAEC4QIKSPgCxSdAgAABAokCCkji1mQmQIAAAQLhAgpI+ALFJ0CAAAECiQIKSOLWZCZAgAABAuECCkj4AsUnQIAAAQKJAgpI4tZkJkCAAAEC4QIKSPgCxSdAgAABAokCCkji1mQmQIAAAQLhAgpI+ALFJ0CAAAECiQIKSOLWZCZAgAABAuECCkj4AsUnQIAAAQKJAgpI4tZkJkCAAAEC4QIKSPgCxSdAgAABAokCCkji1mQmQIAAAQLhAgpI+ALFJ0CAAAECiQIKSOLWZCZAgAABAuECCkj4AsUnQIAAAQKJAgpI4tZkJkCAAAEC4QIKSPgCxSdAgAABAokCCkji1mQmQIAAAQLhAgpI+ALFJ0CAAAECiQIKSOLWZCZAgAABAuECCkj4AsUnQIAAAQKJAgpI4tZkJkCAAAEC4QIKSPgCxSdAgAABAokCCkji1mQmQIAAAQLhAgpI+ALFJ0CAAAECiQIKSOLWZCZAgAABAuECCkj4AsUnQIAAAQKJAgpI4tZkJkCAAAEC4QIKSPgCxSdAgAABAokCCkji1mQmQIAAAQLhAgpI+ALFJ0CAAAECiQIKSOLWZCZAgAABAuECCkj4AsUnQIAAAQKJAgpI4tZkJkCAAAEC4QIKSPgCxSdAgAABAokCCkji1mQmQIAAAQLhAgpI+ALFJ0CAAAECiQIKSOLWZCZAgAABAuECCkj4AsUnQIAAAQKJAgpI4tZkJkCAAAEC4QIKSPgCxSdAgAABAokCCkji1mQmQIAAAQLhAgpI+ALFJ0CAAAECiQIKSOLWZCZAgAABAuECCkj4AsUnQIAAAQKJAgpI4tZkJkCAAAEC4QIKSPgCxSdAgAABAokCCkji1mQmQIAAAQLhAgpI+ALFJ0CAAAECiQIKSOLWZCZAgAABAuECCkj4AsUnQIAAAQKJAgpI4tZkJkCAAAEC4QIKSPgCxSdAgAABAokCCkji1mQmQIAAAQLhAgpI+ALFJ0CAAAECiQIKSOLWZCZAgAABAuECCkj4AsUnQIAAAQKJAgpI4tZkJkCAAAEC4QIKSPgCxSdAgAABAokCCkji1mQmQIAAAQLhAgpI+ALFJ0CAAAECiQIKSOLWZCZAgAABAuECCkj4AsUnQIAAAQKJAgpI4tZkJkCAAAEC4QIKSPgCxSdAgAABAokCCkji1mQmQIAAAQLhAgpI+ALFJ0CAAAECiQIKSOLWZCZAgAABAuECCkj4AsUnQIAAAQKJAgpI4tZkJkCAAAEC4QIKSPgCxSdAgAABAokCCkji1mQmQIAAAQLhAgpI+ALFJ0CAAAECiQIKSOLWZCZAgAABAuECCkj4AsUnQIAAAQKJAgpI4tZkJkCAAAEC4QIKSPgCxSdAgAABAokCCkji1mQmQIAAAQLhAgpI+ALFJ0CAAAECiQL/D2B4cl1JCRpPAAAAAElFTkSuQmCC\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"paths\":[\"C:\\\\Users\\\\Jolle\\\\Desktop\\\\Neuer Ordner (2)\\\\INF-B-470\\\\Gdevelop\\\\NewObject-1-16.png\"],\"name\":\"NewObject\",\"singleFrame\":false}}",
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject-1-16.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "white",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewObject",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject-1-15.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Window",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewObject",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"erklaer\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":112,\\\"width\\\":96,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":0.7,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABwCAYAAADhTnWjAAACOklEQVR4Xu3UMQrDQBDF0Oz9DDlrwPeLIeW6UCUPBKUe/gY98Hofx/fVb6zACmCs/e/hAGb7BzDc/w7wOc81/af++f39k3/7BAXg8gfg9sX1ADCRexCA2xfXA8BE7kEAbl9cDwATuQcBuH1xPQBM5B4E4PbF9QAwkXsQgNsX1wPARO5BAG5fXA8AE7kHAbh9cT0ATOQeBOD2xfUAMJF7EIDbF9cDwETuQQBuX1wPABO5BwG4fXE9AEzkHgTg9sX1ADCRexCA2xfXA8BE7kEAbl9cDwATuQcBuH1xPQBM5B4E4PbF9QAwkXsQgNsX1wPARO5BAG5fXA8AE7kHAbh9cT0ATOQeBOD2xfUAMJF7EIDbF9cDwETuQQBuX1wPABO5BwG4fXE9AEzkHgTg9sX1ADCRexCA2xfXA8BE7kEAbl9cDwATuQcBuH1xPQBM5B4E4PbF9QAwkXsQgNsX1wPARO5BAG5fXA8AE7kHAbh9cT0ATOQeBOD2xfUAMJF7EIDbF9cDwETuQQBuX1wPABO5BwG4fXE9AEzkHgTg9sX1ADCRexCA2xfXA8BE7kEAbl9cDwATuQcBuH1xPQBM5B4E4PbF9QAwkXsQgNsX1wPARO5BAG5fXA8AE7kHAbh9cT0ATOQeBOD2xfUAMJF7EIDbF9cDwETuQQBuX1wPABO5BwG4fXE9AEzkHgTg9sX1ADCRexCA2xfXA8BE7kEAbl9cDwATuQcI4D7f+l5g7SIlerZAAM/2vr0WwDDABaRAdS+CzK92AAAAAElFTkSuQmCC\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":0.3,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABwCAYAAADhTnWjAAACMElEQVR4Xu2TsQ3DMBDEpLG0f6GxkjpOwYr4IKDrA98g7b16Rg3s0esdXwUY/ggK8GsB7r2v4Xf66/PnnI+P/usPKIDbvwCuX6QXABW5gwK4fpFeAFTkDgrg+kV6AVCROyiA6xfpBUBF7qAArl+kFwAVuYMCuH6RXgBU5A4K4PpFegFQkTsogOsX6QVARe6gAK5fpBcAFbmDArh+kV4AVOQOCuD6RXoBUJE7KIDrF+kFQEXuoACuX6QXABW5gwK4fpFeAFTkDgrg+kV6AVCROyiA6xfpBUBF7qAArl+kFwAVuYMCuH6RXgBU5A4K4PpFegFQkTsogOsX6QVARe6gAK5fpBcAFbmDArh+kV4AVOQOCuD6RXoBUJE7KIDrF+kFQEXuoACuX6QXABW5gwK4fpFeAFTkDgrg+kV6AVCROyiA6xfpBUBF7qAArl+kFwAVuYMCuH6RXgBU5A4K4PpFegFQkTsogOsX6QVARe6gAK5fpBcAFbmDArh+kV4AVOQOCuD6RXoBUJE7KIDrF+kFQEXuoACuX6QXABW5gwK4fpFeAFTkDgrg+kV6AVCROyiA6xfpBUBF7qAArl+kFwAVuYMCuH6RXgBU5A4K4PpFegFQkTsogOsX6QVARe6gAK5fpBcAFbmDArh+kV4AVOQOCuD6RXoBUJE7KIDrF+kFQEXuoACuX6QXABW5gwK4fpFeAFTkDgrg+kV6AVCRO8AA7vnoTwM7JbMGCjDrfxVgOMAbk5WggHFMU6kAAAAASUVORK5CYII=\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[]}}\",\"paths\":[\"C:\\\\Users\\\\Jolle\\\\Desktop\\\\Neuer Ordner (2)\\\\INF-B-470\\\\Gdevelop\\\\NewObject-1-17.png\"],\"name\":\"NewObject\",\"singleFrame\":false}}",
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject-1-17.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sprechblase",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject-1-10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "d14",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Text_AutoTyping",
+          "type": "AutoTyping::Text_AutoTyping",
+          "Interval": 0.03
+        }
+      ],
+      "string": "Viel Glück SpaceKIds, ich zähle auf euch!",
+      "font": "NineteenNinetySeven-11XB.ttf",
+      "characterSize": 20,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "d13",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Text_AutoTyping",
+          "type": "AutoTyping::Text_AutoTyping",
+          "Interval": 0.03
+        }
+      ],
+      "string": "So, mehr gibt es eigentlich nicht zu sagen! Sucht auf dem Schiff unseren Mechaniker auf, dieser hält eure erste Aufgabe bereit!",
+      "font": "NineteenNinetySeven-11XB.ttf",
+      "characterSize": 20,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "d12",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Text_AutoTyping",
+          "type": "AutoTyping::Text_AutoTyping",
+          "Interval": 0.03
+        }
+      ],
+      "string": "Des Weiteren könnt ihr euch vergangene Lektionen noch einmal anschauen, cool oder?",
+      "font": "NineteenNinetySeven-11XB.ttf",
+      "characterSize": 20,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "d11",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Text_AutoTyping",
+          "type": "AutoTyping::Text_AutoTyping",
+          "Interval": 0.03
+        }
+      ],
+      "string": "Über diesen Button könnt ihr jederzeit ins Menü gelange, dort könnt ihr zum Beispuiel die Lautstärke oder die Schwierigkeit umstellen!",
+      "font": "NineteenNinetySeven-11XB.ttf",
+      "characterSize": 20,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "d10",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Text_AutoTyping",
+          "type": "AutoTyping::Text_AutoTyping",
+          "Interval": 0.03
+        }
+      ],
+      "string": "Seht ihr, so einfach geht das!",
+      "font": "NineteenNinetySeven-11XB.ttf",
+      "characterSize": 20,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "d9",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Text_AutoTyping",
+          "type": "AutoTyping::Text_AutoTyping",
+          "Interval": 0.03
+        }
+      ],
+      "string": "Innerhalb des Raumschiffes könnt ihr euch mit Hilfe dieses Steuerkreuzes bewegen, berüht dazu einfach die Richtung, in die ihr euch bewegen wollt!",
+      "font": "NineteenNinetySeven-11XB.ttf",
+      "characterSize": 20,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "d7",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Text_AutoTyping",
+          "type": "AutoTyping::Text_AutoTyping",
+          "Interval": 0.03
+        }
+      ],
+      "string": "Aber nun noch kurz zu einigen grundlegenden Sachen!",
+      "font": "NineteenNinetySeven-11XB.ttf",
+      "characterSize": 20,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "d6",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Text_AutoTyping",
+          "type": "AutoTyping::Text_AutoTyping",
+          "Interval": 0.03
+        }
+      ],
+      "string": "Aber keine Angst, meine Mannschaft und ich werden euch nach Kräften unterstützen, ihr packt das schon!",
+      "font": "NineteenNinetySeven-11XB.ttf",
+      "characterSize": 20,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "d5",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Text_AutoTyping",
+          "type": "AutoTyping::Text_AutoTyping",
+          "Interval": 0.03
+        }
+      ],
+      "string": "Dieses benutzt ihr dann, um verschiedene Minispiele automatisch lösen zu können.",
+      "font": "NineteenNinetySeven-11XB.ttf",
+      "characterSize": 20,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "d4",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Text_AutoTyping",
+          "type": "AutoTyping::Text_AutoTyping",
+          "Interval": 0.03
+        }
+      ],
+      "string": "Um den fiesen Captain Price und seine SpaceKIds zu besiegen, müsst ihr euch Wissen über KIs, also künstliche Intelligenzen aneignen.",
+      "font": "NineteenNinetySeven-11XB.ttf",
+      "characterSize": 20,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "d3",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Text_AutoTyping",
+          "type": "AutoTyping::Text_AutoTyping",
+          "Interval": 0.03
+        }
+      ],
+      "string": "Ihr wurdet vor vielen Jahren eingefroren, und jetzt bennötigen wir eure Hilfe für einen Wettbewerb!",
+      "font": "NineteenNinetySeven-11XB.ttf",
+      "characterSize": 20,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "d2",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Text_AutoTyping",
+          "type": "AutoTyping::Text_AutoTyping",
+          "Interval": 0.03
+        }
+      ],
+      "string": "Ihr wundert euch bestimmt, wo Ihr hier gelandet seid. Ich werde es euch verraten.",
+      "font": "NineteenNinetySeven-11XB.ttf",
+      "characterSize": 20,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "d1",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Text_AutoTyping",
+          "type": "AutoTyping::Text_AutoTyping",
+          "Interval": 0.03
+        }
+      ],
+      "string": "Herzlich willkommen SpaceKIds! Mein Name ist Captain Shepard!",
+      "font": "NineteenNinetySeven-11XB.ttf",
+      "characterSize": 20,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "name": "DPadBottom",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 2,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 2
+        }
+      ],
+      "animations": [
+        {
+          "name": "D-padbottom",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.02500000037252903,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\D-pad bottom.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "D-padbottom-Kopie",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\D-padbottom-Kopie-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DPadRight",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 2,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 2
+        }
+      ],
+      "animations": [
+        {
+          "name": "D-padright",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.02500000037252903,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\D-padright-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "D-padright-Kopie",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\D-padright-Kopie-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DPadLeft",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 2,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 2
+        }
+      ],
+      "animations": [
+        {
+          "name": "D-padleft",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.02500000037252903,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\D-pad left.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "D-padleft-Kopie",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\D-padleft-Kopie-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DPadTop",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 2,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 2
+        }
+      ],
+      "animations": [
+        {
+          "name": "D-padtop",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.02500000037252903,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\D-pad top.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "D-pad-Top-shader",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\D-pad-Top-shader-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "player",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "acceleration": 1000,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "customIsometryAngle": 30,
+          "deceleration": 800,
+          "ignoreDefaultControls": false,
+          "maxSpeed": 150,
+          "movementAngleOffset": 0,
+          "rotateObject": false,
+          "viewpoint": "TopDown"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Chris_Grafiken\\Player-1-1-1-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Chris_Grafiken\\Player-1-1-1-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "menu",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 1.2999999523162842,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Chris_Grafiken\\normal-1-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Chris_Grafiken\\clicked-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Outro",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewObject",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject-1-18.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intro_skip",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewObject",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"Intro_skip\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":32,\\\"width\\\":292,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 12\\\\\\\",\\\\\\\"opacity\\\\\\\":0.7,\\\\\\\"frameCount\\\\\\\":2,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAkgAAAAgCAYAAADpJoexAAACzklEQVR4Xu3dUY4TQQwEUHI59szZy7G/qGfBGimdLm09/oBoxn62rEKI8Pi1/Pj98fFn/TU/J0CAwA6Bz+fz8b/nukc71D2TAIHvBNZ7dDlODpLFIUDgXQIC0rukvYcAgUlAQJqE/D4BAm8TEJDeRu1FBAgMAgKSFSFAIEZAQIoZhUII1AtcAtL6V2rTwaoXBECAwMsEpr/Sd49eRu1BBAgMAus9eghIdoYAgVMCAtIpee8lQGAVEJDsBAECMQICUswoFEKgXkBAql8BAARyBASknFmohEC7gIDUvgH6JxAkICAFDUMpBMoFBKTyBdA+gSQBASlpGmoh0C0gIHXPX/cEogQEpKhxKIZAtYCAVD1+zRPIEhCQsuahGgLNApeAtGL4Z//N66F3AnsF7t6Xu5/fW72nEyDwkwSm+zL+X2y+qO0nrYNeCJwVmA6SP7CdnY+3E2gSmO6RgNS0DXolcFhgOkgC0uEBeT2BIoHpHglIRcugVQKnBaaDJCCdnpD3E+gRmO6RgNSzCzolcFxgOkgC0vERKYBAjcB0jwSkmlXQKIHzAtNBEpDOz0gFBFoEpnskILVsgj4JBAhMB0lAChiSEgiUCEz3SEAqWQRtEkgQmA6SgJQwJTUQ6BCY7tFj+kAHky4JEDgh4IsiT6h7JwEC3wn4Jm17QYBAjICAFDMKhRCoFxCQ6lcAAIEcAQEpZxYqIdAuICC1b4D+CQQJCEhBw1AKgXIBAal8AbRPIElAQEqahloIdAsISN3z1z2BKAEBKWociiFQLSAgVY9f8wSyBASkrHmohkCzgIDUPH29EwgTEJDCBqIcAsUCl4C0WkwHq9hO6wQIvFjg8/m8fFnt369wj14M7nEECPxTYL1H4zdpsyRAgMAuAQFpl6znEiBwV0BAuivm8wQIbBMQkLbRejABAjcFBKSbYD5OgMA+AQFpn60nEyBwT2C9R19iH11ghbZcTAAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 3\\\\\\\",\\\\\\\"opacity\\\\\\\":0.3,\\\\\\\"frameCount\\\\\\\":2,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAkgAAAAgCAYAAADpJoexAAACoklEQVR4Xu3cwW4iMRAE0PDh5BA+PChHQEr1qFsjg99e7bFnnq1S5bBcvvwjQIAAAQIECBB4ELjwIECAAAECBAgQeBRQkNwIAgQIECBAgMCTgILkShAgQIAAAQIEUkG6Xr9/KREgQOAMgdvt598/0uTRGadgDwIE/gSe8+glnASSi0KAwFkCCtJZ0vYhQCAJKEhJyDgBAqcJKEinUduIAIEgoCC5IgQILCOgIC1zFF6EwPYCCtL2VwAAgXUEFKR1zsKbENhdQEHa/Qb4fgILCShICx2GVyGwuYCCtPkF8PkEVhJQkFY6De9CYG8BBWnv8/f1BJYSUJCWOg4vQ2BrgViQnnX8t/+t74uPJzAqkApR2kweJSHjBAhUBVIexV/SFkhVavMIEEgCKZDS8/IoCRknQKAqkPJIQapKmkeAQFsgBVLaQEFKQsYJEKgKpDxSkKqS5hEg0BZIgZQ2UJCSkHECBKoCKY8UpKqkeQQItAVSIKUNFKQkZJwAgapAyiMFqSppHgECbYEUSGkDBSkJGSdAoCqQ8khBqkqaR4BAWyAFUtpAQUpCxgkQqAqkPFKQqpLmESDQFkiBlDZQkJKQcQIEqgIpj14KkgCq0ppHgEBXIAWUPOoKe54AgapA/KFIgVSlNI8Aga6AgtQV9DwBAlMCCtKUpHUIEGgLKEhtQgsQIDAkoCANQVqGAIG+gILUN7QCAQIzAgrSjKNVCBAYEFCQBhAtQYDAiICCNMJoEQIEJgQUpAlFaxAgMCGgIE0oWoMAgREBBWmE0SIECAwIKEgDiJYgQGBGQEGacbQKAQJ9gViQ+ltYgQABAgQIECDw3gLxl7Tf+/O8PQECBAgQIEDguICCdNzMEwQIECBAgMCHCyhIH37APo8AAQIECBA4LnAH/4rAIe+k3MAAAAAASUVORK5CYII=\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 19\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":2,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,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\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"paths\":[\"C:\\\\Users\\\\Jolle\\\\Desktop\\\\Neuer Ordner (2)\\\\INF-B-470\\\\Gdevelop\\\\Chris_Grafiken\\\\NewObject-1-11.png\",\"C:\\\\Users\\\\Jolle\\\\Desktop\\\\Neuer Ordner (2)\\\\INF-B-470\\\\Gdevelop\\\\Chris_Grafiken\\\\NewObject-2-0.png\"],\"name\":\"NewObject\",\"singleFrame\":false}}",
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Chris_Grafiken\\NewObject-1-11.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 146,
+                    "y": 16
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.125,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Chris_Grafiken\\NewObject-1-11.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 146,
+                    "y": 16
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Chris_Grafiken\\NewObject-2-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 146,
+                    "y": 16
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": [],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"all\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"captain\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "BG",
+            "started"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Opacity"
+          },
+          "parameters": [
+            "captain",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Opacity"
+          },
+          "parameters": [
+            "white",
+            "=",
+            "30"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Opacity"
+          },
+          "parameters": [
+            "Window",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Opacity"
+          },
+          "parameters": [
+            "Sprechblase",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "start",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModGlobalVolume"
+          },
+          "parameters": [
+            "",
+            "=",
+            "100"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "AutoTyping::Text_AutoTyping::Pause"
+          },
+          "parameters": [
+            "d1",
+            "Text_AutoTyping",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "AutoTyping::Text_AutoTyping::Pause"
+          },
+          "parameters": [
+            "d2",
+            "Text_AutoTyping",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "AutoTyping::Text_AutoTyping::Pause"
+          },
+          "parameters": [
+            "d3",
+            "Text_AutoTyping",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "AutoTyping::Text_AutoTyping::Pause"
+          },
+          "parameters": [
+            "d4",
+            "Text_AutoTyping",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "AutoTyping::Text_AutoTyping::Pause"
+          },
+          "parameters": [
+            "d5",
+            "Text_AutoTyping",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "AutoTyping::Text_AutoTyping::Pause"
+          },
+          "parameters": [
+            "d6",
+            "Text_AutoTyping",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "AutoTyping::Text_AutoTyping::Pause"
+          },
+          "parameters": [
+            "d7",
+            "Text_AutoTyping",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "AutoTyping::Text_AutoTyping::Pause"
+          },
+          "parameters": [
+            "d9",
+            "Text_AutoTyping",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "AutoTyping::Text_AutoTyping::Pause"
+          },
+          "parameters": [
+            "d10",
+            "Text_AutoTyping",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "AutoTyping::Text_AutoTyping::Pause"
+          },
+          "parameters": [
+            "d11",
+            "Text_AutoTyping",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "AutoTyping::Text_AutoTyping::Pause"
+          },
+          "parameters": [
+            "d12",
+            "Text_AutoTyping",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "AutoTyping::Text_AutoTyping::Pause"
+          },
+          "parameters": [
+            "d13",
+            "Text_AutoTyping",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "AutoTyping::Text_AutoTyping::Pause"
+          },
+          "parameters": [
+            "d14",
+            "Text_AutoTyping",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"d1\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"d2\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"d3\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"d4\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"d5\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"d6\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"d7\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"d8\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"d9\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"d10\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"erklaer\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"d11\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"d12\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"menu\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "PauseObjectTimer"
+          },
+          "parameters": [
+            "player",
+            "right"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"d13\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"d14\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"outro\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Opacity"
+          },
+          "parameters": [
+            "Outro",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ChangeAnimation"
+          },
+          "parameters": [
+            "Intro_skip",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Opacity"
+          },
+          "parameters": [
+            "Intro_skip",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "PauseObjectTimer"
+          },
+          "parameters": [
+            "Intro_skip",
+            "\"pressed\""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "VarScene"
+          },
+          "parameters": [
+            "start",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectTimer"
+              },
+              "parameters": [
+                "BG",
+                "started",
+                "0.8"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlayMusic"
+                  },
+                  "parameters": [
+                    "",
+                    "einf.mp3",
+                    "",
+                    "15",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectTimer"
+              },
+              "parameters": [
+                "BG",
+                "started",
+                "2"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"all\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Opacity"
+              },
+              "parameters": [
+                "BG",
+                "-",
+                "TimeDelta()+5"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectTimer"
+              },
+              "parameters": [
+                "BG",
+                "started",
+                "3.8"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "captain",
+                "\"started\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "start",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
+        }
+      ]
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "VarScene"
+          },
+          "parameters": [
+            "start",
+            "=",
+            "1"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectTimer"
+              },
+              "parameters": [
+                "captain",
+                "started",
+                "2"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"captain\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Opacity"
+              },
+              "parameters": [
+                "captain",
+                "+",
+                "TimeDelta()+5"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectTimer"
+              },
+              "parameters": [
+                "captain",
+                "started",
+                "5"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Opacity"
+              },
+              "parameters": [
+                "Sprechblase",
+                "=",
+                "100"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AutoTyping::Text_AutoTyping::Resume"
+              },
+              "parameters": [
+                "d1",
+                "Text_AutoTyping",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"d1\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Opacity"
+              },
+              "parameters": [
+                "Intro_skip",
+                "+",
+                "TimeDelta()+5"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectTimer"
+              },
+              "parameters": [
+                "captain",
+                "started",
+                "12"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"d2\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AutoTyping::Text_AutoTyping::Resume"
+              },
+              "parameters": [
+                "d2",
+                "Text_AutoTyping",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"d1\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectTimer"
+              },
+              "parameters": [
+                "captain",
+                "started",
+                "19"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"d3\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AutoTyping::Text_AutoTyping::Resume"
+              },
+              "parameters": [
+                "d3",
+                "Text_AutoTyping",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"d2\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectTimer"
+              },
+              "parameters": [
+                "captain",
+                "started",
+                "28"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"d4\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AutoTyping::Text_AutoTyping::Resume"
+              },
+              "parameters": [
+                "d4",
+                "Text_AutoTyping",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"d3\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectTimer"
+              },
+              "parameters": [
+                "captain",
+                "started",
+                "35"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"d5\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AutoTyping::Text_AutoTyping::Resume"
+              },
+              "parameters": [
+                "d5",
+                "Text_AutoTyping",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"d4\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectTimer"
+              },
+              "parameters": [
+                "captain",
+                "started",
+                "43"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"d6\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AutoTyping::Text_AutoTyping::Resume"
+              },
+              "parameters": [
+                "d6",
+                "Text_AutoTyping",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"d5\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectTimer"
+              },
+              "parameters": [
+                "captain",
+                "started",
+                "51"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"d7\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AutoTyping::Text_AutoTyping::Resume"
+              },
+              "parameters": [
+                "d7",
+                "Text_AutoTyping",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"d6\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectTimer"
+              },
+              "parameters": [
+                "captain",
+                "started",
+                "56"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"d9\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AutoTyping::Text_AutoTyping::Resume"
+              },
+              "parameters": [
+                "d9",
+                "Text_AutoTyping",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"d7\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Opacity"
+              },
+              "parameters": [
+                "Window",
+                "=",
+                "100"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"erklaer\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectTimer"
+              },
+              "parameters": [
+                "captain",
+                "started",
+                "64"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "DPadRight",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TopDownMovementBehavior::SimulateRightKey"
+              },
+              "parameters": [
+                "player",
+                "TopDownMovement"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "UnPauseObjectTimer"
+              },
+              "parameters": [
+                "player",
+                "right"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"d10\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"d9\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AutoTyping::Text_AutoTyping::Resume"
+              },
+              "parameters": [
+                "d10",
+                "Text_AutoTyping",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectTimer"
+              },
+              "parameters": [
+                "player",
+                "right",
+                "0.5"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "start",
+                "=",
+                "2"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "VarScene"
+          },
+          "parameters": [
+            "start",
+            "=",
+            "2"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectTimer"
+              },
+              "parameters": [
+                "player",
+                "right",
+                "1.5"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "DPadRight",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "DPadLeft",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TopDownMovementBehavior::SimulateLeftKey"
+              },
+              "parameters": [
+                "player",
+                "TopDownMovement"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectTimer"
+              },
+              "parameters": [
+                "player",
+                "right",
+                "2"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "start",
+                "=",
+                "3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "DPadLeft",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "VarScene"
+          },
+          "parameters": [
+            "start",
+            "=",
+            "3"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectTimer"
+              },
+              "parameters": [
+                "captain",
+                "started",
+                "70"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"menu\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"erklaer\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"d10\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"d11\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AutoTyping::Text_AutoTyping::Resume"
+              },
+              "parameters": [
+                "d11",
+                "Text_AutoTyping",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectTimer"
+              },
+              "parameters": [
+                "captain",
+                "started",
+                "78"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "AutoTyping::Text_AutoTyping::Resume"
+              },
+              "parameters": [
+                "d12",
+                "Text_AutoTyping",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"d12\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"d11\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectTimer"
+              },
+              "parameters": [
+                "captain",
+                "started",
+                "86"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "AutoTyping::Text_AutoTyping::Resume"
+              },
+              "parameters": [
+                "d13",
+                "Text_AutoTyping",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Opacity"
+              },
+              "parameters": [
+                "Window",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"d12\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"menu\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"d13\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectTimer"
+              },
+              "parameters": [
+                "captain",
+                "started",
+                "93"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"d13\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AutoTyping::Text_AutoTyping::Resume"
+              },
+              "parameters": [
+                "d14",
+                "Text_AutoTyping",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"d14\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectTimer"
+              },
+              "parameters": [
+                "captain",
+                "started",
+                "98"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"outro\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Opacity"
+              },
+              "parameters": [
+                "Outro",
+                "+",
+                "TimeDelta()+5"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModGlobalVolume"
+              },
+              "parameters": [
+                "",
+                "-",
+                "TimeDelta()+2"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ObjectTimer"
+              },
+              "parameters": [
+                "captain",
+                "started",
+                "102"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"overworld\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Opacity"
+          },
+          "parameters": [
+            "Intro_skip",
+            ">=",
+            "255"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Intro_skip",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "Intro_skip",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "UnPauseObjectTimer"
+                  },
+                  "parameters": [
+                    "Intro_skip",
+                    "\"pressed\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ObjectTimer"
+          },
+          "parameters": [
+            "Intro_skip",
+            "\"pressed\"",
+            "2"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ShowLayer"
+          },
+          "parameters": [
+            "",
+            "\"outro\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Opacity"
+          },
+          "parameters": [
+            "Outro",
+            "+",
+            "TimeDelta()+5"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModGlobalVolume"
+          },
+          "parameters": [
+            "",
+            "-",
+            "TimeDelta()+2"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ObjectTimer"
+          },
+          "parameters": [
+            "Intro_skip",
+            "\"pressed\"",
+            "5"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"overworld\"",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 1702453580,
+      "ambientLightColorG": 0,
+      "ambientLightColorR": 16145680,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "a",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 1702453580,
+      "ambientLightColorG": 0,
+      "ambientLightColorR": 16145680,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "all",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 23171248,
+      "ambientLightColorG": 6238208,
+      "ambientLightColorR": 0,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 1702453580,
+      "ambientLightColorG": 6024528,
+      "ambientLightColorR": 83886080,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "white",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 1702453580,
+      "ambientLightColorG": 6024528,
+      "ambientLightColorR": 117440512,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "captain",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 1702453580,
+      "ambientLightColorG": 0,
+      "ambientLightColorR": -1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "d1",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 1702453580,
+      "ambientLightColorG": 0,
+      "ambientLightColorR": -1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "d2",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 1702453580,
+      "ambientLightColorG": 0,
+      "ambientLightColorR": 16,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "d3",
+      "visibility": false,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 1702453580,
+      "ambientLightColorG": 0,
+      "ambientLightColorR": -1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "d4",
+      "visibility": false,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 1702453580,
+      "ambientLightColorG": 0,
+      "ambientLightColorR": -1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "d5",
+      "visibility": false,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 1702453580,
+      "ambientLightColorG": 0,
+      "ambientLightColorR": -1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "d6",
+      "visibility": false,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 1702453580,
+      "ambientLightColorG": 0,
+      "ambientLightColorR": 16,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "d7",
+      "visibility": false,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 1702453580,
+      "ambientLightColorG": 14436,
+      "ambientLightColorR": 33554432,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "d8",
+      "visibility": false,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 1702453580,
+      "ambientLightColorG": 0,
+      "ambientLightColorR": 33554432,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "d9",
+      "visibility": false,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 1702453580,
+      "ambientLightColorG": 6024528,
+      "ambientLightColorR": 33554432,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "erklaer",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 1702453580,
+      "ambientLightColorG": 0,
+      "ambientLightColorR": 2,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "d10",
+      "visibility": false,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 1702453580,
+      "ambientLightColorG": 8067288,
+      "ambientLightColorR": 16,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "d11",
+      "visibility": false,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 1702453580,
+      "ambientLightColorG": 16230312,
+      "ambientLightColorR": 16,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "d12",
+      "visibility": false,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 1702453580,
+      "ambientLightColorG": 0,
+      "ambientLightColorR": 15797408,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "menu",
+      "visibility": false,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 1702453580,
+      "ambientLightColorG": 1333224782,
+      "ambientLightColorR": 167786612,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "d13",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 1702453580,
+      "ambientLightColorG": 18432552,
+      "ambientLightColorR": 16,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "d14",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 1702453580,
+      "ambientLightColorG": 6024528,
+      "ambientLightColorR": 33554432,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "outro",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "Anchor",
+      "type": "AnchorBehavior::AnchorBehavior"
+    },
+    {
+      "name": "Text_AutoTyping",
+      "type": "AutoTyping::Text_AutoTyping"
+    },
+    {
+      "name": "TopDownMovement",
+      "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+    }
+  ]
+}
