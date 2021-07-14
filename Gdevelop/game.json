@@ -20,7 +20,7 @@
     "author": "",
     "windowWidth": 1600,
     "windowHeight": 900,
-    "latestCompilationDirectory": "",
+    "latestCompilationDirectory": "F:\\Unistuff\\MeDiDa\\export",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -2506,15 +2506,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "NewObject2-1-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject2-1-1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "hover1-1.png",
         "kind": "image",
         "metadata": "",
@@ -2555,24 +2546,6 @@
         "kind": "image",
         "metadata": "",
         "name": "hover1-1-1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewObject2-1-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject2-1-0.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewObject2-1-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject2-1-2.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -3397,15 +3370,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "NewObject-1-6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject-1-6.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "NewObject-1-7.png",
         "kind": "image",
         "metadata": "",
@@ -4132,6 +4096,87 @@
         "name": "skinshop-1.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject2-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject2-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject5-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject5-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject7-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject7-1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject5-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject5-1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject10-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject10-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject2-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-1-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject3-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject3-1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1-6.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -4142,10 +4187,6 @@
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/new-scene"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/start_screen"
     },
     {
@@ -4154,7 +4195,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/new-scene2"
+      "referenceTo": "/layouts/new-scene"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -4173,6 +4214,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/pause_menu"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/newexternalevents"
     }
   ],
   "eventsFunctionsExtensions": [
