@@ -1,0 +1,898 @@
+{
+  "b": 56,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "Ki_95Programm",
+  "name": "Ki_Programm",
+  "oglFOV": 90,
+  "oglZFar": 500,
+  "oglZNear": 1,
+  "r": 33,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 34,
+  "uiSettings": {
+    "grid": false,
+    "gridB": 255,
+    "gridG": 180,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridR": 158,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "snap": true,
+    "windowMask": false,
+    "zoomFactor": 0.6151999999999993
+  },
+  "objectsGroups": [
+    {
+      "name": "IF_group",
+      "objects": [
+        {
+          "name": "IF_item"
+        },
+        {
+          "name": "IF_item_text"
+        }
+      ]
+    },
+    {
+      "name": "IF_item_target_group",
+      "objects": [
+        {
+          "name": "IF_item"
+        },
+        {
+          "name": "IF_item_target"
+        }
+      ]
+    }
+  ],
+  "variables": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": true,
+      "name": "IF_item_target",
+      "persistentUuid": "fcb3ae3f-a53e-417c-a68d-2ca862699995",
+      "width": 0,
+      "x": 480,
+      "y": 100,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": true,
+      "name": "IF_item_target",
+      "persistentUuid": "0ccfe5ae-f4b5-46ca-b8ba-80c21e4653ac",
+      "width": 0,
+      "x": 220,
+      "y": 250,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": true,
+      "name": "IF_item_target",
+      "persistentUuid": "f79e2396-866a-46dc-b7b6-fecbe2e26d2f",
+      "width": 0,
+      "x": 740,
+      "y": 250,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": true,
+      "name": "IF_item_target",
+      "persistentUuid": "4aa82565-c41a-465c-a259-11c3e899376b",
+      "width": 0,
+      "x": 12,
+      "y": 400,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": true,
+      "name": "IF_item_target",
+      "persistentUuid": "e4cdc0e8-1c2b-4deb-af05-03229aea6497",
+      "width": 0,
+      "x": 324,
+      "y": 400,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": true,
+      "name": "IF_item_target",
+      "persistentUuid": "d190b09e-8313-4d1b-8ecb-28883aea31cc",
+      "width": 0,
+      "x": 636,
+      "y": 400,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": true,
+      "name": "IF_item_target",
+      "persistentUuid": "c18b82b8-40ce-4385-908d-9261465c3158",
+      "width": 0,
+      "x": 948,
+      "y": 400,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "Heading",
+      "persistentUuid": "a3546449-4fba-43a8-95ec-7356785658ba",
+      "width": 0,
+      "x": 442,
+      "y": 20,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 900,
+      "layer": "",
+      "locked": false,
+      "name": "right_box",
+      "persistentUuid": "5e01a6ac-f81b-42e5-adee-467721c33fb9",
+      "width": 340,
+      "x": 1260,
+      "y": 0,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "IF_connector",
+      "persistentUuid": "eb8cb289-5b3c-4aaa-8c89-ba918abedb0c",
+      "width": 0,
+      "x": 480,
+      "y": 200,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "IF_connector",
+      "persistentUuid": "5e266854-775c-4bb2-bb94-c05ad58cfbde",
+      "width": 0,
+      "x": 740,
+      "y": 350,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "IF_connector",
+      "persistentUuid": "de8ba57d-ab7a-4f4d-8bdb-233686ebea43",
+      "width": 0,
+      "x": 776,
+      "y": 200,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "IF_connector",
+      "persistentUuid": "bb124007-10a6-44cb-b471-f1640c97d724",
+      "width": 0,
+      "x": 516,
+      "y": 350,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "IF_connector",
+      "persistentUuid": "f3797ba9-add5-4fad-b459-fffcc6c38b25",
+      "width": 0,
+      "x": 220,
+      "y": 350,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "IF_connector",
+      "persistentUuid": "a5f2d1af-7d2a-4b06-81d0-bc1519da90c6",
+      "width": 0,
+      "x": 1036,
+      "y": 350,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 50,
+      "layer": "",
+      "locked": false,
+      "name": "next_button",
+      "persistentUuid": "f59f63b6-3eb6-41af-b5c2-b435cfc3ae79",
+      "width": 300,
+      "x": 480,
+      "y": 794,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "next_button_text",
+      "persistentUuid": "5f2b4d8e-9250-40f4-888c-1d957b584042",
+      "width": 0,
+      "x": 578,
+      "y": 803,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "yes",
+      "persistentUuid": "9e318711-662a-43ca-8afd-ca79783c2d2b",
+      "width": 0,
+      "x": 441,
+      "y": 185,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "yes",
+      "persistentUuid": "a992ba05-498b-4325-8853-d1eb0a95754f",
+      "width": 0,
+      "x": 174,
+      "y": 345,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "yes",
+      "persistentUuid": "8d5fee4e-edd1-4204-abce-e2c701fa1b45",
+      "width": 0,
+      "x": 693,
+      "y": 345,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "no",
+      "persistentUuid": "8ee3fb57-8b7f-4d26-a722-b875c16906a0",
+      "width": 0,
+      "x": 795,
+      "y": 185,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "no",
+      "persistentUuid": "9559003b-0611-4827-908c-99293439d479",
+      "width": 0,
+      "x": 532,
+      "y": 345,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "no",
+      "persistentUuid": "728c1445-9e87-4733-94fb-44db89cb57e1",
+      "width": 0,
+      "x": 1053,
+      "y": 345,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "bold": true,
+      "italic": false,
+      "name": "Heading",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "KI-Programmierung",
+      "font": "",
+      "characterSize": 40,
+      "color": {
+        "b": 176,
+        "g": 194,
+        "r": 37
+      }
+    },
+    {
+      "name": "IF_item",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Name",
+          "type": "string",
+          "value": "none"
+        },
+        {
+          "name": "dragged",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable"
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewObject5",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject5-1-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "IF_item_text",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [
+        {
+          "name": "Source",
+          "type": "string",
+          "value": "none"
+        }
+      ],
+      "behaviors": [],
+      "string": "Hast du den 1. Zug?",
+      "font": "",
+      "characterSize": 16,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "name": "IF_item_target",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewObject7",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject7-1-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "right_box",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewObject2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject2-1-2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "IF_connector",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewObject3",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject3-1-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "next_button",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewObject",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject-1-20.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "next_button_text",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "KI fertig",
+      "font": "",
+      "characterSize": 30,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "yes",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Ja",
+      "font": "",
+      "characterSize": 25,
+      "color": {
+        "b": 211,
+        "g": 211,
+        "r": 211
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
+      "name": "no",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "Nein",
+      "font": "",
+      "characterSize": 25,
+      "color": {
+        "b": 212,
+        "g": 212,
+        "r": 212
+      }
+    }
+  ],
+  "events": [
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModGlobalVolume"
+          },
+          "parameters": [
+            "",
+            "=",
+            "GlobalVolume()"
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::JsCode",
+      "inlineCode": "if(runtimeScene.getGame().getInputManager().isMouseButtonReleased(0)){\n    let current = objects.find(item => {\n        return item.getVariableBoolean(item.getVariables().get(\"dragged\"), true);\n    });\n    if (current){\n        objects.forEach(ele => {\n            let mouseX = runtimeScene.getGame().getInputManager().getMouseX();\n            let mouseY = runtimeScene.getGame().getInputManager().getMouseY();\n            if(ele.getName() == \"IF_item_target\" && ele.getX() <= mouseX && mouseX <= ele.getX()+ele.getWidth() && ele.getY() <= mouseY && mouseY <= ele.getY()+ele.getHeight() ){\n                current.setX(ele.getX());\n                current.setY(ele.getY());\n            }\n        });\n    }\n}",
+      "parameterObjects": "IF_item_target_group",
+      "useStrict": true,
+      "eventsSheetExpanded": true
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::JsCode",
+      "inlineCode": "\nlet texts = [\n    \"Hast du den 1. Zug?\",\n    \"Gehe in eine Ecke. \\n\\nNächster Zug: Hat der Gegner ein O in \\ndie Ecke gegenüber gesetzt?\",\n    \"Gehe in die Ecke gegenüber von Zug 1.\\n\\nNächster Zug: Ist das Feld zwischen \\nden beiden Eckkreuzen noch frei?\",\n    \"Gehe in eine andere freie Ecke. \\n\\nNächster Zug: Ist das Feld zwischen \\nden beiden Eckkreuzen noch frei?\",\n    \"Gehe in eine freie Ecke. \\n\\nNächster Zug: Hat der Gegner 2 O in \\neiner Reihe?\",\n    \"Blockiere die Reihe. \\n\\nNächster Zug: Hast du 2 X in einer \\nReihe?\",\n    \"Gehe in eine freie Ecke. \\n\\nNächster Zug: Hast du 2 X in einer \\nReihe?\"];\n\nif (runtimeScene.getTimeManager().isFirstFrame()) {\n  // Hide the first instance of PlayerHitBoxes.\n  for (let i = 0; i<=6; i++){\n        let txt = runtimeScene.createObject(\"IF_item_text\");\n        let obj = runtimeScene.createObject(\"IF_item\");\n        obj.setWidth(300);\n        obj.setHeight(100);\n        obj.setX(1600 - obj.getWidth() - 20);\n        obj.setY(i*110 + 20);\n        obj.setZOrder(2);\n        \n        txt.setWidth(280);\n        txt.setHeight(80);\n        txt.setX(obj.getX()+10);\n        txt.setY(obj.getY()+10);\n        txt.setZOrder(3);\n        txt.setString(texts[i]);\n        \n        obj.setVariableString(obj.getVariables().get(\"Name\"), \"Box\"+i);\n        txt.setVariableString(txt.getVariables().get(\"Source\"), \"Box\"+i);\n  }\n}\n\n\nobjects.forEach(item => {\n    if (item.getVariableString(item.getVariables().get(\"Source\")) != 0){\n        let obj = objects.find(ele => ele.getVariableString(ele.getVariables().get(\"Name\")) == item.getVariableString(item.getVariables().get(\"Source\")));\n        item.setX(obj.getX()+10);\n        item.setY(obj.getY()+10);\n    }\n});\n",
+      "parameterObjects": "IF_group",
+      "useStrict": true,
+      "eventsSheetExpanded": true
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::JsCode",
+      "inlineCode": "if(runtimeScene.getGame().getInputManager().isMouseButtonPressed(0)){\n\n    let object = objects.find(item => item.getVariableBoolean(item.getVariables().get(\"dragged\"),true));\n\n    if(!object){\n        object = objects.find(item => {\n        let mouseX = runtimeScene.getGame().getInputManager().getMouseX();\n        let mouseY = runtimeScene.getGame().getInputManager().getMouseY();\n        if (item.getName() == \"IF_item\" && item.getX() <= mouseX && mouseX <= item.getX()+item.getWidth() && item.getY() <= mouseY && mouseY <= item.getY()+item.getHeight() ){\n            return true;\n        }\n        return false;\n    });\n    }\n    if(object){\n        object.setVariableBoolean(object.getVariables().get(\"dragged\"),true);\n        //get text + box to the front\n        object.setZOrder(50);\n        //find text\n        objects.forEach(item => {\n            if (item.getVariableString(item.getVariables().get(\"Source\")) != 0){\n                if(item.getVariableString(item.getVariables().get(\"Source\")) == object.getVariableString(object.getVariables().get(\"Name\"))){\n                    item.setZOrder(51);\n                }\n            }\n        });\n    }\n} else if (runtimeScene.getGame().getInputManager().isMouseButtonReleased(0)){\n    let object = objects.find(item => item.getVariableBoolean(item.getVariables().get(\"dragged\"),true));\n    if (object){\n        //get text + box to the back\n        object.setZOrder(2);\n        //find text\n        objects.forEach(item => {\n            if (item.getVariableString(item.getVariables().get(\"Source\")) != 0){\n                if(item.getVariableString(item.getVariables().get(\"Source\")) == object.getVariableString(object.getVariables().get(\"Name\"))){\n                    item.setZOrder(3);\n                }\n            }\n        });\n    }\n    objects.forEach(item => {\n        if (item.getName() == \"IF_item\"){\n           item.setVariableBoolean(item.getVariables().get(\"dragged\"),false) \n        }\n    });\n}\n",
+      "parameterObjects": "IF_group",
+      "useStrict": true,
+      "eventsSheetExpanded": true
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "next_button",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"TicTacToe\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 0,
+      "ambientLightColorG": 0,
+      "ambientLightColorR": 0,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 1702453580,
+      "ambientLightColorG": 0,
+      "ambientLightColorR": 7455792,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Card Layer",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    }
+  ],
+  "behaviorsSharedData": []
+}
