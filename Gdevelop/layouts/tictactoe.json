@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": true,
     "windowMask": false,
-    "zoomFactor": 0.2355832437396048
+    "zoomFactor": 0.6155832437396049
   },
   "objectsGroups": [
     {
@@ -592,6 +592,38 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "locked": false,
+      "name": "zurueck",
+      "persistentUuid": "a858df67-f628-47ed-b812-127c1d29d528",
+      "width": 0,
+      "x": 1419,
+      "y": 803,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 940,
+      "layer": "ourto",
+      "locked": false,
+      "name": "Outro_2",
+      "persistentUuid": "9fc3ae37-2a9f-4fbe-bbe3-0ea44526aded",
+      "width": 1673,
+      "x": -37,
+      "y": -22,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -930,6 +962,25 @@
     {
       "bold": false,
       "italic": false,
+      "name": "zurueck",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [],
+      "string": "╔═══════╗\n║    zurück   ║\n╚═══════╝",
+      "font": "",
+      "characterSize": 20,
+      "color": {
+        "b": 179,
+        "g": 191,
+        "r": 53
+      }
+    },
+    {
+      "bold": false,
+      "italic": false,
       "name": "RestartBtn",
       "smoothed": true,
       "tags": "",
@@ -945,6 +996,45 @@
         "g": 191,
         "r": 53
       }
+    },
+    {
+      "name": "Outro_2",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewObject",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewObject-1-22.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -961,6 +1051,14 @@
           "parameters": [
             ""
           ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": [],
           "subInstructions": []
         }
       ],
@@ -992,6 +1090,43 @@
           },
           "parameters": [
             "GameOver"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "Opacity"
+          },
+          "parameters": [
+            "Outro_2",
+            "=",
+            "0"
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"ourto\""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "hacking_3.mp3",
+            "",
+            "GlobalVolume()",
+            ""
           ],
           "subInstructions": []
         }
@@ -1925,6 +2060,76 @@
           ]
         }
       ]
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "zurueck",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "zapsplat_multimedia_button_click_004_68776.mp3",
+                "",
+                "7",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"overworld2\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
     }
   ],
   "layers": [
@@ -1957,6 +2162,17 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "Card Layer",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 1702453580,
+      "ambientLightColorG": 0,
+      "ambientLightColorR": 16284072,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "ourto",
       "visibility": true,
       "cameras": [],
       "effects": []

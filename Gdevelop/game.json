@@ -5310,15 +5310,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "Chris_Grafiken/weiter-1-0-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Chris_Grafiken\\weiter-1-0-1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "Chris_Grafiken/NewObject4-1-23.png",
         "kind": "image",
         "metadata": "",
@@ -8511,6 +8502,114 @@
         "name": "TicTacToe\\Element 6-8.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "hacking_1.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "hacking_1.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "hacking_2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "hacking_2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "entering-tym.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "entering-tym.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "hacking_3.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "hacking_3.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1-21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1-21.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1-22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1-22.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "credits-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "credits-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "credits-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "credits-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Chris_Grafiken/weiter-1-0-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chris_Grafiken\\weiter-1-0-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Chris_Grafiken/weiter-1-0-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chris_Grafiken\\weiter-1-0-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "Einführung_leiser.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Einführung_leiser.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "hack_4.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "hack_4.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -8540,6 +8639,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/einfuehrung_2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/overworld2"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

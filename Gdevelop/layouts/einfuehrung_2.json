@@ -2150,6 +2150,18 @@
             "\"pressed\""
           ],
           "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModGlobalVolume"
+          },
+          "parameters": [
+            "",
+            "=",
+            "40"
+          ],
+          "subInstructions": []
         }
       ],
       "events": []
@@ -2216,9 +2228,9 @@
                   },
                   "parameters": [
                     "",
-                    "einf.mp3",
+                    "Einführung_leiser.mp3",
                     "",
-                    "15",
+                    "20",
                     ""
                   ],
                   "subInstructions": []

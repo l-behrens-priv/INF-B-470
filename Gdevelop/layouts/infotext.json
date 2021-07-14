@@ -1812,6 +1812,18 @@
             ""
           ],
           "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "Lektion_1",
+            "=",
+            "1"
+          ],
+          "subInstructions": []
         }
       ],
       "events": []

@@ -23,7 +23,7 @@
     "gridWidth": 32,
     "snap": false,
     "windowMask": false,
-    "zoomFactor": 0.23000000000000015
+    "zoomFactor": 0.37000000000000044
   },
   "objectsGroups": [
     {
@@ -1533,8 +1533,8 @@
       "name": "BlackOutro",
       "persistentUuid": "375f465b-8483-43c4-adc1-adceb13c1e46",
       "width": 3408,
-      "x": -921,
-      "y": -389,
+      "x": -919,
+      "y": -386,
       "zOrder": 2012,
       "numberProperties": [],
       "stringProperties": [],
@@ -11069,8 +11069,8 @@
       "name": "npc2",
       "persistentUuid": "78468929-773b-4bbf-a13d-6999edb2e6a0",
       "width": 0,
-      "x": -228,
-      "y": 564,
+      "x": -266,
+      "y": 527,
       "zOrder": 5006,
       "numberProperties": [],
       "stringProperties": [],
@@ -13274,12 +13274,12 @@
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"weiter_2\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":32,\\\"width\\\":360,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 8\\\\\\\",\\\\\\\"opacity\\\\\\\":0.7,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAWgAAAAgCAYAAAA/meJgAAABmUlEQVR4Xu3cQYqDQBAF0PG2HsnbJsxuphP4CD9dWbzsTGmVPOUjIfbxs3yu63qs39kmQIAAgc8LnOd5/J3yb+O3IKA/fxFMIECAwDsBAe2+IECAwJcKCOgvvTBOiwABAi8Bvf6kse6AjAABAgT2CKx5fAjoPfCmECBAIAkI6CSkToAAgSEBAT0EbywBAgSSgIBOQuoECBAYEhDQQ/DGEiBAIAkI6CSkToAAgSEBAT0EbywBAgSSwEtArwf4210iVCdAgEBHIOVtXIvDiyudC6ELAQIE7j4QC2j3DAECBIYEPEEPwRtLgACBJCCgk5A6AQIEhgQE9BC8sQQIEEgCAjoJqRMgQGBIQEAPwRtLgACBJBADOu2QBqgTIECAQEfAm4QdR10IECBQFxDQdVINCRAg0BEQ0B1HXQgQIFAXENB1Ug0JECDQERDQHUddCBAgUBcQ0HVSDQkQINARENAdR10IECBQF7i9HnT9DDQkQIAAgbcC6/LOcblRjgQIECCwR0BA73E2hQABArcFBPRtMgcQIEBgj8Aa0E+fssyRiNjIqwAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":0.3,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAWgAAAAgCAYAAAA/meJgAAABYElEQVR4Xu3cQQ6CQBAAQfgU/z/vp/Qsmmw8AE0oHyBjzaRP6rp4ESBAgEBSYE1OZSgCBAgQWATaERAgQCAqINDRxRiLAAECX4EeY7ywECBAgMD5Atu2fTRZoM/fgScSIEDgp4BAOwwCBAhEBQQ6uhhjESBAQKDdAAECBKICAh1djLEIECAg0G6AAAECUQGBji7GWAQIEJgGek/ke9GOhgABAscI7IO8f8r0l4QCfcxivCsBAgQE2g0QIEAgKiDQ0cUYiwABAgLtBggQIBAVEOjoYoxFgAABgXYDBAgQiAoIdHQxxiJAgMDfgfa1OkdDgACBawSmP1QR6GsW46kECBAQaDdAgACBqIBARxdjLAIECAi0GyBAgEBUQKCjizEWAQIEBNoNECBAICog0NHFGIsAAQLTQCMiQIAAgYbA9P+gG2OaggABAs8TEOjn7dwnJkDgJgICfZNFGZMAgecJvAEtCmAhdOYrOQAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAWgAAAAgCAYAAAA/meJgAAACmElEQVR4Xu3cQXbjIBBF0WQZ3v/ivIzuQaJBq40/INkHl25mCSpEvao8EXSc7y9fCCCAAAJLEvheclUWhQACCCDwRdCaAAEEEFiUAEEvWhjLQgABBAhaDyCAAAKLEiDoRQtjWQgggABB6wEEEEBgUQIEvWhhLAsBBBAgaD3wH4H7/f7nEZbb7dbVLym+Nd4qxXbfFNd73dH77ONH79vLUWsi0PULB9O1CCTBJhopPol2VoCjopy9z9E4gk4dZHwjQNB6oUlgE+msUFL8kfFnsa2xs36+ARudL8VpRQT2BAhaTxD075HO/kE0+wCZjdOKCBC0HugmcFQ0R+OfLTTN/Sh2NGb0+t4d8uy83YVzYRkCdtBlSnl+Ikkkrx4n6PNrasbPIkDQn1Wvt652/zKv9wggxe13mq2knp19p4fDmTvo0fWll6CzZ/pvLb6bLUGAoJcow5qLSKJNL8m2rFpCOiIygl6zZ6zqXAIEfS7PkrPtZTj6fQvKjGR7z3nP3EGP7ngTn5JNIqmXECDol2CtNWkSThon6J8P/oyKvlYXyWaGAEHPULtYTBJwGr+6oI/s+i/WatLdESBoLREJJAGncYL+IXDkSCcWyQUlCRB0ybKem1TrZV76aHX6kz4J69l4in3HGXR6SZpejiY+51bRbJ9IgKA/sWpvXjNBP/4nUQT95ka84O0I+oJFn0057VrT+P4stncdaae+zZN2rPv7jV7fWm9rfb3z20n3dsL1riPo69V8OuMk4DRO0P+eRacHy3ShBJYhQNBlSikRBBCoRoCgq1VUPgggUIYAQZcppUQQQKAaAYKuVlH5IIBAGQIEXaaUEkEAgWoECLpaReWDAAJlCBB0mVJKBAEEqhEg6GoVlQ8CCJQh8BdafVA/I7rc9gAAAABJRU5ErkJggg==\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[]}}\",\"paths\":[\"C:\\\\Users\\\\Jolle\\\\Desktop\\\\Neuer Ordner (2)\\\\INF-B-470\\\\Gdevelop\\\\Chris_Grafiken\\\\weiter-1-0-1.png\"],\"name\":\"weiter-1-0\",\"singleFrame\":false}}",
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"weiter_2\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":32,\\\"width\\\":360,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 8\\\\\\\",\\\\\\\"opacity\\\\\\\":0.7,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAWgAAAAgCAYAAAA/meJgAAABmUlEQVR4Xu3cQYqDQBAF0PG2HsnbJsxuphP4CD9dWbzsTGmVPOUjIfbxs3yu63qs39kmQIAAgc8LnOd5/J3yb+O3IKA/fxFMIECAwDsBAe2+IECAwJcKCOgvvTBOiwABAi8Bvf6kse6AjAABAgT2CKx5fAjoPfCmECBAIAkI6CSkToAAgSEBAT0EbywBAgSSgIBOQuoECBAYEhDQQ/DGEiBAIAkI6CSkToAAgSEBAT0EbywBAgSSwEtArwf4210iVCdAgEBHIOVtXIvDiyudC6ELAQIE7j4QC2j3DAECBIYEPEEPwRtLgACBJCCgk5A6AQIEhgQE9BC8sQQIEEgCAjoJqRMgQGBIQEAPwRtLgACBJBADOu2QBqgTIECAQEfAm4QdR10IECBQFxDQdVINCRAg0BEQ0B1HXQgQIFAXENB1Ug0JECDQERDQHUddCBAgUBcQ0HVSDQkQINARENAdR10IECBQF7i9HnT9DDQkQIAAgbcC6/LOcblRjgQIECCwR0BA73E2hQABArcFBPRtMgcQIEBgj8Aa0E+fssyRiNjIqwAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":0.3,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAWgAAAAgCAYAAAA/meJgAAABYElEQVR4Xu3cwQ2CQBBAUSiG/gvaYvQsmmw8AJ/wLEDGN5N/UtfFiwABAgSSAmtyKkMRIECAwCLQjoAAAQJRAYGOLsZYBAgQ+Ar0GOOFhQABAgTOF9i27aPJAn3+DjyRAAECPwUE2mEQIEAgKiDQ0cUYiwABAgLtBggQIBAVEOjoYoxFgAABgXYDBAgQiAoIdHQxxiJAgMA00Hsi34t2NAQIEDhGYB/k/VOmvyQU6GMW410JECAg0G6AAAECUQGBji7GWAQIEBBoN0CAAIGogEBHF2MsAgQICLQbIECAQFRAoKOLMRYBAgT+DrSv1TkaAgQIXCMw/aGKQF+zGE8lQICAQLsBAgQIRAUEOroYYxEgQECg3QABAgSiAgIdXYyxCBAgINBugAABAlEBgY4uxlgECBCYBhoRAQIECDQEpv8H3RjTFAQIEHiegEA/b+c+MQECNxEQ6JssypgECDxP4A1HkGAhvvxCzQAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAWgAAAAgCAYAAAA/meJgAAACs0lEQVR4Xu2cbXKDMAxEwzG4/+HgFnSmHc9kXMTamA/JfvnXGGHprbtRDGT68IIABCAAAZcEJpdZkRQEIAABCHwwaBYBBCAAAacEMGinwpAWBCAAAQyaNQABCEDAKQEM2qkwpAUBCEAAg2YNQAACEHBKAIN2KgxpQQACEMCgWQP/CGzbtu1hmaapaL2oeGvckiLNq+JKj1PzLMuyW78VN8/zLxeVX4ov5cjShEDRPxyYxiKgDFbRUPGlRpYbmorDoJUyjEcjgEFHU+zBfJMhnu34VHzL+FGsNVb7fuqkU4eco7fGW+p6UF6mCkAAgw4g0lspKqNRean4lnEMWtFnvAcCGHQPKt5UQ4uBfu/JWh24Ov9RWWdia2NUB23lp+ZR4zfJyWkDEsCgA4r2VMrKSO4ex6CfUpp5vBLAoL0q4yCv/KJc3gmrPd38Il9eUopf13W3Wmvvt6Q73zuh+kCx9pgtKaz8Si9mOpCYFJwTwKCdC/Rmehj08e12GPSbq3OMuTHoMXRuqjLvPGv/PrtX28sWR23n3iQWwV0RwKC7kvOeYmoNudSQSo+7YrvizLbIVRcJW+q8R1HOGoUABh1FqRfzxKD/nhQsfam9+bP3lZfOz3H9EKhaeP2UTSU1BDBoDLpmvXDsdQQw6OtYdnsm664E9Wi16hTVV/8zD6NcuW+ttjh4krDbJe+mMAzajRR+E8Gg9ztoDNrvmu0lMwy6FyUfqKOl4/1OT90nnJeiOvV0vHpi0Tpv/v5Vv2ZXmo/6pvGAtEzhlAAG7VQYj2lh0PuqWD83ikF7XMWxcsKgY+lFthCAwEAEMOiBxKZUCEAgFgEMOpZeZAsBCAxEAIMeSGxKhQAEYhHAoGPpRbYQgMBABDDogcSmVAhAIBYBDDqWXmQLAQgMRACDHkhsSoUABGIR+AFC21Y/y8LgegAAAABJRU5ErkJggg==\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[]}}\",\"paths\":[\"C:\\\\Users\\\\Jolle\\\\Desktop\\\\Neuer Ordner (3)\\\\Gdevelop\\\\Chris_Grafiken\\\\weiter-1-0-1-0.png\"],\"name\":\"weiter-1-0\",\"singleFrame\":false}}",
               "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Chris_Grafiken\\weiter-1-0-1.png",
+                  "image": "Chris_Grafiken\\weiter-1-0-1-0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14973,7 +14973,7 @@
           "parameters": [
             "",
             "=",
-            "20"
+            "40"
           ],
           "subInstructions": []
         }
@@ -17113,7 +17113,7 @@
           "parameters": [
             "BlackOutro",
             "+",
-            "5"
+            "TimeDelta()+5"
           ],
           "subInstructions": []
         }
@@ -18033,6 +18033,109 @@
           "subInstructions": []
         }
       ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "player",
+            "npc2",
+            "",
+            "",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "Montre"
+          },
+          "parameters": [
+            "captain_text",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "player",
+            "npc5",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "AutoTyping::Text_AutoTyping::Resume"
+          },
+          "parameters": [
+            "Text_captain",
+            "Text_AutoTyping",
+            ""
+          ],
+          "subInstructions": []
+        }
+      ],
+      "events": []
+    },
+    {
+      "disabled": false,
+      "folded": false,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": false,
+            "value": "AutoTyping::Text_AutoTyping::TypingFinished"
+          },
+          "parameters": [
+            "Text_captain",
+            "Text_AutoTyping",
+            ""
+          ],
+          "subInstructions": []
+        },
+        {
+          "type": {
+            "inverted": false,
+            "value": "BuiltinCommonInstructions::And"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "player",
+                "npc2",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ]
+        }
+      ],
+      "actions": [],
       "events": []
     }
   ],

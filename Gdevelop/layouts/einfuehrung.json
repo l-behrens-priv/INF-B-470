@@ -4356,7 +4356,7 @@
           "parameters": [
             "",
             "=",
-            "100"
+            "40"
           ],
           "subInstructions": []
         },
@@ -4454,7 +4454,7 @@
                 "",
                 "ambient_1.mp3",
                 "",
-                "10",
+                "15",
                 ""
               ],
               "subInstructions": []
