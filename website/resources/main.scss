@@ -4,7 +4,7 @@ $text-color: #bef9f7;
 $text-color-hover: #dbfefd;
 $text-shadow: #23dbd6;
 $text-white: #ffffff;
-$text-light: #a1accc;
+$text-light: #c1d5d4;
 
 * {
   font-family: 'Open Sans', sans-serif;
@@ -160,6 +160,9 @@ main {
     h1 {
       color: $background-color;
       text-align: center;
+    }
+    h2,p {
+      color: $background-color;
     }
     .card-wrapper {
       margin-top: 2rem;
